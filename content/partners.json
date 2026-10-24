@@ -1,0 +1,109 @@
+[
+  {
+    "name": "Corvette Central",
+    "category": "CORVETTE PARTS & RESTORATION",
+    "description": "Corvette Central is one of America’s leading suppliers of Corvette restoration parts, accessories, and reproduction components. Their extensive inventory supports nearly every Corvette generation and makes them a valuable resource for Corvette restoration enthusiasts.",
+    "contact": [
+      "Phone: 800-345-4122 or 269-426-3342"
+    ],
+    "address": [
+      "Corvette Central",
+      "PO Box 16",
+      "13550 Three Oaks Rd",
+      "Sawyer, MI 49125 USA"
+    ],
+    "website": "http://www.corvettecentral.com/",
+    "logo": "/images/partners/corvette-central-logo.png"
+  },
+  {
+    "name": "ZIP CORVETTE",
+    "category": "CORVETTE PARTS & RESTORATION",
+    "description": "Zip Corvette is a leading source for Corvette restoration parts, accessories and performance components, serving every generation from C1 through C8. Their extensive inventory and Corvette-focused expertise make them a valuable resource for restoration enthusiasts.",
+    "contact": [
+      "Phone: 1-800-962-9632"
+    ],
+    "address": [
+      "Zip Corvette",
+      "8067 Fast Lane",
+      "Mechanicsville, VA 23111"
+    ],
+    "website": "https://www.zip-corvette.com/",
+    "logo": "/images/partners/zip-corvette-logo.png"
+  },
+  {
+    "name": "TOP FLIGHT AUTOMOTIVE",
+    "category": "CORVETTE PARTS, RESTORATION & PERFORMANCE",
+    "description": "Top Flight Automotive is a leading source for Corvette restoration parts, accessories and performance components, serving every generation from C1 through C8. Their extensive inventory supports everything from factory-style restorations to performance upgrades and restomod projects.",
+    "contact": [
+      "Phone: (833) 486-7354"
+    ],
+    "address": [
+      "Top Flight Automotive",
+      "100 Classic Car Drive",
+      "Reedsville, PA 17084"
+    ],
+    "website": "https://www.topflightautomotive.com/",
+    "logo": "/images/partners/top-flight-automotive-logo.png"
+  },
+  {
+    "name": "AL KNOCH INTERIORS",
+    "category": "CORVETTE INTERIORS & RESTORATION",
+    "description": "Al Knoch Interiors specializes in reproduction and custom Corvette interiors, providing high-quality interior components for classic Corvette restoration projects.",
+    "contact": [
+      "Phone: 1-800-880-8080"
+    ],
+    "address": [
+      "Al Knoch Interiors",
+      "9010 N Desert Blvd",
+      "Canutillo, TX 79835"
+    ],
+    "website": "https://www.alknochinteriors.com/",
+    "logo": "/images/partners/al-knoch-interiors-logo.png"
+  },
+  {
+    "name": "ROYAL PLATING",
+    "category": "CHROME PLATING & METAL RESTORATION",
+    "description": "Royal Plating specializes in chrome plating, polishing and metal restoration for classic and collector vehicles, helping restore original trim and components to a high-quality finish.",
+    "contact": [
+      "Phone: 520-622-7826"
+    ],
+    "address": [
+      "Royal Plating",
+      "636 W Lester St",
+      "Tucson, AZ 85705"
+    ],
+    "website": "https://www.royalplating.com/",
+    "logo": "/images/partners/royal-plating-logo.png"
+  },
+  {
+    "name": "KENLEY’S KUSTOMS",
+    "category": "CLASSIC CAR RESTORATION & CUSTOM WORK",
+    "description": "Kenley’s Kustoms provides restoration and custom automotive services for classic and specialty vehicles, with an emphasis on craftsmanship and quality workmanship.",
+    "contact": [
+      "Phone: (480) 750-0056"
+    ],
+    "address": [
+      "Kenley’s Kustoms",
+      "20235 N Cave Creek Rd, Ste 104 #229",
+      "Phoenix, AZ 85024"
+    ],
+    "website": "https://www.kenleyskustoms.com/",
+    "logo": ""
+  },
+  {
+    "name": "Metropolitan Pit Stop",
+    "category": "CLASSIC CAR PARTS AND RESTORATION",
+    "description": "Metropolitan Pit Stop specializes in parts, service, and restoration for Nash Metropolitan vehicles, offering expert support and hard-to-find components for enthusiasts and restorers.",
+    "contact": [
+      "Phone: 800-677-5519",
+      "Email: info@metpitstop.com"
+    ],
+    "address": [
+      "Metropolitan Pit Stop",
+      "5324 Laurel Canyon Boulevard",
+      "Valley Village, California 91607"
+    ],
+    "website": "https://www.metpitstop.com/",
+    "logo": "/images/partners/metropolitan-pit-stop-logo.png"
+  }
+]

@@ -1,0 +1,209 @@
+{
+ "url": "https://www.fitzgeraldclassics.com/blank-0cusaw",
+ "status1440": 200,
+ "finalUrl1440": "https://www.fitzgeraldclassics.com/blank-0cusaw",
+ "title": "Home | Fitzgerald Classics",
+ "meta": {
+  "og:title": "Home | Fitzgerald Classics",
+  "og:url": "https://www.fitzgeraldclassics.com/blank-0cusaw",
+  "og:site_name": "Fitzgerald Classics",
+  "og:type": "website",
+  "google-site-verification": "vj-8FEwO3GEryTsRNbFFo6UxjWj6YL2Z2HaHuZWjeiU",
+  "twitter:card": "summary_large_image",
+  "twitter:title": "Home | Fitzgerald Classics",
+  "viewport": "width=device-width, initial-scale=1",
+  "generator": "Wix.com Website Builder",
+  "format-detection": "telephone=no",
+  "skype_toolbar": "skype_toolbar_parser_compatible"
+ },
+ "links": [
+  {
+   "rel": "canonical",
+   "href": "https://www.fitzgeraldclassics.com/blank-0cusaw",
+   "sizes": ""
+  },
+  {
+   "rel": "icon",
+   "href": "https://static.parastorage.com/client/pfavico.ico",
+   "sizes": "192x192"
+  },
+  {
+   "rel": "shortcut icon",
+   "href": "https://static.parastorage.com/client/pfavico.ico",
+   "sizes": ""
+  },
+  {
+   "rel": "apple-touch-icon",
+   "href": "https://static.parastorage.com/client/pfavico.ico",
+   "sizes": ""
+  }
+ ],
+ "ld": [],
+ "blocks": [
+  {
+   "tag": "h1",
+   "text": "Page not found.",
+   "region": "main",
+   "y": 188,
+   "x": 150,
+   "font": "wfont_0d6674_6d1a3599ace24b5bb110910c1faf1ad0, wf_6d1a3599ace24b5bb110910c1, orig_wix_madefor_display_bold",
+   "size": "56px",
+   "weight": "400",
+   "color": "rgb(255, 255, 255)",
+   "lh": "72.8px",
+   "ls": "normal",
+   "tt": "none",
+   "align": "left"
+  },
+  {
+   "tag": "p",
+   "text": "(Error 404)",
+   "region": "main",
+   "y": 270,
+   "x": 150,
+   "font": "wfont_0d6674_0aec49dba9b741e38edac1008447e79d, wf_0aec49dba9b741e38edac1008, orig_wix_madefor_display_regular",
+   "size": "24px",
+   "weight": "400",
+   "color": "rgb(129, 133, 134)",
+   "lh": "38.4px",
+   "ls": "normal",
+   "tt": "none",
+   "align": "start"
+  },
+  {
+   "tag": "p",
+   "text": "Double check the website address and retype it in the address bar—or return to homepage.",
+   "region": "main",
+   "y": 329,
+   "x": 150,
+   "font": "wfont_0d6674_0aec49dba9b741e38edac1008447e79d, wf_0aec49dba9b741e38edac1008, orig_wix_madefor_display_regular",
+   "size": "24px",
+   "weight": "400",
+   "color": "rgb(255, 255, 255)",
+   "lh": "38.4px",
+   "ls": "normal",
+   "tt": "none",
+   "align": "start"
+  },
+  {
+   "tag": "a",
+   "text": "Back to Homepage",
+   "region": "main",
+   "y": 465,
+   "x": 150,
+   "font": "Arial, Helvetica, sans-serif",
+   "size": "10px",
+   "weight": "400",
+   "color": "rgb(0, 0, 238)",
+   "lh": "normal",
+   "ls": "normal",
+   "tt": "none",
+   "align": "start",
+   "href": "https://www.fitzgeraldclassics.com/",
+   "bg": "rgb(10, 10, 10)",
+   "radius": "999px",
+   "border": "0px solid rgb(24, 24, 24)",
+   "pad": "10px 15px",
+   "w": 230,
+   "h": 52,
+   "innerFont": "wfont_0d6674_d3e4bc5b90ae4aecabc055d3358aa42b, wf_d3e4bc5b90ae4aecabc055d33, orig_wix_madefor_text_regular",
+   "innerSize": "20px",
+   "innerColor": "rgb(0, 0, 0)"
+  }
+ ],
+ "imgs": [
+  {
+   "src": "https://static.wixstatic.com/media/0d6674_95c96d34f16749b48e4a2059c7482799~mv2.png/v1/fill/w_1440,h_900,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/0d6674_95c96d34f16749b48e4a2059c7482799~mv2.png",
+   "alt": "",
+   "w": 1440,
+   "h": 900,
+   "y": 0,
+   "region": "main"
+  },
+  {
+   "imageInfo": "{\"containerId\":\"comp-kirk1ifk\",\"alignType\":\"center\",\"parallaxSpeed\":1.5,\"sourceSets\":[],\"imageData\":{\"uri\":\"0d6674_95c96d34f16749b48e4a2059c7482799~mv2.png\",\"width\":1920,\"height\":1120,\"alt\":\"\",\"focalPoint\":null},\"encoding\":\"AVIF\",\"allowFullGIFTransformation\":false}",
+   "region": "main"
+  }
+ ],
+ "iframes": [],
+ "videos": [],
+ "forms": [],
+ "sections": [
+  {
+   "id": "comp-kirk1ifj",
+   "y": 0,
+   "h": 900,
+   "bg": "rgba(10, 10, 10, 0)",
+   "bgImg": "none"
+  }
+ ],
+ "fontFaces": [],
+ "cssVars": {
+  "--color_0": "10,10,10",
+  "--color_1": "10,10,10",
+  "--color_2": "26,26,26",
+  "--color_3": "56,56,56",
+  "--color_4": "184,184,176",
+  "--color_5": "245,245,240",
+  "--color_6": "26,26,26",
+  "--color_7": "56,56,56",
+  "--color_8": "197,160,89",
+  "--color_9": "184,184,176",
+  "--color_10": "245,245,240",
+  "--color_11": "10,10,10",
+  "--color_12": "26,26,26",
+  "--color_13": "56,56,56",
+  "--color_14": "184,184,176",
+  "--color_15": "245,245,240",
+  "--color_16": "26,26,26",
+  "--color_17": "56,56,56",
+  "--color_18": "197,160,89",
+  "--font_0": "normal normal normal calc(72 * clamp(0px, 100 * 1cqw * 1, min(9999px, 9999px)) / 1280)/1.2em madefor-display-bold,helveticaneuew01-65medi,helveticaneuew02-65medi,helveticaneuew10-65medi,sans-serif",
+  "--font_1": "normal normal normal 16px/1.4em din-next-w01-light,sans-serif",
+  "--font_2": "normal normal normal calc(42 * clamp(0px, 100 * 1cqw * 1, min(9999px, 9999px)) / 1280)/1.3em madefor-display-bold,helveticaneuew01-65medi,helveticaneuew02-65medi,helveticaneuew10-65medi,sans-serif",
+  "--font_3": "normal normal normal calc(38 * clamp(0px, 100 * 1cqw * 1, min(9999px, 9999px)) / 1280)/1.3em madefor-display-bold,helveticaneuew01-65medi,helveticaneuew02-65medi,helveticaneuew10-65medi,sans-serif",
+  "--font_4": "normal normal normal calc(34 * clamp(0px, 100 * 1cqw * 1, min(9999px, 9999px)) / 1280)/1.3em madefor-display-bold,helveticaneuew01-65medi,helveticaneuew02-65medi,helveticaneuew10-65medi,sans-serif",
+  "--font_5": "normal normal normal calc(28 * clamp(0px, 100 * 1cqw * 1, min(9999px, 9999px)) / 1280)/1.3em madefor-display-bold,helveticaneuew01-65medi,helveticaneuew02-65medi,helveticaneuew10-65medi,sans-serif",
+  "--font_6": "normal normal normal calc(22 * clamp(0px, 100 * 1cqw * 1, min(9999px, 9999px)) / 1280)/1.4em madefor-display-bold,helveticaneuew01-65medi,helveticaneuew02-65medi,helveticaneuew10-65medi,sans-serif",
+  "--font_7": "normal normal normal calc(18 * clamp(0px, 100 * 1cqw * 1, min(9999px, 9999px)) / 1280)/1.6em madefor-text,helveticaneuew01-45ligh,helveticaneuew02-45ligh,helveticaneuew10-45ligh,sans-serif",
+  "--font_8": "normal normal normal calc(16 * clamp(0px, 100 * 1cqw * 1, min(9999px, 9999px)) / 1280)/1.6em madefor-text,helveticaneuew01-45ligh,helveticaneuew02-45ligh,helveticaneuew10-45ligh,sans-serif",
+  "--font_9": "normal normal normal calc(14 * clamp(0px, 100 * 1cqw * 1, min(9999px, 9999px)) / 1280)/1.6em madefor-text,helveticaneuew01-45ligh,helveticaneuew02-45ligh,helveticaneuew10-45ligh,sans-serif",
+  "--font_10": "normal normal normal 12px/1.4em din-next-w01-light,sans-serif"
+ },
+ "anchors": [
+  "https://www.fitzgeraldclassics.com/"
+ ],
+ "height": 900,
+ "bodyBg": "rgba(0, 0, 0, 0)",
+ "status390": 200,
+ "finalUrl390": "https://www.fitzgeraldclassics.com/blank-0cusaw",
+ "mobile": {
+  "blocks": [
+   {
+    "tag": "h1",
+    "text": "Page not found.",
+    "size": "32px",
+    "region": "main"
+   },
+   {
+    "tag": "p",
+    "text": "(Error 404)",
+    "size": "16px",
+    "region": "main"
+   },
+   {
+    "tag": "p",
+    "text": "Double check the website address and retype it in the address bar—or return to h",
+    "size": "16px",
+    "region": "main"
+   },
+   {
+    "tag": "a",
+    "text": "Back to Homepage",
+    "size": "10px",
+    "region": "main"
+   }
+  ],
+  "height": 844
+ }
+}

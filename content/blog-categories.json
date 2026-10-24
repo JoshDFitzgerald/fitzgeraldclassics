@@ -1,0 +1,32 @@
+[
+  {
+    "slug": "buying-ownership",
+    "name": "Buying & Ownership",
+    "description": "Classic-car buying guidance, ownership considerations, and informed purchase decisions."
+  },
+  {
+    "slug": "restoration-planning",
+    "name": "Restoration Planning",
+    "description": "Planning, budgeting, preservation decisions, and restoration strategy."
+  },
+  {
+    "slug": "electrical-instruments",
+    "name": "Electrical & Instruments",
+    "description": "Classic-car electrical systems, gauges, radios, testing, wiring, and troubleshooting."
+  },
+  {
+    "slug": "engines-mechanical",
+    "name": "Engines & Mechanical",
+    "description": "Engine, drivetrain, mechanical systems, finishes, and factory-correct details."
+  },
+  {
+    "slug": "interior-finishing",
+    "name": "Interior & Finishing",
+    "description": "Dash, trim, interior, cosmetic restoration, and finishing details."
+  },
+  {
+    "slug": "tools-shop",
+    "name": "Tools & Shop",
+    "description": "Tools, equipment, workshop practices, and practical restoration techniques."
+  }
+]

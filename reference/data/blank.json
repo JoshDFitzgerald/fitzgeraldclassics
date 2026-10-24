@@ -1,0 +1,500 @@
+{
+ "url": "https://www.fitzgeraldclassics.com/blank",
+ "status1440": 200,
+ "finalUrl1440": "https://www.fitzgeraldclassics.com/blank",
+ "title": "Classic Car Restoration How-To Videos | Fitzgerald Classics",
+ "meta": {
+  "description": "Classic car restoration how-to videos covering Pontiac GTO restoration, Holley Sniper EFI, Vintage Air installation, wiring, engine work, maintenance and hands-on repair tips curated by Fitzgerald Classics",
+  "og:title": "Classic Car Restoration How-To Videos | Fitzgerald Classics",
+  "og:description": "Classic car restoration how-to videos covering Pontiac GTO restoration, Holley Sniper EFI, Vintage Air installation, wiring, engine work, maintenance and hands-on repair tips curated by Fitzgerald Classics",
+  "og:url": "https://www.fitzgeraldclassics.com/blank",
+  "og:site_name": "Fitzgerald Classics",
+  "og:type": "website",
+  "google-site-verification": "vj-8FEwO3GEryTsRNbFFo6UxjWj6YL2Z2HaHuZWjeiU",
+  "twitter:card": "summary_large_image",
+  "twitter:title": "Classic Car Restoration How-To Videos | Fitzgerald Classics",
+  "twitter:description": "Classic car restoration how-to videos covering Pontiac GTO restoration, Holley Sniper EFI, Vintage Air installation, wiring, engine work, maintenance and hands-on repair tips curated by Fitzgerald Classics",
+  "viewport": "width=device-width, initial-scale=1",
+  "generator": "Wix.com Website Builder",
+  "format-detection": "telephone=no",
+  "skype_toolbar": "skype_toolbar_parser_compatible"
+ },
+ "links": [
+  {
+   "rel": "canonical",
+   "href": "https://www.fitzgeraldclassics.com/blank",
+   "sizes": ""
+  },
+  {
+   "rel": "icon",
+   "href": "https://static.parastorage.com/client/pfavico.ico",
+   "sizes": "192x192"
+  },
+  {
+   "rel": "shortcut icon",
+   "href": "https://static.parastorage.com/client/pfavico.ico",
+   "sizes": ""
+  },
+  {
+   "rel": "apple-touch-icon",
+   "href": "https://static.parastorage.com/client/pfavico.ico",
+   "sizes": ""
+  }
+ ],
+ "ld": [],
+ "blocks": [
+  {
+   "tag": "p",
+   "text": "MENU",
+   "region": "header",
+   "y": 16,
+   "x": 1303,
+   "font": "inter",
+   "size": "12px",
+   "weight": "400",
+   "color": "rgb(197, 160, 89)",
+   "lh": "25.2px",
+   "ls": "1.575px",
+   "tt": "uppercase",
+   "align": "right"
+  },
+  {
+   "tag": "h1",
+   "text": "How-To Videos",
+   "region": "main",
+   "y": 198,
+   "x": 479,
+   "font": "libre-caslon-text",
+   "size": "59.1936px",
+   "weight": "700",
+   "color": "rgb(245, 245, 240)",
+   "lh": "62.1533px",
+   "ls": "normal",
+   "tt": "none",
+   "align": "start"
+  },
+  {
+   "tag": "p",
+   "text": "Fitzgerald Classics curates practical, real-world how-to videos for classic car owners, enthusiasts and restorers who want to do the job right. Our goal is to bring together clear, useful guidance from experienced builders, restorers and creators across the classic car community.\nThe library covers everything from restoration techniques and mechanical repairs to wiring, EFI, air conditioning, brakes, suspension, driveline work, engine projects, maintenance and upgrades. Whether the video comes from our own work at Fitzgerald Classics or from another trusted source, we select content based on its usefulness, clarity and real-world value.\nWe look for videos that respect the character of classic vehicles while emphasizing good workmanship, reliability and practical solutions. Whether you’re planning a full restoration, tackling a weekend repair or trying to solve a stubborn problem, these how-to videos are here to help you move your project forward with confidence.",
+   "region": "main",
+   "y": 287,
+   "x": 23,
+   "font": "inter",
+   "size": "22.5px",
+   "weight": "400",
+   "color": "rgb(245, 245, 240)",
+   "lh": "33.75px",
+   "ls": "normal",
+   "tt": "none",
+   "align": "start"
+  },
+  {
+   "tag": "h1",
+   "text": "Add The Title Text Here",
+   "region": "main",
+   "y": 736,
+   "x": 36,
+   "font": "manrope, sans-serif",
+   "size": "25.8749px",
+   "weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "lh": "28.4624px",
+   "ls": "normal",
+   "tt": "capitalize",
+   "align": "start"
+  },
+  {
+   "tag": "button",
+   "text": "Have a question about your classic car?",
+   "region": "main",
+   "y": 782,
+   "x": 1224,
+   "font": "sans-serif",
+   "size": "14px",
+   "weight": "400",
+   "color": "rgb(245, 245, 240)",
+   "lh": "18px",
+   "ls": "normal",
+   "tt": "none",
+   "align": "start",
+   "bg": "rgba(0, 0, 0, 0)",
+   "radius": "0px",
+   "border": "0px none rgb(245, 245, 240)",
+   "pad": "0px",
+   "w": 182,
+   "h": 34,
+   "innerFont": "sans-serif",
+   "innerSize": "14px",
+   "innerColor": "rgb(245, 245, 240)"
+  },
+  {
+   "tag": "h1",
+   "text": "Describe This Item Here.",
+   "region": "main",
+   "y": 817,
+   "x": 36,
+   "font": "manrope, sans-serif",
+   "size": "15.75px",
+   "weight": "300",
+   "color": "rgb(0, 0, 0)",
+   "lh": "17.325px",
+   "ls": "normal",
+   "tt": "capitalize",
+   "align": "start"
+  },
+  {
+   "tag": "h1",
+   "text": "Describe This Item Here.",
+   "region": "main",
+   "y": 838,
+   "x": 36,
+   "font": "manrope, sans-serif",
+   "size": "15.75px",
+   "weight": "300",
+   "color": "rgb(0, 0, 0)",
+   "lh": "17.325px",
+   "ls": "normal",
+   "tt": "capitalize",
+   "align": "start"
+  },
+  {
+   "tag": "button",
+   "text": "Ask Fitz",
+   "region": "main",
+   "y": 840,
+   "x": 1291,
+   "font": "Arial",
+   "size": "18.2134px",
+   "weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "lh": "normal",
+   "ls": "normal",
+   "tt": "none",
+   "align": "center",
+   "bg": "rgb(197, 160, 89)",
+   "radius": "90px",
+   "border": "0px solid rgba(0, 0, 0, 0)",
+   "pad": "12px 22px",
+   "w": 139,
+   "h": 50,
+   "innerFont": "Arial",
+   "innerSize": "18.2134px",
+   "innerColor": "rgb(0, 0, 0)"
+  },
+  {
+   "tag": "h1",
+   "text": "Add The Title Text Here",
+   "region": "main",
+   "y": 1146,
+   "x": 36,
+   "font": "manrope, sans-serif",
+   "size": "25.8749px",
+   "weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "lh": "28.4624px",
+   "ls": "normal",
+   "tt": "capitalize",
+   "align": "start"
+  },
+  {
+   "tag": "h1",
+   "text": "Describe This Item Here.",
+   "region": "main",
+   "y": 1226,
+   "x": 36,
+   "font": "manrope, sans-serif",
+   "size": "15.75px",
+   "weight": "300",
+   "color": "rgb(0, 0, 0)",
+   "lh": "17.325px",
+   "ls": "normal",
+   "tt": "capitalize",
+   "align": "start"
+  },
+  {
+   "tag": "h1",
+   "text": "Describe This Item Here.",
+   "region": "main",
+   "y": 1247,
+   "x": 36,
+   "font": "manrope, sans-serif",
+   "size": "15.75px",
+   "weight": "300",
+   "color": "rgb(0, 0, 0)",
+   "lh": "17.325px",
+   "ls": "normal",
+   "tt": "capitalize",
+   "align": "start"
+  },
+  {
+   "tag": "h2",
+   "text": "Fitzgerald Classics",
+   "region": "footer",
+   "y": 2285,
+   "x": 228,
+   "font": "libre-caslon-text",
+   "size": "30px",
+   "weight": "700",
+   "color": "rgb(245, 245, 240)",
+   "lh": "40.5px",
+   "ls": "normal",
+   "tt": "none",
+   "align": "start"
+  },
+  {
+   "tag": "p",
+   "text": "Preserving Americana, one car at a time.",
+   "region": "footer",
+   "y": 2436,
+   "x": 46,
+   "font": "inter",
+   "size": "18px",
+   "weight": "400",
+   "color": "rgb(245, 245, 240)",
+   "lh": "28.8px",
+   "ls": "normal",
+   "tt": "none",
+   "align": "start"
+  },
+  {
+   "tag": "p",
+   "text": "Education first. Commerce supports the mission.",
+   "region": "footer",
+   "y": 2436,
+   "x": 519,
+   "font": "inter",
+   "size": "18px",
+   "weight": "400",
+   "color": "rgb(245, 245, 240)",
+   "lh": "28.8px",
+   "ls": "normal",
+   "tt": "none",
+   "align": "start"
+  },
+  {
+   "tag": "p",
+   "text": "© 2026 Fitzgerald Classics. Veteran Owned. 10% of merchandise and eBay profits support Tunnel to Towers Foundation. As an Amazon Associate, Fitzgerald Classics earns from qualifying purchases.",
+   "region": "footer",
+   "y": 2556,
+   "x": 46,
+   "font": "inter",
+   "size": "15.75px",
+   "weight": "400",
+   "color": "rgb(184, 184, 176)",
+   "lh": "25.2px",
+   "ls": "normal",
+   "tt": "none",
+   "align": "left"
+  }
+ ],
+ "imgs": [
+  {
+   "src": "https://static.wixstatic.com/media/913019_ad12b28d21eb435a8f80a925d57b3399~mv2.jpg/v1/fill/w_293,h_293,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/c837a6_be153def747f4317afaf0b2763446b94~mv2.jpg",
+   "alt": "c837a6_be153def747f4317afaf0b2763446b94~mv2.jpg",
+   "w": 293,
+   "h": 293,
+   "y": 737,
+   "region": "main"
+  },
+  {
+   "src": "https://static.wixstatic.com/media/913019_ad12b28d21eb435a8f80a925d57b3399~mv2.jpg/v1/fill/w_293,h_293,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/c837a6_be153def747f4317afaf0b2763446b94~mv2.jpg",
+   "alt": "c837a6_be153def747f4317afaf0b2763446b94~mv2.jpg",
+   "w": 293,
+   "h": 293,
+   "y": 737,
+   "region": "main"
+  },
+  {
+   "src": "https://static.wixstatic.com/media/913019_ad12b28d21eb435a8f80a925d57b3399~mv2.jpg/v1/fill/w_293,h_293,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/c837a6_be153def747f4317afaf0b2763446b94~mv2.jpg",
+   "alt": "c837a6_be153def747f4317afaf0b2763446b94~mv2.jpg",
+   "w": 293,
+   "h": 293,
+   "y": 1147,
+   "region": "main"
+  },
+  {
+   "src": "https://static.wixstatic.com/media/2e2a49_ab2e08c188f248779ab3728026123e34~mv2.png",
+   "alt": "logo",
+   "w": 82,
+   "h": 26,
+   "y": 2293,
+   "region": "footer"
+  },
+  {
+   "src": "https://static.wixstatic.com/media/b5fa70_2dbe98366738478597606747140a3d66~mv2.webp/v1/fill/w_170,h_113,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/logo.webp",
+   "alt": "Fitzgerald Classics logo featuring Route 66 and two classic American cars",
+   "w": 187,
+   "h": 113,
+   "y": 2249,
+   "region": "footer"
+  },
+  {
+   "imageInfo": "{\"alignType\":\"center\",\"containerId\":\"comp-mvhdnzmh__#a\",\"encoding\":\"AVIF\",\"imageData\":{\"name\":\"c837a6_be153def747f4317afaf0b2763446b94~mv2.jpg\",\"uri\":\"913019_ad12b28d21eb435a8f80a925d57b3399~mv2.jpg\",\"height\":4000,\"id\":\"dataItem-mvhdnzmi\",\"alt\":\"c837a6_be153def747f4317afaf0b2763446b94~mv2.jpg\",\"type\":\"Builder.Image\",\"metaData\":{\"isHidden\":false,\"sig\":\"xd0-2157\",\"schemaVersion\":\"1.0\",\"isPreset\":false},\"width\":4000,\"url\":\"https://static.wixstatic.com/media/913019_ad12b28d21eb435a8f80a925d57b3399~mv2.jpg/v1/fill/w_4000,h_4000,al_c,q_90,enc_auto/913019_ad12b28d21eb435a8f80a925d57b3399~mv2.jpg\",\"displayMode\":\"fill\"}}",
+   "region": "main"
+  },
+  {
+   "imageInfo": "{\"alignType\":\"center\",\"containerId\":\"comp-mvhdnzmh__#b\",\"encoding\":\"AVIF\",\"imageData\":{\"name\":\"c837a6_be153def747f4317afaf0b2763446b94~mv2.jpg\",\"uri\":\"913019_ad12b28d21eb435a8f80a925d57b3399~mv2.jpg\",\"height\":4000,\"id\":\"dataItem-mvhdnzmi\",\"alt\":\"c837a6_be153def747f4317afaf0b2763446b94~mv2.jpg\",\"type\":\"Builder.Image\",\"metaData\":{\"isHidden\":false,\"sig\":\"xd0-2157\",\"schemaVersion\":\"1.0\",\"isPreset\":false},\"width\":4000,\"url\":\"https://static.wixstatic.com/media/913019_ad12b28d21eb435a8f80a925d57b3399~mv2.jpg/v1/fill/w_4000,h_4000,al_c,q_90,enc_auto/913019_ad12b28d21eb435a8f80a925d57b3399~mv2.jpg\",\"displayMode\":\"fill\"}}",
+   "region": "main"
+  },
+  {
+   "imageInfo": "{\"alignType\":\"center\",\"containerId\":\"comp-mvhdnzmh__#c\",\"encoding\":\"AVIF\",\"imageData\":{\"name\":\"c837a6_be153def747f4317afaf0b2763446b94~mv2.jpg\",\"uri\":\"913019_ad12b28d21eb435a8f80a925d57b3399~mv2.jpg\",\"height\":4000,\"id\":\"dataItem-mvhdnzmi\",\"alt\":\"c837a6_be153def747f4317afaf0b2763446b94~mv2.jpg\",\"type\":\"Builder.Image\",\"metaData\":{\"isHidden\":false,\"sig\":\"xd0-2157\",\"schemaVersion\":\"1.0\",\"isPreset\":false},\"width\":4000,\"url\":\"https://static.wixstatic.com/media/913019_ad12b28d21eb435a8f80a925d57b3399~mv2.jpg/v1/fill/w_4000,h_4000,al_c,q_90,enc_auto/913019_ad12b28d21eb435a8f80a925d57b3399~mv2.jpg\",\"displayMode\":\"fill\"}}",
+   "region": "main"
+  },
+  {
+   "imageInfo": "{\"displayMode\":\"fit\",\"imageData\":{\"width\":499,\"height\":191,\"uri\":\"https://static.wixstatic.com/media/2e2a49_ab2e08c188f248779ab3728026123e34~mv2.png\",\"name\":\"logo\",\"displayMode\":\"fit\"}}",
+   "region": "footer"
+  },
+  {
+   "imageInfo": "{\"alignType\":\"center\",\"containerId\":\"comp-mvhbef9x_r_comp-mtqc8wh1\",\"encoding\":\"AVIF\",\"imageData\":{\"name\":\"logo.jpeg\",\"uri\":\"b5fa70_2dbe98366738478597606747140a3d66~mv2.webp\",\"height\":1024,\"id\":\"dataItem-mtxf7vba\",\"alt\":\"Fitzgerald Classics logo featuring Route 66 and two classic American cars\",\"type\":\"Builder.Image\",\"metaData\":{\"isHidden\":false,\"sig\":\"i08-181\",\"schemaVersion\":\"1.0\",\"isPreset\":false},\"width\":1536,\"url\":\"https://static.wixstatic.com/media/b5fa70_2dbe98366738478597606747140a3d66~mv2.webp/v1/fill/w_1536,h_1024,al_c,q_85,enc_auto/b5fa70_2dbe98366738478597606747140a3d66~mv2.webp\",\"displayMode\":\"fit\"}}",
+   "region": "footer"
+  }
+ ],
+ "iframes": [],
+ "videos": [],
+ "forms": [],
+ "sections": [
+  {
+   "id": "comp-mvhbef6s_r_comp-mb7ogqqn",
+   "y": 0,
+   "h": 58,
+   "bg": "rgba(10, 10, 10, 0)",
+   "bgImg": "none"
+  },
+  {
+   "id": "comp-mvhbeey0",
+   "y": 58,
+   "h": 2126,
+   "bg": "rgba(10, 10, 10, 0)",
+   "bgImg": "none"
+  },
+  {
+   "id": "comp-mvhbef9x_r_comp-kbgakgyt",
+   "y": 2184,
+   "h": 625,
+   "bg": "rgba(10, 10, 10, 0)",
+   "bgImg": "none"
+  }
+ ],
+ "fontFaces": [],
+ "cssVars": {
+  "--color_0": "10,10,10",
+  "--color_1": "10,10,10",
+  "--color_2": "26,26,26",
+  "--color_3": "56,56,56",
+  "--color_4": "184,184,176",
+  "--color_5": "245,245,240",
+  "--color_6": "26,26,26",
+  "--color_7": "56,56,56",
+  "--color_8": "197,160,89",
+  "--color_9": "184,184,176",
+  "--color_10": "245,245,240",
+  "--color_11": "10,10,10",
+  "--color_12": "26,26,26",
+  "--color_13": "56,56,56",
+  "--color_14": "184,184,176",
+  "--color_15": "245,245,240",
+  "--color_16": "26,26,26",
+  "--color_17": "56,56,56",
+  "--color_18": "197,160,89",
+  "--font_0": "normal normal normal calc(72 * clamp(0px, 100 * 1cqw * 1, min(9999px, 9999px)) / 1280)/1.2em madefor-display-bold,helveticaneuew01-65medi,helveticaneuew02-65medi,helveticaneuew10-65medi,sans-serif",
+  "--font_1": "normal normal normal 16px/1.4em din-next-w01-light,sans-serif",
+  "--font_2": "normal normal normal calc(42 * clamp(0px, 100 * 1cqw * 1, min(9999px, 9999px)) / 1280)/1.3em madefor-display-bold,helveticaneuew01-65medi,helveticaneuew02-65medi,helveticaneuew10-65medi,sans-serif",
+  "--font_3": "normal normal normal calc(38 * clamp(0px, 100 * 1cqw * 1, min(9999px, 9999px)) / 1280)/1.3em madefor-display-bold,helveticaneuew01-65medi,helveticaneuew02-65medi,helveticaneuew10-65medi,sans-serif",
+  "--font_4": "normal normal normal calc(34 * clamp(0px, 100 * 1cqw * 1, min(9999px, 9999px)) / 1280)/1.3em madefor-display-bold,helveticaneuew01-65medi,helveticaneuew02-65medi,helveticaneuew10-65medi,sans-serif",
+  "--font_5": "normal normal normal calc(28 * clamp(0px, 100 * 1cqw * 1, min(9999px, 9999px)) / 1280)/1.3em madefor-display-bold,helveticaneuew01-65medi,helveticaneuew02-65medi,helveticaneuew10-65medi,sans-serif",
+  "--font_6": "normal normal normal calc(22 * clamp(0px, 100 * 1cqw * 1, min(9999px, 9999px)) / 1280)/1.4em madefor-display-bold,helveticaneuew01-65medi,helveticaneuew02-65medi,helveticaneuew10-65medi,sans-serif",
+  "--font_7": "normal normal normal calc(18 * clamp(0px, 100 * 1cqw * 1, min(9999px, 9999px)) / 1280)/1.6em madefor-text,helveticaneuew01-45ligh,helveticaneuew02-45ligh,helveticaneuew10-45ligh,sans-serif",
+  "--font_8": "normal normal normal calc(16 * clamp(0px, 100 * 1cqw * 1, min(9999px, 9999px)) / 1280)/1.6em madefor-text,helveticaneuew01-45ligh,helveticaneuew02-45ligh,helveticaneuew10-45ligh,sans-serif",
+  "--font_9": "normal normal normal calc(14 * clamp(0px, 100 * 1cqw * 1, min(9999px, 9999px)) / 1280)/1.6em madefor-text,helveticaneuew01-45ligh,helveticaneuew02-45ligh,helveticaneuew10-45ligh,sans-serif",
+  "--font_10": "normal normal normal 12px/1.4em din-next-w01-light,sans-serif"
+ },
+ "anchors": [
+  "https://www.fitzgeraldclassics.com/",
+  "https://www.fitzgeraldclassics.com/portfolio",
+  "https://www.fitzgeraldclassics.com/blog",
+  "https://www.fitzgeraldclassics.com/about-us",
+  "https://www.fitzgeraldclassics.com/contact",
+  "https://www.fitzgeraldclassics.com/trusted-partners",
+  "https://www.fitzgeraldclassics.com/ebay-ecommerce",
+  "https://www.fitzgeraldclassics.com/fitzgerald-classics-garage",
+  "https://www.fitzgeraldclassics.com/vintage-hard-to-find-parts",
+  "https://www.fitzgeraldclassics.com/blank",
+  "https://www.facebook.com/profile.php?id=61594520112307",
+  "https://instagram.com/fitzgeraldclassics"
+ ],
+ "height": 2809,
+ "bodyBg": "rgba(0, 0, 0, 0)",
+ "status390": 200,
+ "finalUrl390": "https://www.fitzgeraldclassics.com/blank",
+ "mobile": {
+  "blocks": [
+   {
+    "tag": "h1",
+    "text": "How-To Videos",
+    "size": "28px",
+    "region": "main"
+   },
+   {
+    "tag": "p",
+    "text": "Fitzgerald Classics curates practical, real-world how-to videos for classic car ",
+    "size": "18px",
+    "region": "main"
+   },
+   {
+    "tag": "button",
+    "text": "Have a question about your classic car?",
+    "size": "14px",
+    "region": "main"
+   },
+   {
+    "tag": "button",
+    "text": "Ask Fitz",
+    "size": "17.0666px",
+    "region": "main"
+   },
+   {
+    "tag": "li",
+    "text": "WATCH VIDEO",
+    "size": "10px",
+    "region": "main"
+   },
+   {
+    "tag": "li",
+    "text": "WATCH VIDEO",
+    "size": "10px",
+    "region": "main"
+   },
+   {
+    "tag": "li",
+    "text": "WATCH VIDEO",
+    "size": "10px",
+    "region": "main"
+   },
+   {
+    "tag": "h2",
+    "text": "Fitzgerald Classics",
+    "size": "30px",
+    "region": "footer"
+   },
+   {
+    "tag": "p",
+    "text": "Preserving Americana, one car at a time.",
+    "size": "16px",
+    "region": "footer"
+   },
+   {
+    "tag": "p",
+    "text": "Education first. Commerce supports the mission.",
+    "size": "16px",
+    "region": "footer"
+   },
+   {
+    "tag": "p",
+    "text": "© 2026 Fitzgerald Classics. Veteran Owned. 10% of merchandise and eBay profits s",
+    "size": "14px",
+    "region": "footer"
+   }
+  ],
+  "height": 3545
+ }
+}

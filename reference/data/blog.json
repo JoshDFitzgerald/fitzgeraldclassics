@@ -1,0 +1,1255 @@
+{
+ "url": "https://www.fitzgeraldclassics.com/blog",
+ "status1440": 200,
+ "finalUrl1440": "https://www.fitzgeraldclassics.com/blog",
+ "title": "Classic Car Restoration Guides & Advice | Fitzgerald Classics",
+ "meta": {
+  "description": "Classic car restoration guides, troubleshooting tips, and project lessons—get practical advice from Fitzgerald Classics.",
+  "og:title": "Classic Car Restoration Guides & Advice | Fitzgerald Classics",
+  "og:description": "Classic car restoration guides, troubleshooting tips, and project lessons—get practical advice from Fitzgerald Classics.",
+  "og:url": "https://www.fitzgeraldclassics.com/blog",
+  "og:site_name": "Fitzgerald Classics",
+  "og:type": "website",
+  "google-site-verification": "vj-8FEwO3GEryTsRNbFFo6UxjWj6YL2Z2HaHuZWjeiU",
+  "twitter:card": "summary_large_image",
+  "twitter:title": "Classic Car Restoration Guides & Advice | Fitzgerald Classics",
+  "twitter:description": "Classic car restoration guides, troubleshooting tips, and project lessons—get practical advice from Fitzgerald Classics.",
+  "viewport": "width=device-width, initial-scale=1",
+  "generator": "Wix.com Website Builder",
+  "format-detection": "telephone=no",
+  "skype_toolbar": "skype_toolbar_parser_compatible"
+ },
+ "links": [
+  {
+   "rel": "canonical",
+   "href": "https://www.fitzgeraldclassics.com/blog",
+   "sizes": ""
+  },
+  {
+   "rel": "icon",
+   "href": "https://static.parastorage.com/client/pfavico.ico",
+   "sizes": "192x192"
+  },
+  {
+   "rel": "shortcut icon",
+   "href": "https://static.parastorage.com/client/pfavico.ico",
+   "sizes": ""
+  },
+  {
+   "rel": "apple-touch-icon",
+   "href": "https://static.parastorage.com/client/pfavico.ico",
+   "sizes": ""
+  }
+ ],
+ "ld": [],
+ "blocks": [
+  {
+   "tag": "p",
+   "text": "MENU",
+   "region": "header",
+   "y": 16,
+   "x": 1303,
+   "font": "inter",
+   "size": "12px",
+   "weight": "400",
+   "color": "rgb(197, 160, 89)",
+   "lh": "25.2px",
+   "ls": "1.575px",
+   "tt": "uppercase",
+   "align": "right"
+  },
+  {
+   "tag": "li",
+   "text": "All Posts",
+   "region": "main",
+   "y": 58,
+   "x": 189,
+   "font": "inter",
+   "size": "14px",
+   "weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "lh": "19.6px",
+   "ls": "normal",
+   "tt": "none",
+   "align": "start"
+  },
+  {
+   "tag": "li",
+   "text": "Buying & Ownership",
+   "region": "main",
+   "y": 58,
+   "x": 286,
+   "font": "inter",
+   "size": "14px",
+   "weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "lh": "19.6px",
+   "ls": "normal",
+   "tt": "none",
+   "align": "start"
+  },
+  {
+   "tag": "li",
+   "text": "Restoration Planning",
+   "region": "main",
+   "y": 58,
+   "x": 460,
+   "font": "inter",
+   "size": "14px",
+   "weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "lh": "19.6px",
+   "ls": "normal",
+   "tt": "none",
+   "align": "start"
+  },
+  {
+   "tag": "li",
+   "text": "Electrical & Instruments",
+   "region": "main",
+   "y": 58,
+   "x": 635,
+   "font": "inter",
+   "size": "14px",
+   "weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "lh": "19.6px",
+   "ls": "normal",
+   "tt": "none",
+   "align": "start"
+  },
+  {
+   "tag": "li",
+   "text": "Engines & Mechanical",
+   "region": "main",
+   "y": 58,
+   "x": 831,
+   "font": "inter",
+   "size": "14px",
+   "weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "lh": "19.6px",
+   "ls": "normal",
+   "tt": "none",
+   "align": "start"
+  },
+  {
+   "tag": "li",
+   "text": "Interior & Finishing",
+   "region": "main",
+   "y": 58,
+   "x": 1017,
+   "font": "inter",
+   "size": "14px",
+   "weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "lh": "19.6px",
+   "ls": "normal",
+   "tt": "none",
+   "align": "start"
+  },
+  {
+   "tag": "h1",
+   "text": "All Posts",
+   "region": "main",
+   "y": 138,
+   "x": 189,
+   "font": "madefor-display-bold, helveticaneuew01-65medi, helveticaneuew02-65medi, helveticaneuew10-65medi, sans-serif",
+   "size": "36px",
+   "weight": "400",
+   "color": "rgb(245, 245, 240)",
+   "lh": "43.2px",
+   "ls": "normal",
+   "tt": "none",
+   "align": "start"
+  },
+  {
+   "tag": "li",
+   "text": "Tools & Shop",
+   "region": "main",
+   "y": 138,
+   "x": 229,
+   "font": "inter",
+   "size": "14px",
+   "weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "lh": "19.6px",
+   "ls": "normal",
+   "tt": "none",
+   "align": "start"
+  },
+  {
+   "tag": "a",
+   "text": "Classic Car Documentation and NCRS: Proving the Story Behind the Restoration",
+   "region": "main",
+   "y": 526,
+   "x": 214,
+   "font": "inter",
+   "size": "14px",
+   "weight": "400",
+   "color": "rgb(245, 245, 240)",
+   "lh": "normal",
+   "ls": "normal",
+   "tt": "none",
+   "align": "start",
+   "href": "https://www.fitzgeraldclassics.com/post/classic-car-documentation-ncrs",
+   "bg": "rgba(0, 0, 0, 0)",
+   "radius": "0px",
+   "border": "0px none rgb(245, 245, 240)",
+   "pad": "0px",
+   "w": 283,
+   "h": 92
+  },
+  {
+   "tag": "h2",
+   "text": "Classic Car Documentation and NCRS: Proving the Story Behind the Restoration",
+   "region": "main",
+   "y": 526,
+   "x": 214,
+   "font": "libre-caslon-text",
+   "size": "22px",
+   "weight": "700",
+   "color": "rgb(245, 245, 240)",
+   "lh": "30.8px",
+   "ls": "normal",
+   "tt": "none",
+   "align": "start"
+  },
+  {
+   "tag": "a",
+   "text": "Classic Car Paint Preparation: The Finish Is Only as Good as What Lies Beneath",
+   "region": "main",
+   "y": 526,
+   "x": 579,
+   "font": "inter",
+   "size": "14px",
+   "weight": "400",
+   "color": "rgb(245, 245, 240)",
+   "lh": "normal",
+   "ls": "normal",
+   "tt": "none",
+   "align": "start",
+   "href": "https://www.fitzgeraldclassics.com/post/classic-car-paint-preparation",
+   "bg": "rgba(0, 0, 0, 0)",
+   "radius": "0px",
+   "border": "0px none rgb(245, 245, 240)",
+   "pad": "0px",
+   "w": 283,
+   "h": 92
+  },
+  {
+   "tag": "h2",
+   "text": "Classic Car Paint Preparation: The Finish Is Only as Good as What Lies Beneath",
+   "region": "main",
+   "y": 526,
+   "x": 579,
+   "font": "libre-caslon-text",
+   "size": "22px",
+   "weight": "700",
+   "color": "rgb(245, 245, 240)",
+   "lh": "30.8px",
+   "ls": "normal",
+   "tt": "none",
+   "align": "start"
+  },
+  {
+   "tag": "a",
+   "text": "Five Restoration Habits That Save Time, Money, and Original Parts",
+   "region": "main",
+   "y": 526,
+   "x": 944,
+   "font": "inter",
+   "size": "14px",
+   "weight": "400",
+   "color": "rgb(245, 245, 240)",
+   "lh": "normal",
+   "ls": "normal",
+   "tt": "none",
+   "align": "start",
+   "href": "https://www.fitzgeraldclassics.com/post/five-restoration-habits-that-save-time-money-and-original-parts",
+   "bg": "rgba(0, 0, 0, 0)",
+   "radius": "0px",
+   "border": "0px none rgb(245, 245, 240)",
+   "pad": "0px",
+   "w": 282,
+   "h": 92
+  },
+  {
+   "tag": "h2",
+   "text": "Five Restoration Habits That Save Time, Money, and Original Parts",
+   "region": "main",
+   "y": 526,
+   "x": 944,
+   "font": "libre-caslon-text",
+   "size": "22px",
+   "weight": "700",
+   "color": "rgb(245, 245, 240)",
+   "lh": "30.8px",
+   "ls": "normal",
+   "tt": "none",
+   "align": "start"
+  },
+  {
+   "tag": "a",
+   "text": "Restoration Philosophy: What Does It Mean to Preserve a Classic Car?",
+   "region": "main",
+   "y": 1157,
+   "x": 214,
+   "font": "inter",
+   "size": "14px",
+   "weight": "400",
+   "color": "rgb(245, 245, 240)",
+   "lh": "normal",
+   "ls": "normal",
+   "tt": "none",
+   "align": "start",
+   "href": "https://www.fitzgeraldclassics.com/post/restoration-philosophy-preserve-classic-car",
+   "bg": "rgba(0, 0, 0, 0)",
+   "radius": "0px",
+   "border": "0px none rgb(245, 245, 240)",
+   "pad": "0px",
+   "w": 283,
+   "h": 92
+  },
+  {
+   "tag": "h2",
+   "text": "Restoration Philosophy: What Does It Mean to Preserve a Classic Car?",
+   "region": "main",
+   "y": 1157,
+   "x": 214,
+   "font": "libre-caslon-text",
+   "size": "22px",
+   "weight": "700",
+   "color": "rgb(245, 245, 240)",
+   "lh": "30.8px",
+   "ls": "normal",
+   "tt": "none",
+   "align": "start"
+  },
+  {
+   "tag": "a",
+   "text": "7 Electrical Tools Every Classic-Car Owner Should Have",
+   "region": "main",
+   "y": 1157,
+   "x": 579,
+   "font": "inter",
+   "size": "14px",
+   "weight": "400",
+   "color": "rgb(245, 245, 240)",
+   "lh": "normal",
+   "ls": "normal",
+   "tt": "none",
+   "align": "start",
+   "href": "https://www.fitzgeraldclassics.com/post/7-electrical-tools-every-classic-car-owner-should-have",
+   "bg": "rgba(0, 0, 0, 0)",
+   "radius": "0px",
+   "border": "0px none rgb(245, 245, 240)",
+   "pad": "0px",
+   "w": 283,
+   "h": 92
+  },
+  {
+   "tag": "h2",
+   "text": "7 Electrical Tools Every Classic-Car Owner Should Have",
+   "region": "main",
+   "y": 1157,
+   "x": 579,
+   "font": "libre-caslon-text",
+   "size": "22px",
+   "weight": "700",
+   "color": "rgb(245, 245, 240)",
+   "lh": "30.8px",
+   "ls": "normal",
+   "tt": "none",
+   "align": "start"
+  },
+  {
+   "tag": "a",
+   "text": "10 Tools Every Classic-Car Owner Should Have",
+   "region": "main",
+   "y": 1157,
+   "x": 944,
+   "font": "inter",
+   "size": "14px",
+   "weight": "400",
+   "color": "rgb(245, 245, 240)",
+   "lh": "normal",
+   "ls": "normal",
+   "tt": "none",
+   "align": "start",
+   "href": "https://www.fitzgeraldclassics.com/post/10-tools-every-classic-car-owner-should-have",
+   "bg": "rgba(0, 0, 0, 0)",
+   "radius": "0px",
+   "border": "0px none rgb(245, 245, 240)",
+   "pad": "0px",
+   "w": 282,
+   "h": 62
+  },
+  {
+   "tag": "h2",
+   "text": "10 Tools Every Classic-Car Owner Should Have",
+   "region": "main",
+   "y": 1157,
+   "x": 944,
+   "font": "libre-caslon-text",
+   "size": "22px",
+   "weight": "700",
+   "color": "rgb(245, 245, 240)",
+   "lh": "30.8px",
+   "ls": "normal",
+   "tt": "none",
+   "align": "start"
+  },
+  {
+   "tag": "h2",
+   "text": "Fitzgerald Classics",
+   "region": "footer",
+   "y": 4708,
+   "x": 228,
+   "font": "libre-caslon-text",
+   "size": "30px",
+   "weight": "700",
+   "color": "rgb(245, 245, 240)",
+   "lh": "40.5px",
+   "ls": "normal",
+   "tt": "none",
+   "align": "start"
+  },
+  {
+   "tag": "p",
+   "text": "Preserving Americana, one car at a time.",
+   "region": "footer",
+   "y": 4860,
+   "x": 46,
+   "font": "inter",
+   "size": "18px",
+   "weight": "400",
+   "color": "rgb(245, 245, 240)",
+   "lh": "28.8px",
+   "ls": "normal",
+   "tt": "none",
+   "align": "start"
+  },
+  {
+   "tag": "p",
+   "text": "Education first. Commerce supports the mission.",
+   "region": "footer",
+   "y": 4860,
+   "x": 519,
+   "font": "inter",
+   "size": "18px",
+   "weight": "400",
+   "color": "rgb(245, 245, 240)",
+   "lh": "28.8px",
+   "ls": "normal",
+   "tt": "none",
+   "align": "start"
+  },
+  {
+   "tag": "p",
+   "text": "© 2026 Fitzgerald Classics. Veteran Owned. 10% of merchandise and eBay profits support Tunnel to Towers Foundation. As an Amazon Associate, Fitzgerald Classics earns from qualifying purchases.",
+   "region": "footer",
+   "y": 4980,
+   "x": 46,
+   "font": "inter",
+   "size": "15.75px",
+   "weight": "400",
+   "color": "rgb(184, 184, 176)",
+   "lh": "25.2px",
+   "ls": "normal",
+   "tt": "none",
+   "align": "left"
+  }
+ ],
+ "imgs": [
+  {
+   "src": "https://static.wixstatic.com/media/b5fa70_ee53399489b74d36b94ae6524ee6e041~mv2.jpg/v1/fill/w_333,h_250,fp_0.50_0.50,q_30,blur_30,enc_avif,quality_auto/b5fa70_ee53399489b74d36b94ae6524ee6e041~mv2.jpg",
+   "alt": "Restorer comparing a vintage automotive component with organized photographs and records beside a silver 1960s sports car.",
+   "w": 333,
+   "h": 249,
+   "y": 202,
+   "region": "main"
+  },
+  {
+   "src": "https://static.wixstatic.com/media/b5fa70_ee53399489b74d36b94ae6524ee6e041~mv2.jpg/v1/fill/w_305,h_229,fp_0.50_0.50,q_90,enc_avif,quality_auto/b5fa70_ee53399489b74d36b94ae6524ee6e041~mv2.jpg",
+   "alt": "Restorer comparing a vintage automotive component with organized photographs and records beside a silver 1960s sports car.",
+   "w": 333,
+   "h": 249,
+   "y": 202,
+   "region": "main"
+  },
+  {
+   "src": "https://lh3.googleusercontent.com/a/ACg8ocK5a46jyaOz8hXDsdDGcBgqv5Uem_MfjbpO9W3I_qwhGil9aQ%3Ds96-c",
+   "alt": "Writer: Dan Fitzgerald",
+   "w": 32,
+   "h": 32,
+   "y": 480,
+   "region": "main"
+  },
+  {
+   "src": "https://static.wixstatic.com/media/b5fa70_85caa0fd090c49879ff62365084e4b59~mv2.jpg/v1/fill/w_334,h_250,fp_0.50_0.50,q_30,blur_30,enc_avif,quality_auto/b5fa70_85caa0fd090c49879ff62365084e4b59~mv2.jpg",
+   "alt": "Classic car restorer hand-blocking a guide-coated primer surface under warm workshop lighting before final paint.",
+   "w": 333,
+   "h": 249,
+   "y": 202,
+   "region": "main"
+  },
+  {
+   "src": "https://static.wixstatic.com/media/b5fa70_85caa0fd090c49879ff62365084e4b59~mv2.jpg/v1/fill/w_306,h_229,fp_0.50_0.50,q_90,enc_avif,quality_auto/b5fa70_85caa0fd090c49879ff62365084e4b59~mv2.jpg",
+   "alt": "Classic car restorer hand-blocking a guide-coated primer surface under warm workshop lighting before final paint.",
+   "w": 333,
+   "h": 249,
+   "y": 202,
+   "region": "main"
+  },
+  {
+   "src": "https://lh3.googleusercontent.com/a/ACg8ocK5a46jyaOz8hXDsdDGcBgqv5Uem_MfjbpO9W3I_qwhGil9aQ%3Ds96-c",
+   "alt": "Writer: Dan Fitzgerald",
+   "w": 32,
+   "h": 32,
+   "y": 480,
+   "region": "main"
+  },
+  {
+   "src": "https://static.wixstatic.com/media/b5fa70_290200943be6488a9cb096725863ce18~mv2.jpg/v1/fill/w_333,h_250,fp_0.50_0.50,q_30,blur_30,enc_avif,quality_auto/b5fa70_290200943be6488a9cb096725863ce18~mv2.jpg",
+   "alt": "Classic car restoration tools and workbench",
+   "w": 332,
+   "h": 249,
+   "y": 202,
+   "region": "main"
+  },
+  {
+   "src": "https://static.wixstatic.com/media/b5fa70_290200943be6488a9cb096725863ce18~mv2.jpg/v1/fill/w_305,h_229,fp_0.50_0.50,q_90,enc_avif,quality_auto/b5fa70_290200943be6488a9cb096725863ce18~mv2.jpg",
+   "alt": "Classic car restoration tools and workbench",
+   "w": 332,
+   "h": 249,
+   "y": 202,
+   "region": "main"
+  },
+  {
+   "src": "https://lh3.googleusercontent.com/a/ACg8ocK5a46jyaOz8hXDsdDGcBgqv5Uem_MfjbpO9W3I_qwhGil9aQ%3Ds96-c",
+   "alt": "Writer: Dan Fitzgerald",
+   "w": 32,
+   "h": 32,
+   "y": 480,
+   "region": "main"
+  },
+  {
+   "src": "https://static.wixstatic.com/media/b5fa70_563af2b354e6493aad91aaae15301e32~mv2.jpg/v1/fill/w_333,h_250,fp_0.50_0.50,q_30,blur_30,enc_avif,quality_auto/b5fa70_563af2b354e6493aad91aaae15301e32~mv2.jpg",
+   "alt": "Classic car restorer thoughtfully comparing a patinated original component with a new reproduction part beside a partially restored 1960s automobile.",
+   "w": 333,
+   "h": 249,
+   "y": 833,
+   "region": "main"
+  },
+  {
+   "src": "https://static.wixstatic.com/media/b5fa70_563af2b354e6493aad91aaae15301e32~mv2.jpg/v1/fill/w_305,h_229,fp_0.50_0.50,q_90,enc_avif,quality_auto/b5fa70_563af2b354e6493aad91aaae15301e32~mv2.jpg",
+   "alt": "Classic car restorer thoughtfully comparing a patinated original component with a new reproduction part beside a partially restored 1960s automobile.",
+   "w": 333,
+   "h": 249,
+   "y": 833,
+   "region": "main"
+  },
+  {
+   "src": "https://lh3.googleusercontent.com/a/ACg8ocK5a46jyaOz8hXDsdDGcBgqv5Uem_MfjbpO9W3I_qwhGil9aQ%3Ds96-c",
+   "alt": "Writer: Dan Fitzgerald",
+   "w": 32,
+   "h": 32,
+   "y": 1111,
+   "region": "main"
+  },
+  {
+   "src": "https://static.wixstatic.com/media/b5fa70_a886d70b624047138b45c524e042e76f~mv2.jpg/v1/fill/w_334,h_250,fp_0.50_0.50,q_30,blur_30,enc_avif,quality_auto/b5fa70_a886d70b624047138b45c524e042e76f~mv2.jpg",
+   "alt": "7 Electrical Tools Every Classic-Car Owner Should Have",
+   "w": 333,
+   "h": 249,
+   "y": 833,
+   "region": "main"
+  },
+  {
+   "src": "https://static.wixstatic.com/media/b5fa70_a886d70b624047138b45c524e042e76f~mv2.jpg/v1/fill/w_306,h_229,fp_0.50_0.50,q_90,enc_avif,quality_auto/b5fa70_a886d70b624047138b45c524e042e76f~mv2.jpg",
+   "alt": "7 Electrical Tools Every Classic-Car Owner Should Have",
+   "w": 333,
+   "h": 249,
+   "y": 833,
+   "region": "main"
+  },
+  {
+   "src": "https://lh3.googleusercontent.com/a/ACg8ocK5a46jyaOz8hXDsdDGcBgqv5Uem_MfjbpO9W3I_qwhGil9aQ%3Ds96-c",
+   "alt": "Writer: Dan Fitzgerald",
+   "w": 32,
+   "h": 32,
+   "y": 1111,
+   "region": "main"
+  },
+  {
+   "src": "https://static.wixstatic.com/media/b5fa70_16fb2f5839194a47bb2594a05cdd5f43~mv2.png/v1/fill/w_333,h_250,fp_0.50_0.50,q_35,blur_30,enc_avif,quality_auto/b5fa70_16fb2f5839194a47bb2594a05cdd5f43~mv2.png",
+   "alt": "10 Tools Every Classic-Car Owner Should Have",
+   "w": 332,
+   "h": 249,
+   "y": 833,
+   "region": "main"
+  },
+  {
+   "src": "https://static.wixstatic.com/media/b5fa70_16fb2f5839194a47bb2594a05cdd5f43~mv2.png/v1/fill/w_305,h_229,fp_0.50_0.50,q_95,enc_avif,quality_auto/b5fa70_16fb2f5839194a47bb2594a05cdd5f43~mv2.png",
+   "alt": "10 Tools Every Classic-Car Owner Should Have",
+   "w": 332,
+   "h": 249,
+   "y": 833,
+   "region": "main"
+  },
+  {
+   "src": "https://lh3.googleusercontent.com/a/ACg8ocK5a46jyaOz8hXDsdDGcBgqv5Uem_MfjbpO9W3I_qwhGil9aQ%3Ds96-c",
+   "alt": "Writer: Dan Fitzgerald",
+   "w": 32,
+   "h": 32,
+   "y": 1111,
+   "region": "main"
+  },
+  {
+   "src": "https://static.wixstatic.com/media/b5fa70_290200943be6488a9cb096725863ce18~mv2.jpg/v1/fill/w_333,h_250,fp_0.50_0.50,q_30,blur_30,enc_avif,quality_auto/b5fa70_290200943be6488a9cb096725863ce18~mv2.jpg",
+   "alt": "Hands-On Tool Reviews: What Earns a Place in the Restoration Garage",
+   "w": 0,
+   "h": 0,
+   "y": 0,
+   "region": "main"
+  },
+  {
+   "src": "https://static.wixstatic.com/media/b5fa70_290200943be6488a9cb096725863ce18~mv2.jpg/v1/fill/w_305,h_229,fp_0.50_0.50,q_90,enc_avif,quality_auto/b5fa70_290200943be6488a9cb096725863ce18~mv2.jpg",
+   "alt": "Hands-On Tool Reviews: What Earns a Place in the Restoration Garage",
+   "w": 0,
+   "h": 0,
+   "y": 0,
+   "region": "main"
+  },
+  {
+   "src": "https://lh3.googleusercontent.com/a/ACg8ocK5a46jyaOz8hXDsdDGcBgqv5Uem_MfjbpO9W3I_qwhGil9aQ%3Ds96-c",
+   "alt": "Writer: Dan Fitzgerald",
+   "w": 0,
+   "h": 0,
+   "y": 0,
+   "region": "main"
+  },
+  {
+   "src": "https://static.wixstatic.com/media/b5fa70_a886d70b624047138b45c524e042e76f~mv2.jpg/v1/fill/w_334,h_250,fp_0.50_0.50,q_30,blur_30,enc_avif,quality_auto/b5fa70_a886d70b624047138b45c524e042e76f~mv2.jpg",
+   "alt": "Classic Car Electrical Troubleshooting: Find the Fault Before Replacing Parts",
+   "w": 0,
+   "h": 0,
+   "y": 0,
+   "region": "main"
+  },
+  {
+   "src": "https://static.wixstatic.com/media/b5fa70_a886d70b624047138b45c524e042e76f~mv2.jpg/v1/fill/w_306,h_229,fp_0.50_0.50,q_90,enc_avif,quality_auto/b5fa70_a886d70b624047138b45c524e042e76f~mv2.jpg",
+   "alt": "Classic Car Electrical Troubleshooting: Find the Fault Before Replacing Parts",
+   "w": 0,
+   "h": 0,
+   "y": 0,
+   "region": "main"
+  },
+  {
+   "src": "https://lh3.googleusercontent.com/a/ACg8ocK5a46jyaOz8hXDsdDGcBgqv5Uem_MfjbpO9W3I_qwhGil9aQ%3Ds96-c",
+   "alt": "Writer: Dan Fitzgerald",
+   "w": 0,
+   "h": 0,
+   "y": 0,
+   "region": "main"
+  },
+  {
+   "src": "https://static.wixstatic.com/media/b5fa70_9786bbdbbb134eef8494066d7e0ab70a~mv2.jpg/v1/fill/w_333,h_250,fp_0.50_0.50,q_30,blur_30,enc_avif,quality_auto/b5fa70_9786bbdbbb134eef8494066d7e0ab70a~mv2.jpg",
+   "alt": "Classic Car Body Panel Alignment: Why Gaps Tell the Story of a Restoration",
+   "w": 0,
+   "h": 0,
+   "y": 0,
+   "region": "main"
+  },
+  {
+   "src": "https://static.wixstatic.com/media/b5fa70_9786bbdbbb134eef8494066d7e0ab70a~mv2.jpg/v1/fill/w_305,h_229,fp_0.50_0.50,q_90,enc_avif,quality_auto/b5fa70_9786bbdbbb134eef8494066d7e0ab70a~mv2.webp",
+   "alt": "Classic Car Body Panel Alignment: Why Gaps Tell the Story of a Restoration",
+   "w": 0,
+   "h": 0,
+   "y": 0,
+   "region": "main"
+  },
+  {
+   "src": "https://lh3.googleusercontent.com/a/ACg8ocK5a46jyaOz8hXDsdDGcBgqv5Uem_MfjbpO9W3I_qwhGil9aQ%3Ds96-c",
+   "alt": "Writer: Dan Fitzgerald",
+   "w": 0,
+   "h": 0,
+   "y": 0,
+   "region": "main"
+  },
+  {
+   "src": "https://static.wixstatic.com/media/b5fa70_e1edc8a737f9499e840e8d7e6d9ea2da~mv2.jpg/v1/fill/w_333,h_250,fp_0.50_0.50,q_30,blur_30,enc_avif,quality_auto/b5fa70_e1edc8a737f9499e840e8d7e6d9ea2da~mv2.jpg",
+   "alt": "Buying Your First Corvette: How to Buy the Right Car Before You Buy the Wrong One",
+   "w": 0,
+   "h": 0,
+   "y": 0,
+   "region": "main"
+  },
+  {
+   "src": "https://static.wixstatic.com/media/b5fa70_e1edc8a737f9499e840e8d7e6d9ea2da~mv2.jpg/v1/fill/w_305,h_229,fp_0.50_0.50,q_90,enc_avif,quality_auto/b5fa70_e1edc8a737f9499e840e8d7e6d9ea2da~mv2.webp",
+   "alt": "Buying Your First Corvette: How to Buy the Right Car Before You Buy the Wrong One",
+   "w": 0,
+   "h": 0,
+   "y": 0,
+   "region": "main"
+  },
+  {
+   "src": "https://lh3.googleusercontent.com/a/ACg8ocK5a46jyaOz8hXDsdDGcBgqv5Uem_MfjbpO9W3I_qwhGil9aQ%3Ds96-c",
+   "alt": "Writer: Dan Fitzgerald",
+   "w": 0,
+   "h": 0,
+   "y": 0,
+   "region": "main"
+  },
+  {
+   "src": "https://static.wixstatic.com/media/b5fa70_c2635ee221d94ce59be6aa504b7afd98~mv2.png/v1/fill/w_334,h_250,fp_0.50_0.50,q_35,blur_30,enc_avif,quality_auto/b5fa70_c2635ee221d94ce59be6aa504b7afd98~mv2.png",
+   "alt": "Gauge Restoration: Repair, Recalibrate or Replace?",
+   "w": 0,
+   "h": 0,
+   "y": 0,
+   "region": "main"
+  },
+  {
+   "src": "https://static.wixstatic.com/media/b5fa70_c2635ee221d94ce59be6aa504b7afd98~mv2.png/v1/fill/w_306,h_229,fp_0.50_0.50,q_95,enc_avif,quality_auto/b5fa70_c2635ee221d94ce59be6aa504b7afd98~mv2.webp",
+   "alt": "Gauge Restoration: Repair, Recalibrate or Replace?",
+   "w": 0,
+   "h": 0,
+   "y": 0,
+   "region": "main"
+  },
+  {
+   "src": "https://lh3.googleusercontent.com/a/ACg8ocK5a46jyaOz8hXDsdDGcBgqv5Uem_MfjbpO9W3I_qwhGil9aQ%3Ds96-c",
+   "alt": "Writer: Dan Fitzgerald",
+   "w": 0,
+   "h": 0,
+   "y": 0,
+   "region": "main"
+  },
+  {
+   "src": "https://static.wixstatic.com/media/b5fa70_4b571a952c7a464aa3f5f90cec71bee0~mv2.png/v1/fill/w_333,h_250,fp_0.50_0.50,q_35,blur_30,enc_avif,quality_auto/b5fa70_4b571a952c7a464aa3f5f90cec71bee0~mv2.png",
+   "alt": "Dash Restoration: Where a Classic Car Comes Back to Life",
+   "w": 0,
+   "h": 0,
+   "y": 0,
+   "region": "main"
+  },
+  {
+   "src": "https://static.wixstatic.com/media/b5fa70_4b571a952c7a464aa3f5f90cec71bee0~mv2.png/v1/fill/w_305,h_229,fp_0.50_0.50,q_95,enc_avif,quality_auto/b5fa70_4b571a952c7a464aa3f5f90cec71bee0~mv2.webp",
+   "alt": "Dash Restoration: Where a Classic Car Comes Back to Life",
+   "w": 0,
+   "h": 0,
+   "y": 0,
+   "region": "main"
+  },
+  {
+   "src": "https://lh3.googleusercontent.com/a/ACg8ocK5a46jyaOz8hXDsdDGcBgqv5Uem_MfjbpO9W3I_qwhGil9aQ%3Ds96-c",
+   "alt": "Writer: Dan Fitzgerald",
+   "w": 0,
+   "h": 0,
+   "y": 0,
+   "region": "main"
+  },
+  {
+   "src": "https://static.wixstatic.com/media/b5fa70_af9c1e7143364a08a716f1e4e3f42163~mv2.png/v1/fill/w_333,h_250,fp_0.50_0.50,q_35,blur_30,enc_avif,quality_auto/b5fa70_af9c1e7143364a08a716f1e4e3f42163~mv2.png",
+   "alt": "Engine Paint Correctness",
+   "w": 0,
+   "h": 0,
+   "y": 0,
+   "region": "main"
+  },
+  {
+   "src": "https://static.wixstatic.com/media/b5fa70_af9c1e7143364a08a716f1e4e3f42163~mv2.png/v1/fill/w_305,h_229,fp_0.50_0.50,q_95,enc_avif,quality_auto/b5fa70_af9c1e7143364a08a716f1e4e3f42163~mv2.webp",
+   "alt": "Engine Paint Correctness",
+   "w": 0,
+   "h": 0,
+   "y": 0,
+   "region": "main"
+  },
+  {
+   "src": "https://lh3.googleusercontent.com/a/ACg8ocK5a46jyaOz8hXDsdDGcBgqv5Uem_MfjbpO9W3I_qwhGil9aQ%3Ds96-c",
+   "alt": "Writer: Dan Fitzgerald",
+   "w": 0,
+   "h": 0,
+   "y": 0,
+   "region": "main"
+  },
+  {
+   "src": "https://static.wixstatic.com/media/b5fa70_550806b5589044cb860e117d3682c075~mv2.png/v1/fill/w_334,h_250,fp_0.50_0.50,q_35,blur_30,enc_avif,quality_auto/b5fa70_550806b5589044cb860e117d3682c075~mv2.png",
+   "alt": "Bench Testing Classic-Car Electrical Components Without Destroying Them",
+   "w": 0,
+   "h": 0,
+   "y": 0,
+   "region": "main"
+  },
+  {
+   "src": "https://static.wixstatic.com/media/b5fa70_550806b5589044cb860e117d3682c075~mv2.png/v1/fill/w_306,h_229,fp_0.50_0.50,q_95,enc_avif,quality_auto/b5fa70_550806b5589044cb860e117d3682c075~mv2.webp",
+   "alt": "Bench Testing Classic-Car Electrical Components Without Destroying Them",
+   "w": 0,
+   "h": 0,
+   "y": 0,
+   "region": "main"
+  },
+  {
+   "src": "https://lh3.googleusercontent.com/a/ACg8ocK5a46jyaOz8hXDsdDGcBgqv5Uem_MfjbpO9W3I_qwhGil9aQ%3Ds96-c",
+   "alt": "Writer: Dan Fitzgerald",
+   "w": 0,
+   "h": 0,
+   "y": 0,
+   "region": "main"
+  },
+  {
+   "src": "https://static.wixstatic.com/media/b5fa70_4bd257a82d58493a966b01e657275f1c~mv2.png/v1/fill/w_333,h_250,fp_0.50_0.50,q_35,blur_30,enc_avif,quality_auto/b5fa70_4bd257a82d58493a966b01e657275f1c~mv2.png",
+   "alt": "Restore It or Replace It?",
+   "w": 0,
+   "h": 0,
+   "y": 0,
+   "region": "main"
+  },
+  {
+   "src": "https://static.wixstatic.com/media/b5fa70_4bd257a82d58493a966b01e657275f1c~mv2.png/v1/fill/w_305,h_229,fp_0.50_0.50,q_95,enc_avif,quality_auto/b5fa70_4bd257a82d58493a966b01e657275f1c~mv2.webp",
+   "alt": "Restore It or Replace It?",
+   "w": 0,
+   "h": 0,
+   "y": 0,
+   "region": "main"
+  },
+  {
+   "src": "https://lh3.googleusercontent.com/a/ACg8ocK5a46jyaOz8hXDsdDGcBgqv5Uem_MfjbpO9W3I_qwhGil9aQ%3Ds96-c",
+   "alt": "Writer: Dan Fitzgerald",
+   "w": 0,
+   "h": 0,
+   "y": 0,
+   "region": "main"
+  },
+  {
+   "src": "https://static.wixstatic.com/media/b5fa70_080271d939eb4d8484adaa13ef1c7595~mv2.png/v1/fill/w_333,h_250,fp_0.50_0.50,q_35,blur_30,enc_avif,quality_auto/b5fa70_080271d939eb4d8484adaa13ef1c7595~mv2.png",
+   "alt": "The Value of Good Tools: Why the Right Equipment Saves Time, Money, and Frustration",
+   "w": 0,
+   "h": 0,
+   "y": 0,
+   "region": "main"
+  },
+  {
+   "src": "https://static.wixstatic.com/media/b5fa70_080271d939eb4d8484adaa13ef1c7595~mv2.png/v1/fill/w_305,h_229,fp_0.50_0.50,q_95,enc_avif,quality_auto/b5fa70_080271d939eb4d8484adaa13ef1c7595~mv2.webp",
+   "alt": "The Value of Good Tools: Why the Right Equipment Saves Time, Money, and Frustration",
+   "w": 0,
+   "h": 0,
+   "y": 0,
+   "region": "main"
+  },
+  {
+   "src": "https://lh3.googleusercontent.com/a/ACg8ocK5a46jyaOz8hXDsdDGcBgqv5Uem_MfjbpO9W3I_qwhGil9aQ%3Ds96-c",
+   "alt": "Writer: Dan Fitzgerald",
+   "w": 0,
+   "h": 0,
+   "y": 0,
+   "region": "main"
+  },
+  {
+   "src": "https://static.wixstatic.com/media/b5fa70_7684fe290ca24813930e974e7504799a~mv2.png/v1/fill/w_334,h_250,fp_0.50_0.50,q_35,blur_30,enc_avif,quality_auto/b5fa70_7684fe290ca24813930e974e7504799a~mv2.png",
+   "alt": "How to Build a Classic Car Restoration Budget That Actually Works",
+   "w": 0,
+   "h": 0,
+   "y": 0,
+   "region": "main"
+  },
+  {
+   "src": "https://static.wixstatic.com/media/b5fa70_7684fe290ca24813930e974e7504799a~mv2.png/v1/fill/w_306,h_229,fp_0.50_0.50,q_95,enc_avif,quality_auto/b5fa70_7684fe290ca24813930e974e7504799a~mv2.webp",
+   "alt": "How to Build a Classic Car Restoration Budget That Actually Works",
+   "w": 0,
+   "h": 0,
+   "y": 0,
+   "region": "main"
+  },
+  {
+   "src": "https://lh3.googleusercontent.com/a/ACg8ocK5a46jyaOz8hXDsdDGcBgqv5Uem_MfjbpO9W3I_qwhGil9aQ%3Ds96-c",
+   "alt": "Writer: Dan Fitzgerald",
+   "w": 0,
+   "h": 0,
+   "y": 0,
+   "region": "main"
+  },
+  {
+   "src": "https://static.wixstatic.com/media/b5fa70_195ec909cf1740d088e7187a3abc2fa3~mv2.png/v1/fill/w_333,h_250,fp_0.50_0.50,q_35,blur_30,enc_avif,quality_auto/b5fa70_195ec909cf1740d088e7187a3abc2fa3~mv2.png",
+   "alt": "When a 1957 Positive-Ground Car Meets a Modern Negative-Ground Radio",
+   "w": 0,
+   "h": 0,
+   "y": 0,
+   "region": "main"
+  },
+  {
+   "src": "https://static.wixstatic.com/media/b5fa70_195ec909cf1740d088e7187a3abc2fa3~mv2.png/v1/fill/w_305,h_229,fp_0.50_0.50,q_95,enc_avif,quality_auto/b5fa70_195ec909cf1740d088e7187a3abc2fa3~mv2.webp",
+   "alt": "When a 1957 Positive-Ground Car Meets a Modern Negative-Ground Radio",
+   "w": 0,
+   "h": 0,
+   "y": 0,
+   "region": "main"
+  },
+  {
+   "src": "https://lh3.googleusercontent.com/a/ACg8ocK5a46jyaOz8hXDsdDGcBgqv5Uem_MfjbpO9W3I_qwhGil9aQ%3Ds96-c",
+   "alt": "Writer: Dan Fitzgerald",
+   "w": 0,
+   "h": 0,
+   "y": 0,
+   "region": "main"
+  },
+  {
+   "src": "https://static.wixstatic.com/media/b5fa70_2c928163aba94e6ebc3da742535962fc~mv2.png/v1/fill/w_333,h_250,fp_0.50_0.50,q_35,blur_30,enc_avif,quality_auto/b5fa70_2c928163aba94e6ebc3da742535962fc~mv2.png",
+   "alt": "Buying Your First Classic Car",
+   "w": 0,
+   "h": 0,
+   "y": 0,
+   "region": "main"
+  },
+  {
+   "src": "https://static.wixstatic.com/media/b5fa70_2c928163aba94e6ebc3da742535962fc~mv2.png/v1/fill/w_305,h_229,fp_0.50_0.50,q_95,enc_avif,quality_auto/b5fa70_2c928163aba94e6ebc3da742535962fc~mv2.webp",
+   "alt": "Buying Your First Classic Car",
+   "w": 0,
+   "h": 0,
+   "y": 0,
+   "region": "main"
+  },
+  {
+   "src": "https://lh3.googleusercontent.com/a/ACg8ocK5a46jyaOz8hXDsdDGcBgqv5Uem_MfjbpO9W3I_qwhGil9aQ%3Ds96-c",
+   "alt": "Writer: Dan Fitzgerald",
+   "w": 0,
+   "h": 0,
+   "y": 0,
+   "region": "main"
+  },
+  {
+   "src": "https://static.wixstatic.com/media/2e2a49_ab2e08c188f248779ab3728026123e34~mv2.png",
+   "alt": "logo",
+   "w": 82,
+   "h": 26,
+   "y": 4716,
+   "region": "footer"
+  },
+  {
+   "src": "https://static.wixstatic.com/media/b5fa70_2dbe98366738478597606747140a3d66~mv2.webp/v1/fill/w_170,h_113,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/logo.webp",
+   "alt": "Fitzgerald Classics logo featuring Route 66 and two classic American cars",
+   "w": 187,
+   "h": 113,
+   "y": 4673,
+   "region": "footer"
+  },
+  {
+   "imageInfo": "{\"displayMode\":\"fill\",\"targetWidth\":64,\"targetHeight\":64,\"isLQIP\":false,\"isSEOBot\":true,\"encoding\":\"AVIF\",\"imageData\":{\"width\":64,\"height\":64,\"uri\":\"https://lh3.googleusercontent.com/a/ACg8ocK5a46jyaOz8hXDsdDGcBgqv5Uem_MfjbpO9W3I_qwhGil9aQ%3Ds96-c\",\"name\":\"\",\"displayMode\":\"fill\"}}",
+   "region": "main"
+  },
+  {
+   "imageInfo": "{\"displayMode\":\"fill\",\"targetWidth\":64,\"targetHeight\":64,\"isLQIP\":false,\"isSEOBot\":true,\"encoding\":\"AVIF\",\"imageData\":{\"width\":64,\"height\":64,\"uri\":\"https://lh3.googleusercontent.com/a/ACg8ocK5a46jyaOz8hXDsdDGcBgqv5Uem_MfjbpO9W3I_qwhGil9aQ%3Ds96-c\",\"name\":\"\",\"displayMode\":\"fill\"}}",
+   "region": "main"
+  },
+  {
+   "imageInfo": "{\"displayMode\":\"fill\",\"targetWidth\":64,\"targetHeight\":64,\"isLQIP\":false,\"isSEOBot\":true,\"encoding\":\"AVIF\",\"imageData\":{\"width\":64,\"height\":64,\"uri\":\"https://lh3.googleusercontent.com/a/ACg8ocK5a46jyaOz8hXDsdDGcBgqv5Uem_MfjbpO9W3I_qwhGil9aQ%3Ds96-c\",\"name\":\"\",\"displayMode\":\"fill\"}}",
+   "region": "main"
+  },
+  {
+   "imageInfo": "{\"displayMode\":\"fill\",\"targetWidth\":64,\"targetHeight\":64,\"isLQIP\":false,\"isSEOBot\":true,\"encoding\":\"AVIF\",\"imageData\":{\"width\":64,\"height\":64,\"uri\":\"https://lh3.googleusercontent.com/a/ACg8ocK5a46jyaOz8hXDsdDGcBgqv5Uem_MfjbpO9W3I_qwhGil9aQ%3Ds96-c\",\"name\":\"\",\"displayMode\":\"fill\"}}",
+   "region": "main"
+  },
+  {
+   "imageInfo": "{\"displayMode\":\"fill\",\"targetWidth\":64,\"targetHeight\":64,\"isLQIP\":false,\"isSEOBot\":true,\"encoding\":\"AVIF\",\"imageData\":{\"width\":64,\"height\":64,\"uri\":\"https://lh3.googleusercontent.com/a/ACg8ocK5a46jyaOz8hXDsdDGcBgqv5Uem_MfjbpO9W3I_qwhGil9aQ%3Ds96-c\",\"name\":\"\",\"displayMode\":\"fill\"}}",
+   "region": "main"
+  },
+  {
+   "imageInfo": "{\"displayMode\":\"fill\",\"targetWidth\":64,\"targetHeight\":64,\"isLQIP\":false,\"isSEOBot\":true,\"encoding\":\"AVIF\",\"imageData\":{\"width\":64,\"height\":64,\"uri\":\"https://lh3.googleusercontent.com/a/ACg8ocK5a46jyaOz8hXDsdDGcBgqv5Uem_MfjbpO9W3I_qwhGil9aQ%3Ds96-c\",\"name\":\"\",\"displayMode\":\"fill\"}}",
+   "region": "main"
+  },
+  {
+   "imageInfo": "{\"displayMode\":\"fill\",\"targetWidth\":64,\"targetHeight\":64,\"isLQIP\":false,\"isSEOBot\":true,\"encoding\":\"AVIF\",\"imageData\":{\"width\":64,\"height\":64,\"uri\":\"https://lh3.googleusercontent.com/a/ACg8ocK5a46jyaOz8hXDsdDGcBgqv5Uem_MfjbpO9W3I_qwhGil9aQ%3Ds96-c\",\"name\":\"\",\"displayMode\":\"fill\"}}",
+   "region": "main"
+  },
+  {
+   "imageInfo": "{\"displayMode\":\"fill\",\"targetWidth\":64,\"targetHeight\":64,\"isLQIP\":false,\"isSEOBot\":true,\"encoding\":\"AVIF\",\"imageData\":{\"width\":64,\"height\":64,\"uri\":\"https://lh3.googleusercontent.com/a/ACg8ocK5a46jyaOz8hXDsdDGcBgqv5Uem_MfjbpO9W3I_qwhGil9aQ%3Ds96-c\",\"name\":\"\",\"displayMode\":\"fill\"}}",
+   "region": "main"
+  },
+  {
+   "imageInfo": "{\"displayMode\":\"fill\",\"targetWidth\":64,\"targetHeight\":64,\"isLQIP\":false,\"isSEOBot\":true,\"encoding\":\"AVIF\",\"imageData\":{\"width\":64,\"height\":64,\"uri\":\"https://lh3.googleusercontent.com/a/ACg8ocK5a46jyaOz8hXDsdDGcBgqv5Uem_MfjbpO9W3I_qwhGil9aQ%3Ds96-c\",\"name\":\"\",\"displayMode\":\"fill\"}}",
+   "region": "main"
+  },
+  {
+   "imageInfo": "{\"displayMode\":\"fill\",\"targetWidth\":64,\"targetHeight\":64,\"isLQIP\":false,\"isSEOBot\":true,\"encoding\":\"AVIF\",\"imageData\":{\"width\":64,\"height\":64,\"uri\":\"https://lh3.googleusercontent.com/a/ACg8ocK5a46jyaOz8hXDsdDGcBgqv5Uem_MfjbpO9W3I_qwhGil9aQ%3Ds96-c\",\"name\":\"\",\"displayMode\":\"fill\"}}",
+   "region": "main"
+  },
+  {
+   "imageInfo": "{\"displayMode\":\"fill\",\"targetWidth\":64,\"targetHeight\":64,\"isLQIP\":false,\"isSEOBot\":true,\"encoding\":\"AVIF\",\"imageData\":{\"width\":64,\"height\":64,\"uri\":\"https://lh3.googleusercontent.com/a/ACg8ocK5a46jyaOz8hXDsdDGcBgqv5Uem_MfjbpO9W3I_qwhGil9aQ%3Ds96-c\",\"name\":\"\",\"displayMode\":\"fill\"}}",
+   "region": "main"
+  },
+  {
+   "imageInfo": "{\"displayMode\":\"fill\",\"targetWidth\":64,\"targetHeight\":64,\"isLQIP\":false,\"isSEOBot\":true,\"encoding\":\"AVIF\",\"imageData\":{\"width\":64,\"height\":64,\"uri\":\"https://lh3.googleusercontent.com/a/ACg8ocK5a46jyaOz8hXDsdDGcBgqv5Uem_MfjbpO9W3I_qwhGil9aQ%3Ds96-c\",\"name\":\"\",\"displayMode\":\"fill\"}}",
+   "region": "main"
+  },
+  {
+   "imageInfo": "{\"displayMode\":\"fill\",\"targetWidth\":64,\"targetHeight\":64,\"isLQIP\":false,\"isSEOBot\":true,\"encoding\":\"AVIF\",\"imageData\":{\"width\":64,\"height\":64,\"uri\":\"https://lh3.googleusercontent.com/a/ACg8ocK5a46jyaOz8hXDsdDGcBgqv5Uem_MfjbpO9W3I_qwhGil9aQ%3Ds96-c\",\"name\":\"\",\"displayMode\":\"fill\"}}",
+   "region": "main"
+  },
+  {
+   "imageInfo": "{\"displayMode\":\"fill\",\"targetWidth\":64,\"targetHeight\":64,\"isLQIP\":false,\"isSEOBot\":true,\"encoding\":\"AVIF\",\"imageData\":{\"width\":64,\"height\":64,\"uri\":\"https://lh3.googleusercontent.com/a/ACg8ocK5a46jyaOz8hXDsdDGcBgqv5Uem_MfjbpO9W3I_qwhGil9aQ%3Ds96-c\",\"name\":\"\",\"displayMode\":\"fill\"}}",
+   "region": "main"
+  },
+  {
+   "imageInfo": "{\"displayMode\":\"fill\",\"targetWidth\":64,\"targetHeight\":64,\"isLQIP\":false,\"isSEOBot\":true,\"encoding\":\"AVIF\",\"imageData\":{\"width\":64,\"height\":64,\"uri\":\"https://lh3.googleusercontent.com/a/ACg8ocK5a46jyaOz8hXDsdDGcBgqv5Uem_MfjbpO9W3I_qwhGil9aQ%3Ds96-c\",\"name\":\"\",\"displayMode\":\"fill\"}}",
+   "region": "main"
+  },
+  {
+   "imageInfo": "{\"displayMode\":\"fill\",\"targetWidth\":64,\"targetHeight\":64,\"isLQIP\":false,\"isSEOBot\":true,\"encoding\":\"AVIF\",\"imageData\":{\"width\":64,\"height\":64,\"uri\":\"https://lh3.googleusercontent.com/a/ACg8ocK5a46jyaOz8hXDsdDGcBgqv5Uem_MfjbpO9W3I_qwhGil9aQ%3Ds96-c\",\"name\":\"\",\"displayMode\":\"fill\"}}",
+   "region": "main"
+  },
+  {
+   "imageInfo": "{\"displayMode\":\"fill\",\"targetWidth\":64,\"targetHeight\":64,\"isLQIP\":false,\"isSEOBot\":true,\"encoding\":\"AVIF\",\"imageData\":{\"width\":64,\"height\":64,\"uri\":\"https://lh3.googleusercontent.com/a/ACg8ocK5a46jyaOz8hXDsdDGcBgqv5Uem_MfjbpO9W3I_qwhGil9aQ%3Ds96-c\",\"name\":\"\",\"displayMode\":\"fill\"}}",
+   "region": "main"
+  },
+  {
+   "imageInfo": "{\"displayMode\":\"fill\",\"targetWidth\":64,\"targetHeight\":64,\"isLQIP\":false,\"isSEOBot\":true,\"encoding\":\"AVIF\",\"imageData\":{\"width\":64,\"height\":64,\"uri\":\"https://lh3.googleusercontent.com/a/ACg8ocK5a46jyaOz8hXDsdDGcBgqv5Uem_MfjbpO9W3I_qwhGil9aQ%3Ds96-c\",\"name\":\"\",\"displayMode\":\"fill\"}}",
+   "region": "main"
+  },
+  {
+   "imageInfo": "{\"displayMode\":\"fill\",\"targetWidth\":64,\"targetHeight\":64,\"isLQIP\":false,\"isSEOBot\":true,\"encoding\":\"AVIF\",\"imageData\":{\"width\":64,\"height\":64,\"uri\":\"https://lh3.googleusercontent.com/a/ACg8ocK5a46jyaOz8hXDsdDGcBgqv5Uem_MfjbpO9W3I_qwhGil9aQ%3Ds96-c\",\"name\":\"\",\"displayMode\":\"fill\"}}",
+   "region": "main"
+  },
+  {
+   "imageInfo": "{\"displayMode\":\"fit\",\"imageData\":{\"width\":499,\"height\":191,\"uri\":\"https://static.wixstatic.com/media/2e2a49_ab2e08c188f248779ab3728026123e34~mv2.png\",\"name\":\"logo\",\"displayMode\":\"fit\"}}",
+   "region": "footer"
+  },
+  {
+   "imageInfo": "{\"alignType\":\"center\",\"containerId\":\"comp-mtqaf8yq_r_comp-mtqc8wh1\",\"encoding\":\"AVIF\",\"imageData\":{\"name\":\"logo.jpeg\",\"uri\":\"b5fa70_2dbe98366738478597606747140a3d66~mv2.webp\",\"height\":1024,\"id\":\"dataItem-mtxf7vba\",\"alt\":\"Fitzgerald Classics logo featuring Route 66 and two classic American cars\",\"type\":\"Builder.Image\",\"metaData\":{\"isHidden\":false,\"sig\":\"i08-181\",\"schemaVersion\":\"1.0\",\"isPreset\":false},\"width\":1536,\"url\":\"https://static.wixstatic.com/media/b5fa70_2dbe98366738478597606747140a3d66~mv2.webp/v1/fill/w_1536,h_1024,al_c,q_85,enc_auto/b5fa70_2dbe98366738478597606747140a3d66~mv2.webp\",\"displayMode\":\"fit\"}}",
+   "region": "footer"
+  }
+ ],
+ "iframes": [],
+ "videos": [],
+ "forms": [],
+ "sections": [
+  {
+   "id": "comp-mtqaf8eo_r_comp-mb7ogqqn",
+   "y": 0,
+   "h": 58,
+   "bg": "rgba(10, 10, 10, 0)",
+   "bgImg": "none"
+  },
+  {
+   "id": "comp-mtqaf7gn",
+   "y": 58,
+   "h": 4549,
+   "bg": "rgba(10, 10, 10, 0)",
+   "bgImg": "none"
+  },
+  {
+   "id": "comp-mtqaf8yq_r_comp-kbgakgyt",
+   "y": 4607,
+   "h": 625,
+   "bg": "rgba(10, 10, 10, 0)",
+   "bgImg": "none"
+  }
+ ],
+ "fontFaces": [],
+ "cssVars": {
+  "--color_0": "10,10,10",
+  "--color_1": "10,10,10",
+  "--color_2": "26,26,26",
+  "--color_3": "56,56,56",
+  "--color_4": "184,184,176",
+  "--color_5": "245,245,240",
+  "--color_6": "26,26,26",
+  "--color_7": "56,56,56",
+  "--color_8": "197,160,89",
+  "--color_9": "184,184,176",
+  "--color_10": "245,245,240",
+  "--color_11": "10,10,10",
+  "--color_12": "26,26,26",
+  "--color_13": "56,56,56",
+  "--color_14": "184,184,176",
+  "--color_15": "245,245,240",
+  "--color_16": "26,26,26",
+  "--color_17": "56,56,56",
+  "--color_18": "197,160,89",
+  "--font_0": "normal normal normal calc(72 * clamp(0px, 100 * 1cqw * 1, min(9999px, 9999px)) / 1280)/1.2em madefor-display-bold,helveticaneuew01-65medi,helveticaneuew02-65medi,helveticaneuew10-65medi,sans-serif",
+  "--font_1": "normal normal normal 16px/1.4em din-next-w01-light,sans-serif",
+  "--font_2": "normal normal normal calc(42 * clamp(0px, 100 * 1cqw * 1, min(9999px, 9999px)) / 1280)/1.3em madefor-display-bold,helveticaneuew01-65medi,helveticaneuew02-65medi,helveticaneuew10-65medi,sans-serif",
+  "--font_3": "normal normal normal calc(38 * clamp(0px, 100 * 1cqw * 1, min(9999px, 9999px)) / 1280)/1.3em madefor-display-bold,helveticaneuew01-65medi,helveticaneuew02-65medi,helveticaneuew10-65medi,sans-serif",
+  "--font_4": "normal normal normal calc(34 * clamp(0px, 100 * 1cqw * 1, min(9999px, 9999px)) / 1280)/1.3em madefor-display-bold,helveticaneuew01-65medi,helveticaneuew02-65medi,helveticaneuew10-65medi,sans-serif",
+  "--font_5": "normal normal normal calc(28 * clamp(0px, 100 * 1cqw * 1, min(9999px, 9999px)) / 1280)/1.3em madefor-display-bold,helveticaneuew01-65medi,helveticaneuew02-65medi,helveticaneuew10-65medi,sans-serif",
+  "--font_6": "normal normal normal calc(22 * clamp(0px, 100 * 1cqw * 1, min(9999px, 9999px)) / 1280)/1.4em madefor-display-bold,helveticaneuew01-65medi,helveticaneuew02-65medi,helveticaneuew10-65medi,sans-serif",
+  "--font_7": "normal normal normal calc(18 * clamp(0px, 100 * 1cqw * 1, min(9999px, 9999px)) / 1280)/1.6em madefor-text,helveticaneuew01-45ligh,helveticaneuew02-45ligh,helveticaneuew10-45ligh,sans-serif",
+  "--font_8": "normal normal normal calc(16 * clamp(0px, 100 * 1cqw * 1, min(9999px, 9999px)) / 1280)/1.6em madefor-text,helveticaneuew01-45ligh,helveticaneuew02-45ligh,helveticaneuew10-45ligh,sans-serif",
+  "--font_9": "normal normal normal calc(14 * clamp(0px, 100 * 1cqw * 1, min(9999px, 9999px)) / 1280)/1.6em madefor-text,helveticaneuew01-45ligh,helveticaneuew02-45ligh,helveticaneuew10-45ligh,sans-serif",
+  "--font_10": "normal normal normal 12px/1.4em din-next-w01-light,sans-serif"
+ },
+ "anchors": [
+  "https://www.fitzgeraldclassics.com/",
+  "https://www.fitzgeraldclassics.com/portfolio",
+  "https://www.fitzgeraldclassics.com/blog",
+  "https://www.fitzgeraldclassics.com/about-us",
+  "https://www.fitzgeraldclassics.com/contact",
+  "https://www.fitzgeraldclassics.com/trusted-partners",
+  "https://www.fitzgeraldclassics.com/ebay-ecommerce",
+  "https://www.fitzgeraldclassics.com/fitzgerald-classics-garage",
+  "https://www.fitzgeraldclassics.com/vintage-hard-to-find-parts",
+  "https://www.fitzgeraldclassics.com/blank",
+  "https://www.fitzgeraldclassics.com/blog/categories/buying-ownership",
+  "https://www.fitzgeraldclassics.com/blog/categories/restoration-planning",
+  "https://www.fitzgeraldclassics.com/blog/categories/electrical-instruments",
+  "https://www.fitzgeraldclassics.com/blog/categories/engines-mechanical",
+  "https://www.fitzgeraldclassics.com/blog/categories/interior-finishing",
+  "https://www.fitzgeraldclassics.com/blog/categories/tools-shop",
+  "https://www.fitzgeraldclassics.com/post/classic-car-documentation-ncrs",
+  "https://www.fitzgeraldclassics.com/post/classic-car-paint-preparation",
+  "https://www.fitzgeraldclassics.com/post/five-restoration-habits-that-save-time-money-and-original-parts",
+  "https://www.fitzgeraldclassics.com/post/restoration-philosophy-preserve-classic-car",
+  "https://www.fitzgeraldclassics.com/post/7-electrical-tools-every-classic-car-owner-should-have",
+  "https://www.fitzgeraldclassics.com/post/10-tools-every-classic-car-owner-should-have",
+  "https://www.fitzgeraldclassics.com/post/hands-on-tool-reviews-restoration-garage",
+  "https://www.fitzgeraldclassics.com/post/classic-car-electrical-troubleshooting",
+  "https://www.fitzgeraldclassics.com/post/classic-car-body-panel-alignment",
+  "https://www.fitzgeraldclassics.com/post/buying-your-first-corvette",
+  "https://www.fitzgeraldclassics.com/post/gauge-restoration-repair-recalibrate-or-replace",
+  "https://www.fitzgeraldclassics.com/post/dash-restoration-where-a-classic-car-comes-back-to-life",
+  "https://www.fitzgeraldclassics.com/post/engine-paint-correctness",
+  "https://www.fitzgeraldclassics.com/post/bench-testing-classic-car-electrical-components-without-destroying-them",
+  "https://www.fitzgeraldclassics.com/post/restore-it-or-replace-it",
+  "https://www.fitzgeraldclassics.com/post/the-value-of-good-tools-why-the-right-equipment-saves-time-money-and-frustration",
+  "https://www.fitzgeraldclassics.com/post/how-to-build-a-classic-car-restoration-budget-that-actually-works",
+  "https://www.fitzgeraldclassics.com/post/when-a-1957-positive-ground-car-meets-a-modern-negative-ground-radio",
+  "https://www.fitzgeraldclassics.com/post/buying-your-first-classic-car",
+  "https://www.facebook.com/profile.php?id=61594520112307",
+  "https://instagram.com/fitzgeraldclassics"
+ ],
+ "height": 5232,
+ "bodyBg": "rgba(0, 0, 0, 0)",
+ "status390": 200,
+ "finalUrl390": "https://www.fitzgeraldclassics.com/blog",
+ "mobile": {
+  "blocks": [
+   {
+    "tag": "button",
+    "text": "All Posts",
+    "size": "14px",
+    "region": "main"
+   },
+   {
+    "tag": "h1",
+    "text": "All Posts",
+    "size": "36px",
+    "region": "main"
+   },
+   {
+    "tag": "a",
+    "text": "Classic Car Documentation and NCRS: Proving the Story Behind the Restoration",
+    "size": "14px",
+    "region": "main"
+   },
+   {
+    "tag": "h2",
+    "text": "Classic Car Documentation and NCRS: Proving the Story Behind the Restoration",
+    "size": "22px",
+    "region": "main"
+   },
+   {
+    "tag": "p",
+    "text": "A restoration record is the memory of the project. Learn how photos, component n",
+    "size": "14px",
+    "region": "main"
+   },
+   {
+    "tag": "a",
+    "text": "Classic Car Paint Preparation: The Finish Is Only as Good as What Lies Beneath",
+    "size": "14px",
+    "region": "main"
+   },
+   {
+    "tag": "h2",
+    "text": "Classic Car Paint Preparation: The Finish Is Only as Good as What Lies Beneath",
+    "size": "22px",
+    "region": "main"
+   },
+   {
+    "tag": "p",
+    "text": "Great classic-car paint begins long before color. Learn how stripping, repair, p",
+    "size": "14px",
+    "region": "main"
+   },
+   {
+    "tag": "a",
+    "text": "Five Restoration Habits That Save Time, Money, and Original Parts",
+    "size": "14px",
+    "region": "main"
+   },
+   {
+    "tag": "h2",
+    "text": "Five Restoration Habits That Save Time, Money, and Original Parts",
+    "size": "22px",
+    "region": "main"
+   },
+   {
+    "tag": "p",
+    "text": "Five practical restoration habits that protect original parts, prevent rework, a",
+    "size": "14px",
+    "region": "main"
+   },
+   {
+    "tag": "a",
+    "text": "Restoration Philosophy: What Does It Mean to Preserve a Classic Car?",
+    "size": "14px",
+    "region": "main"
+   },
+   {
+    "tag": "h2",
+    "text": "Restoration Philosophy: What Does It Mean to Preserve a Classic Car?",
+    "size": "22px",
+    "region": "main"
+   },
+   {
+    "tag": "p",
+    "text": "Explore preservation, authenticity, safety and usability—and learn how to choose",
+    "size": "14px",
+    "region": "main"
+   },
+   {
+    "tag": "a",
+    "text": "7 Electrical Tools Every Classic-Car Owner Should Have",
+    "size": "14px",
+    "region": "main"
+   },
+   {
+    "tag": "h2",
+    "text": "7 Electrical Tools Every Classic-Car Owner Should Have",
+    "size": "22px",
+    "region": "main"
+   },
+   {
+    "tag": "p",
+    "text": "Seven practical electrical tools that help classic-car owners diagnose faults be",
+    "size": "14px",
+    "region": "main"
+   },
+   {
+    "tag": "h2",
+    "text": "Fitzgerald Classics",
+    "size": "30px",
+    "region": "footer"
+   },
+   {
+    "tag": "p",
+    "text": "Preserving Americana, one car at a time.",
+    "size": "16px",
+    "region": "footer"
+   },
+   {
+    "tag": "p",
+    "text": "Education first. Commerce supports the mission.",
+    "size": "16px",
+    "region": "footer"
+   },
+   {
+    "tag": "p",
+    "text": "© 2026 Fitzgerald Classics. Veteran Owned. 10% of merchandise and eBay profits s",
+    "size": "14px",
+    "region": "footer"
+   }
+  ],
+  "height": 3823
+ }
+}

@@ -1,0 +1,130 @@
+{
+ "url": "https://www.fitzgeraldclassics.com/how-to-videos/1971-pontiac-gto-455-%25e2%2580%2593-holley-sniper-efi-parts-arrived-why-vintage-air",
+ "status1440": 404,
+ "finalUrl1440": "https://www.fitzgeraldclassics.com/how-to-videos/1971-pontiac-gto-455-%25e2%2580%2593-holley-sniper-efi-parts-arrived-why-vintage-air",
+ "title": "404 Error: Page Not Found",
+ "meta": {
+  "viewport": "width=device-width, initial-scale=1",
+  "robots": "noindex"
+ },
+ "links": [],
+ "ld": [],
+ "blocks": [
+  {
+   "tag": "h2",
+   "text": "ERROR: PAGE NOT FOUND",
+   "region": "main",
+   "y": 198,
+   "x": 72,
+   "font": "\"Madefor Display\", sans-serif",
+   "size": "19.44px",
+   "weight": "700",
+   "color": "rgb(0, 0, 0)",
+   "lh": "normal",
+   "ls": "0.972px",
+   "tt": "none",
+   "align": "left"
+  },
+  {
+   "tag": "h1",
+   "text": "404",
+   "region": "main",
+   "y": 223,
+   "x": 72,
+   "font": "\"Madefor Display\", sans-serif",
+   "size": "288px",
+   "weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "lh": "normal",
+   "ls": "-20.16px",
+   "tt": "none",
+   "align": "left"
+  },
+  {
+   "tag": "a",
+   "text": "Go to Homepage",
+   "region": "main",
+   "y": 648,
+   "x": 72,
+   "font": "\"Madefor Display\", sans-serif",
+   "size": "16px",
+   "weight": "400",
+   "color": "rgb(0, 0, 238)",
+   "lh": "normal",
+   "ls": "normal",
+   "tt": "none",
+   "align": "left",
+   "href": "https://www.fitzgeraldclassics.com/",
+   "bg": "rgba(0, 0, 0, 0)",
+   "radius": "0px",
+   "border": "0px none rgb(0, 0, 238)",
+   "pad": "0px",
+   "w": 720,
+   "h": 82
+  },
+  {
+   "tag": "button",
+   "text": "Go to Homepage",
+   "region": "main",
+   "y": 666,
+   "x": 72,
+   "font": "Madefor, sans-serif",
+   "size": "21.6px",
+   "weight": "400",
+   "color": "rgb(255, 255, 255)",
+   "lh": "normal",
+   "ls": "normal",
+   "tt": "none",
+   "align": "center",
+   "bg": "rgb(0, 0, 0)",
+   "radius": "50px",
+   "border": "0px none rgb(255, 255, 255)",
+   "pad": "12.96px 40.32px",
+   "w": 253,
+   "h": 53
+  }
+ ],
+ "imgs": [],
+ "iframes": [],
+ "videos": [],
+ "forms": [],
+ "sections": [],
+ "fontFaces": [],
+ "cssVars": {},
+ "anchors": [
+  "https://www.fitzgeraldclassics.com/"
+ ],
+ "height": 900,
+ "bodyBg": "rgba(0, 0, 0, 0)",
+ "status390": 404,
+ "finalUrl390": "https://www.fitzgeraldclassics.com/how-to-videos/1971-pontiac-gto-455-%25e2%2580%2593-holley-sniper-efi-parts-arrived-why-vintage-air",
+ "mobile": {
+  "blocks": [
+   {
+    "tag": "h1",
+    "text": "Page not found.",
+    "size": "32px",
+    "region": "main"
+   },
+   {
+    "tag": "p",
+    "text": "(Error 404)",
+    "size": "16px",
+    "region": "main"
+   },
+   {
+    "tag": "p",
+    "text": "Double check the website address and retype it in the address bar—or return to h",
+    "size": "16px",
+    "region": "main"
+   },
+   {
+    "tag": "a",
+    "text": "Back to Homepage",
+    "size": "10px",
+    "region": "main"
+   }
+  ],
+  "height": 844
+ }
+}

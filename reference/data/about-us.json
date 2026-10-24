@@ -1,0 +1,582 @@
+{
+ "url": "https://www.fitzgeraldclassics.com/about-us",
+ "status1440": 200,
+ "finalUrl1440": "https://www.fitzgeraldclassics.com/about-us",
+ "title": "About Fitzgerald Classics | Preserving Automotive History",
+ "meta": {
+  "description": "Learn about Fitzgerald Classics, our approach to classic American automobiles, craftsmanship, preservation, and our mission to preserve Americana one car at a time.",
+  "og:title": "About Fitzgerald Classics | Preserving Automotive History",
+  "og:description": "Learn about Fitzgerald Classics, our approach to classic American automobiles, craftsmanship, preservation, and our mission to preserve Americana one car at a time.",
+  "og:url": "https://www.fitzgeraldclassics.com/about-us",
+  "og:site_name": "Fitzgerald Classics",
+  "og:type": "website",
+  "google-site-verification": "vj-8FEwO3GEryTsRNbFFo6UxjWj6YL2Z2HaHuZWjeiU",
+  "twitter:card": "summary_large_image",
+  "twitter:title": "About Fitzgerald Classics | Preserving Automotive History",
+  "twitter:description": "Learn about Fitzgerald Classics, our approach to classic American automobiles, craftsmanship, preservation, and our mission to preserve Americana one car at a time.",
+  "viewport": "width=device-width, initial-scale=1",
+  "generator": "Wix.com Website Builder",
+  "format-detection": "telephone=no",
+  "skype_toolbar": "skype_toolbar_parser_compatible"
+ },
+ "links": [
+  {
+   "rel": "canonical",
+   "href": "https://www.fitzgeraldclassics.com/about-us",
+   "sizes": ""
+  },
+  {
+   "rel": "icon",
+   "href": "https://static.parastorage.com/client/pfavico.ico",
+   "sizes": "192x192"
+  },
+  {
+   "rel": "shortcut icon",
+   "href": "https://static.parastorage.com/client/pfavico.ico",
+   "sizes": ""
+  },
+  {
+   "rel": "apple-touch-icon",
+   "href": "https://static.parastorage.com/client/pfavico.ico",
+   "sizes": ""
+  }
+ ],
+ "ld": [],
+ "blocks": [
+  {
+   "tag": "p",
+   "text": "MENU",
+   "region": "header",
+   "y": 16,
+   "x": 1303,
+   "font": "inter",
+   "size": "12px",
+   "weight": "400",
+   "color": "rgb(197, 160, 89)",
+   "lh": "25.2px",
+   "ls": "1.575px",
+   "tt": "uppercase",
+   "align": "right"
+  },
+  {
+   "tag": "h6",
+   "text": "OUR STORY",
+   "region": "main",
+   "y": 276,
+   "x": 739,
+   "font": "inter",
+   "size": "27px",
+   "weight": "500",
+   "color": "rgb(184, 184, 176)",
+   "lh": "35.1px",
+   "ls": "2.7px",
+   "tt": "uppercase",
+   "align": "start"
+  },
+  {
+   "tag": "h1",
+   "text": "Restoring the Soul of America",
+   "region": "main",
+   "y": 334,
+   "x": 739,
+   "font": "libre-caslon-text",
+   "size": "103.5px",
+   "weight": "700",
+   "color": "rgb(245, 245, 240)",
+   "lh": "108.675px",
+   "ls": "normal",
+   "tt": "none",
+   "align": "start"
+  },
+  {
+   "tag": "p",
+   "text": "At Fitzgerald Classics, we believe every vintage automobile tells a story worth preserving. Our mission is to honor the craftsmanship of the past while educating the enthusiasts of the future. Through meticulous restoration and a commitment to authenticity, we ensure that these rolling pieces of history continue to inspire for generations to come.",
+   "region": "main",
+   "y": 683,
+   "x": 739,
+   "font": "inter",
+   "size": "22.5px",
+   "weight": "400",
+   "color": "rgb(245, 245, 240)",
+   "lh": "33.75px",
+   "ls": "normal",
+   "tt": "none",
+   "align": "start"
+  },
+  {
+   "tag": "button",
+   "text": "Have a question about your classic car?",
+   "region": "main",
+   "y": 782,
+   "x": 1224,
+   "font": "sans-serif",
+   "size": "14px",
+   "weight": "400",
+   "color": "rgb(245, 245, 240)",
+   "lh": "18px",
+   "ls": "normal",
+   "tt": "none",
+   "align": "start",
+   "bg": "rgba(0, 0, 0, 0)",
+   "radius": "0px",
+   "border": "0px none rgb(245, 245, 240)",
+   "pad": "0px",
+   "w": 182,
+   "h": 34,
+   "innerFont": "sans-serif",
+   "innerSize": "14px",
+   "innerColor": "rgb(245, 245, 240)"
+  },
+  {
+   "tag": "button",
+   "text": "Ask Fitz",
+   "region": "main",
+   "y": 840,
+   "x": 1291,
+   "font": "Arial",
+   "size": "18.2134px",
+   "weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "lh": "normal",
+   "ls": "normal",
+   "tt": "none",
+   "align": "center",
+   "bg": "rgb(197, 160, 89)",
+   "radius": "90px",
+   "border": "0px solid rgba(0, 0, 0, 0)",
+   "pad": "12px 22px",
+   "w": 139,
+   "h": 50,
+   "innerFont": "Arial",
+   "innerSize": "18.2134px",
+   "innerColor": "rgb(0, 0, 0)"
+  },
+  {
+   "tag": "h2",
+   "text": "Heritage & Restoration Philosophy",
+   "region": "main",
+   "y": 1195,
+   "x": 91,
+   "font": "libre-caslon-text",
+   "size": "58.5px",
+   "weight": "700",
+   "color": "rgb(245, 245, 240)",
+   "lh": "64.35px",
+   "ls": "normal",
+   "tt": "none",
+   "align": "left"
+  },
+  {
+   "tag": "p",
+   "text": "Every classic automobile is more than a machine—it is a living piece of Americana. Fitzgerald Classics documents the research, craftsmanship, challenges, and decisions involved in preserving these vehicles and the stories they carry.",
+   "region": "main",
+   "y": 1370,
+   "x": 91,
+   "font": "inter",
+   "size": "18px",
+   "weight": "400",
+   "color": "rgb(245, 245, 240)",
+   "lh": "28.8px",
+   "ls": "normal",
+   "tt": "none",
+   "align": "left"
+  },
+  {
+   "tag": "p",
+   "text": "Our philosophy is simple: respect the vehicle, understand its history, document the journey, and share what we learn. Whether restoring a car completely or carefully improving a survivor, the goal is to preserve its character for the next generation.",
+   "region": "main",
+   "y": 1370,
+   "x": 482,
+   "font": "inter",
+   "size": "18px",
+   "weight": "400",
+   "color": "rgb(245, 245, 240)",
+   "lh": "28.8px",
+   "ls": "normal",
+   "tt": "none",
+   "align": "left"
+  },
+  {
+   "tag": "a",
+   "text": "View Our Projects",
+   "region": "main",
+   "y": 1662,
+   "x": 91,
+   "font": "Arial, Helvetica, sans-serif",
+   "size": "10px",
+   "weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "lh": "normal",
+   "ls": "normal",
+   "tt": "none",
+   "align": "start",
+   "href": "https://www.fitzgeraldclassics.com/portfolio",
+   "bg": "rgb(10, 10, 10)",
+   "radius": "0px",
+   "border": "1px solid rgb(197, 160, 89)",
+   "pad": "13.5px 27px",
+   "w": 189,
+   "h": 87,
+   "innerFont": "inter",
+   "innerSize": "18px",
+   "innerColor": "rgb(197, 160, 89)"
+  },
+  {
+   "tag": "h2",
+   "text": "INTERESTED IN BECOMING A TRUSTED PARTNER?",
+   "region": "main",
+   "y": 2006,
+   "x": 238,
+   "font": "libre-caslon-text",
+   "size": "76.5px",
+   "weight": "700",
+   "color": "rgb(197, 160, 89)",
+   "lh": "84.15px",
+   "ls": "1.53px",
+   "tt": "uppercase",
+   "align": "center"
+  },
+  {
+   "tag": "p",
+   "text": "We take pride in partnering with companies that provide exceptional products or services to the classic automobile community. Together, we are committed to preserving America’s automotive history and supporting the craftsmen who keep these legends on the road.",
+   "region": "main",
+   "y": 2286,
+   "x": 360,
+   "font": "inter",
+   "size": "22.5px",
+   "weight": "400",
+   "color": "rgb(245, 245, 240)",
+   "lh": "33.75px",
+   "ls": "normal",
+   "tt": "none",
+   "align": "center"
+  },
+  {
+   "tag": "a",
+   "text": "Contact Fitzgerald Classics",
+   "region": "main",
+   "y": 2500,
+   "x": 577,
+   "font": "Arial, Helvetica, sans-serif",
+   "size": "10px",
+   "weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "lh": "normal",
+   "ls": "normal",
+   "tt": "none",
+   "align": "start",
+   "href": "https://www.fitzgeraldclassics.com/contact",
+   "bg": "rgb(197, 160, 89)",
+   "radius": "0px",
+   "border": "0px solid rgb(245, 245, 240)",
+   "pad": "13.5px 27px",
+   "w": 288,
+   "h": 56,
+   "innerFont": "inter",
+   "innerSize": "18px",
+   "innerColor": "rgb(10, 10, 10)"
+  },
+  {
+   "tag": "h2",
+   "text": "Fitzgerald Classics",
+   "region": "footer",
+   "y": 2767,
+   "x": 228,
+   "font": "libre-caslon-text",
+   "size": "30px",
+   "weight": "700",
+   "color": "rgb(245, 245, 240)",
+   "lh": "40.5px",
+   "ls": "normal",
+   "tt": "none",
+   "align": "start"
+  },
+  {
+   "tag": "p",
+   "text": "Preserving Americana, one car at a time.",
+   "region": "footer",
+   "y": 2918,
+   "x": 46,
+   "font": "inter",
+   "size": "18px",
+   "weight": "400",
+   "color": "rgb(245, 245, 240)",
+   "lh": "28.8px",
+   "ls": "normal",
+   "tt": "none",
+   "align": "start"
+  },
+  {
+   "tag": "p",
+   "text": "Education first. Commerce supports the mission.",
+   "region": "footer",
+   "y": 2918,
+   "x": 519,
+   "font": "inter",
+   "size": "18px",
+   "weight": "400",
+   "color": "rgb(245, 245, 240)",
+   "lh": "28.8px",
+   "ls": "normal",
+   "tt": "none",
+   "align": "start"
+  },
+  {
+   "tag": "p",
+   "text": "© 2026 Fitzgerald Classics. Veteran Owned. 10% of merchandise and eBay profits support Tunnel to Towers Foundation. As an Amazon Associate, Fitzgerald Classics earns from qualifying purchases.",
+   "region": "footer",
+   "y": 3038,
+   "x": 46,
+   "font": "inter",
+   "size": "15.75px",
+   "weight": "400",
+   "color": "rgb(184, 184, 176)",
+   "lh": "25.2px",
+   "ls": "normal",
+   "tt": "none",
+   "align": "left"
+  }
+ ],
+ "imgs": [
+  {
+   "src": "https://static.wixstatic.com/media/b5fa70_a87c06e5a7cb4d25a6f6933d0aceb8fd~mv2.png/v1/fill/w_648,h_862,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/Dan%20Fitzgerald%20About%20Portrait%20-%20Natural%20Proportions%20FINAL.png",
+   "alt": "Dan Fitzgerald, founder of Fitzgerald Classics, in his classic car workshop",
+   "w": 648,
+   "h": 862,
+   "y": 150,
+   "region": "main"
+  },
+  {
+   "src": "https://static.wixstatic.com/media/b5fa70_80b29c3c58754fab8f4e509419113784~mv2.jpg/v1/fill/w_478,h_611,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/ai-generated-IMAGE.jpg",
+   "alt": "",
+   "w": 478,
+   "h": 611,
+   "y": 1195,
+   "region": "main"
+  },
+  {
+   "src": "https://static.wixstatic.com/media/2e2a49_ab2e08c188f248779ab3728026123e34~mv2.png",
+   "alt": "logo",
+   "w": 82,
+   "h": 26,
+   "y": 2774,
+   "region": "footer"
+  },
+  {
+   "src": "https://static.wixstatic.com/media/b5fa70_2dbe98366738478597606747140a3d66~mv2.webp/v1/fill/w_170,h_113,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/logo.webp",
+   "alt": "Fitzgerald Classics logo featuring Route 66 and two classic American cars",
+   "w": 187,
+   "h": 113,
+   "y": 2731,
+   "region": "footer"
+  },
+  {
+   "imageInfo": "{\"alignType\":\"center\",\"containerId\":\"comp-mtqmv6v2\",\"encoding\":\"AVIF\",\"imageData\":{\"name\":\"Dan Fitzgerald About Portrait - Natural Proportions FINAL.png\",\"uri\":\"b5fa70_a87c06e5a7cb4d25a6f6933d0aceb8fd~mv2.png\",\"height\":1451,\"id\":\"dataItem-mts1fchp\",\"alt\":\"Dan Fitzgerald, founder of Fitzgerald Classics, in his classic car workshop\",\"type\":\"Builder.Image\",\"metaData\":{\"isHidden\":false,\"sig\":\"1nw-55\",\"schemaVersion\":\"1.0\",\"isPreset\":false},\"width\":1084,\"url\":\"https://static.wixstatic.com/media/b5fa70_a87c06e5a7cb4d25a6f6933d0aceb8fd~mv2.png/v1/fill/w_1084,h_1451,al_c,q_90,enc_auto/b5fa70_a87c06e5a7cb4d25a6f6933d0aceb8fd~mv2.png\",\"displayMode\":\"fill\"}}",
+   "region": "main"
+  },
+  {
+   "imageInfo": "{\"alignType\":\"center\",\"containerId\":\"comp-mtqn45n5\",\"encoding\":\"AVIF\",\"imageData\":{\"name\":\"ai-generated-IMAGE.jpg\",\"uri\":\"b5fa70_80b29c3c58754fab8f4e509419113784~mv2.jpg\",\"height\":2048,\"id\":\"dataItem-mtqn45na1\",\"type\":\"Builder.Image\",\"metaData\":{\"isHidden\":false,\"sig\":\"znv-1672\",\"schemaVersion\":\"1.0\",\"isPreset\":false},\"width\":1536,\"url\":\"https://static.wixstatic.com/media/b5fa70_80b29c3c58754fab8f4e509419113784~mv2.jpg/v1/fill/w_1536,h_2048,al_c,q_90,enc_auto/b5fa70_80b29c3c58754fab8f4e509419113784~mv2.jpg\",\"displayMode\":\"fill\"}}",
+   "region": "main"
+  },
+  {
+   "imageInfo": "{\"displayMode\":\"fit\",\"imageData\":{\"width\":499,\"height\":191,\"uri\":\"https://static.wixstatic.com/media/2e2a49_ab2e08c188f248779ab3728026123e34~mv2.png\",\"name\":\"logo\",\"displayMode\":\"fit\"}}",
+   "region": "footer"
+  },
+  {
+   "imageInfo": "{\"alignType\":\"center\",\"containerId\":\"comp-mtqgkjm5_r_comp-mtqc8wh1\",\"encoding\":\"AVIF\",\"imageData\":{\"name\":\"logo.jpeg\",\"uri\":\"b5fa70_2dbe98366738478597606747140a3d66~mv2.webp\",\"height\":1024,\"id\":\"dataItem-mtxf7vba\",\"alt\":\"Fitzgerald Classics logo featuring Route 66 and two classic American cars\",\"type\":\"Builder.Image\",\"metaData\":{\"isHidden\":false,\"sig\":\"i08-181\",\"schemaVersion\":\"1.0\",\"isPreset\":false},\"width\":1536,\"url\":\"https://static.wixstatic.com/media/b5fa70_2dbe98366738478597606747140a3d66~mv2.webp/v1/fill/w_1536,h_1024,al_c,q_85,enc_auto/b5fa70_2dbe98366738478597606747140a3d66~mv2.webp\",\"displayMode\":\"fit\"}}",
+   "region": "footer"
+  }
+ ],
+ "iframes": [],
+ "videos": [],
+ "forms": [],
+ "sections": [
+  {
+   "id": "comp-mtqgkjk1_r_comp-mb7ogqqn",
+   "y": 0,
+   "h": 58,
+   "bg": "rgba(10, 10, 10, 0)",
+   "bgImg": "none"
+  },
+  {
+   "id": "comp-mtqgkjca",
+   "y": 58,
+   "h": 1046,
+   "bg": "rgba(10, 10, 10, 0)",
+   "bgImg": "none"
+  },
+  {
+   "id": "comp-mtqluy72",
+   "y": 1104,
+   "h": 793,
+   "bg": "rgba(10, 10, 10, 0)",
+   "bgImg": "none"
+  },
+  {
+   "id": "comp-mtst2xil",
+   "y": 1897,
+   "h": 768,
+   "bg": "rgba(10, 10, 10, 0)",
+   "bgImg": "none"
+  },
+  {
+   "id": "comp-mtqgkjm5_r_comp-kbgakgyt",
+   "y": 2666,
+   "h": 625,
+   "bg": "rgba(10, 10, 10, 0)",
+   "bgImg": "none"
+  }
+ ],
+ "fontFaces": [],
+ "cssVars": {
+  "--color_0": "10,10,10",
+  "--color_1": "10,10,10",
+  "--color_2": "26,26,26",
+  "--color_3": "56,56,56",
+  "--color_4": "184,184,176",
+  "--color_5": "245,245,240",
+  "--color_6": "26,26,26",
+  "--color_7": "56,56,56",
+  "--color_8": "197,160,89",
+  "--color_9": "184,184,176",
+  "--color_10": "245,245,240",
+  "--color_11": "10,10,10",
+  "--color_12": "26,26,26",
+  "--color_13": "56,56,56",
+  "--color_14": "184,184,176",
+  "--color_15": "245,245,240",
+  "--color_16": "26,26,26",
+  "--color_17": "56,56,56",
+  "--color_18": "197,160,89",
+  "--font_0": "normal normal normal calc(72 * clamp(0px, 100 * 1cqw * 1, min(9999px, 9999px)) / 1280)/1.2em madefor-display-bold,helveticaneuew01-65medi,helveticaneuew02-65medi,helveticaneuew10-65medi,sans-serif",
+  "--font_1": "normal normal normal 16px/1.4em din-next-w01-light,sans-serif",
+  "--font_2": "normal normal normal calc(42 * clamp(0px, 100 * 1cqw * 1, min(9999px, 9999px)) / 1280)/1.3em madefor-display-bold,helveticaneuew01-65medi,helveticaneuew02-65medi,helveticaneuew10-65medi,sans-serif",
+  "--font_3": "normal normal normal calc(38 * clamp(0px, 100 * 1cqw * 1, min(9999px, 9999px)) / 1280)/1.3em madefor-display-bold,helveticaneuew01-65medi,helveticaneuew02-65medi,helveticaneuew10-65medi,sans-serif",
+  "--font_4": "normal normal normal calc(34 * clamp(0px, 100 * 1cqw * 1, min(9999px, 9999px)) / 1280)/1.3em madefor-display-bold,helveticaneuew01-65medi,helveticaneuew02-65medi,helveticaneuew10-65medi,sans-serif",
+  "--font_5": "normal normal normal calc(28 * clamp(0px, 100 * 1cqw * 1, min(9999px, 9999px)) / 1280)/1.3em madefor-display-bold,helveticaneuew01-65medi,helveticaneuew02-65medi,helveticaneuew10-65medi,sans-serif",
+  "--font_6": "normal normal normal calc(22 * clamp(0px, 100 * 1cqw * 1, min(9999px, 9999px)) / 1280)/1.4em madefor-display-bold,helveticaneuew01-65medi,helveticaneuew02-65medi,helveticaneuew10-65medi,sans-serif",
+  "--font_7": "normal normal normal calc(18 * clamp(0px, 100 * 1cqw * 1, min(9999px, 9999px)) / 1280)/1.6em madefor-text,helveticaneuew01-45ligh,helveticaneuew02-45ligh,helveticaneuew10-45ligh,sans-serif",
+  "--font_8": "normal normal normal calc(16 * clamp(0px, 100 * 1cqw * 1, min(9999px, 9999px)) / 1280)/1.6em madefor-text,helveticaneuew01-45ligh,helveticaneuew02-45ligh,helveticaneuew10-45ligh,sans-serif",
+  "--font_9": "normal normal normal calc(14 * clamp(0px, 100 * 1cqw * 1, min(9999px, 9999px)) / 1280)/1.6em madefor-text,helveticaneuew01-45ligh,helveticaneuew02-45ligh,helveticaneuew10-45ligh,sans-serif",
+  "--font_10": "normal normal normal 12px/1.4em din-next-w01-light,sans-serif"
+ },
+ "anchors": [
+  "https://www.fitzgeraldclassics.com/",
+  "https://www.fitzgeraldclassics.com/portfolio",
+  "https://www.fitzgeraldclassics.com/blog",
+  "https://www.fitzgeraldclassics.com/about-us",
+  "https://www.fitzgeraldclassics.com/contact",
+  "https://www.fitzgeraldclassics.com/trusted-partners",
+  "https://www.fitzgeraldclassics.com/ebay-ecommerce",
+  "https://www.fitzgeraldclassics.com/fitzgerald-classics-garage",
+  "https://www.fitzgeraldclassics.com/vintage-hard-to-find-parts",
+  "https://www.fitzgeraldclassics.com/blank",
+  "https://www.facebook.com/profile.php?id=61594520112307",
+  "https://instagram.com/fitzgeraldclassics"
+ ],
+ "height": 3290,
+ "bodyBg": "rgba(0, 0, 0, 0)",
+ "status390": 200,
+ "finalUrl390": "https://www.fitzgeraldclassics.com/about-us",
+ "mobile": {
+  "blocks": [
+   {
+    "tag": "h6",
+    "text": "OUR STORY",
+    "size": "20px",
+    "region": "main"
+   },
+   {
+    "tag": "h1",
+    "text": "Restoring the Soul of America",
+    "size": "36px",
+    "region": "main"
+   },
+   {
+    "tag": "p",
+    "text": "At Fitzgerald Classics, we believe every vintage automobile tells a story worth ",
+    "size": "18px",
+    "region": "main"
+   },
+   {
+    "tag": "button",
+    "text": "Have a question about your classic car?",
+    "size": "14px",
+    "region": "main"
+   },
+   {
+    "tag": "button",
+    "text": "Ask Fitz",
+    "size": "17.0666px",
+    "region": "main"
+   },
+   {
+    "tag": "h2",
+    "text": "Heritage & Restoration Philosophy",
+    "size": "28px",
+    "region": "main"
+   },
+   {
+    "tag": "p",
+    "text": "Every classic automobile is more than a machine—it is a living piece of American",
+    "size": "16px",
+    "region": "main"
+   },
+   {
+    "tag": "p",
+    "text": "Our philosophy is simple: respect the vehicle, understand its history, document ",
+    "size": "16px",
+    "region": "main"
+   },
+   {
+    "tag": "a",
+    "text": "VIEW OUR PROJECTS",
+    "size": "10px",
+    "region": "main"
+   },
+   {
+    "tag": "h2",
+    "text": "INTERESTED IN BECOMING A TRUSTED PARTNER?",
+    "size": "30px",
+    "region": "main"
+   },
+   {
+    "tag": "p",
+    "text": "We take pride in partnering with companies that provide exceptional products or ",
+    "size": "18px",
+    "region": "main"
+   },
+   {
+    "tag": "a",
+    "text": "CONTACT FITZGERALD CLASSICS",
+    "size": "10px",
+    "region": "main"
+   },
+   {
+    "tag": "h2",
+    "text": "Fitzgerald Classics",
+    "size": "30px",
+    "region": "footer"
+   },
+   {
+    "tag": "p",
+    "text": "Preserving Americana, one car at a time.",
+    "size": "16px",
+    "region": "footer"
+   },
+   {
+    "tag": "p",
+    "text": "Education first. Commerce supports the mission.",
+    "size": "16px",
+    "region": "footer"
+   },
+   {
+    "tag": "p",
+    "text": "© 2026 Fitzgerald Classics. Veteran Owned. 10% of merchandise and eBay profits s",
+    "size": "14px",
+    "region": "footer"
+   }
+  ],
+  "height": 3223
+ }
+}

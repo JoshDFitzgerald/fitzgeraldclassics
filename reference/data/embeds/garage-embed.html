@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+*{box-sizing:border-box}
+
+body{
+  margin:0;
+  background:#0d0d0d;
+  color:#fff;
+  font-family:Arial,Helvetica,sans-serif;
+}
+
+.wrap{
+  max-width:1200px;
+  margin:0 auto;
+  padding:24px 20px 30px;
+}
+
+.controls{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:18px;
+  flex-wrap:wrap;
+  margin-bottom:26px;
+}
+
+.filter{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  flex-wrap:wrap;
+}
+
+label{
+  color:#d9ad50;
+  font-weight:700;
+  font-size:17px;
+}
+
+select{
+  background:#181818;
+  color:#fff;
+  border:1px solid #d9ad50;
+  padding:12px 14px;
+  font-size:16px;
+  min-width:280px;
+}
+
+.pager{
+  display:flex;
+  align-items:center;
+  gap:12px;
+}
+
+.nav,
+.amazon{
+  background:#d9ad50;
+  color:#050505;
+  border:0;
+  font-weight:700;
+  cursor:pointer;
+}
+
+.nav{
+  padding:11px 18px;
+  font-size:15px;
+}
+
+.nav:disabled{
+  opacity:.4;
+  cursor:default;
+}
+
+.status{
+  min-width:70px;
+  text-align:center;
+  color:#ddd;
+}
+
+.grid{
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:20px;
+}
+
+.card{
+  background:#171717;
+  border:1px solid #2a2a2a;
+  padding:18px;
+  display:flex;
+  flex-direction:column;
+  min-width:0;
+}
+
+.category{
+  color:#d9ad50;
+  text-transform:uppercase;
+  letter-spacing:1.4px;
+  font-size:12px;
+  font-weight:700;
+  text-align:center;
+  margin-bottom:10px;
+}
+
+h3{
+  font-family:Georgia,"Times New Roman",serif;
+  text-align:center;
+  font-size:22px;
+  line-height:1.08;
+  margin:0 0 16px;
+  overflow-wrap:anywhere;
+}
+
+.imagebox{
+  background:#fff;
+  width:100%;
+  aspect-ratio:1.3/1;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  overflow:hidden;
+  margin-bottom:16px;
+}
+
+.imagebox img{
+  width:100%;
+  height:100%;
+  object-fit:contain;
+}
+
+.image-fallback{
+  display:none;
+  width:100%;
+  height:100%;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  padding:30px;
+  color:#666;
+  background:#fff;
+  font-size:18px;
+  font-weight:700;
+}
+
+.desc{
+  text-align:center;
+  font-size:14px;
+  line-height:1.5;
+  margin:0 0 18px;
+  flex:1;
+}
+
+.amazon{
+  width:100%;
+  padding:14px 12px;
+  font-size:16px;
+}
+
+.nav:hover,
+.amazon:hover{
+  background:#efc767;
+}
+
+.disclosure{
+  margin-top:24px;
+  color:#bdbdbd;
+  font-size:12px;
+  line-height:1.5;
+  text-align:center;
+}
+
+@media(max-width:850px){
+  .grid{
+    grid-template-columns:1fr;
+  }
+
+  .controls{
+    align-items:flex-start;
+  }
+}
+
+@media(max-width:560px){
+  .wrap{
+    padding:16px 12px 24px;
+  }
+
+  .filter{
+    width:100%;
+  }
+
+  select{
+    width:100%;
+    min-width:100%;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<div class="wrap">
+
+  <div class="controls">
+
+    <div class="filter">
+      <label for="cat">Shop by category:</label>
+
+      <select id="cat">
+        <option value="All">All Products</option>
+        <option>Battery & Storage</option>
+        <option>Body & Paint</option>
+        <option>Detailing & Preservation</option>
+        <option>Electrical & Diagnostic</option>
+        <option>Garage Essentials</option>
+        <option>Mechanical Tools</option>
+      </select>
+    </div>
+
+    <div class="pager">
+      <button id="prev" class="nav">← Previous</button>
+      <span id="status" class="status"></span>
+      <button id="next" class="nav">Next →</button>
+    </div>
+
+  </div>
+
+  <div id="grid" class="grid"></div>
+
+  <div class="disclosure">
+    As an Amazon Associate, Fitzgerald Classics may earn from qualifying purchases at no additional cost to you.
+  </div>
+
+</div>
+
+<script>
+
+const products=[
+
+["Automotive Dry Guide Coat Kit",
+"Body & Paint",
+"Highlights low spots, sanding scratches and remaining surface imperfections during block sanding. Choose a product compatible with the primer and paint system.",
+"https://www.amazon.com/s?k=automotive+dry+guide+coat+kit&tag=fitzgeraldcla-20",
+"https://static.wixstatic.com/media/b5fa70_495a9698f96046e0b94dce8faecf09d1~mv2.jpg"],
+
+["Automotive Paint Preparation Tack Cloths",
+"Body & Paint",
+"Used according to paint-system instructions to lift light residual dust before coating; avoid excessive pressure or residue transfer.",
+"https://www.amazon.com/s?k=automotive+paint+tack+cloths&tag=fitzgeraldcla-20",
+"https://static.wixstatic.com/media/b5fa70_b3190078467748b9a252367ae538953a~mv2.jpg"],
+
+["Custom Shop Complete Paint Mixing Kit - KUS DMK",
+"Body & Paint",
+"A complete automotive paint-prep kit with graduated mixing cups, lids, mixing sticks, paddles, 190-micron paint strainers and a paint-can opener. A practical all-in-one setup for primer and paint mixing during restoration work.",
+"https://www.amazon.com/s?k=Custom+Shop+KUS+DMK+Complete+Paint+Mixing+Kit&tag=fitzgeraldcla-20",
+"https://static.wixstatic.com/media/b5fa70_b44f755064024f3c9530d05968b5413a~mv2.jpg"],
+
+
+["Lisle 28800 Digital Test Light",
+"Electrical & Diagnostic",
+"A practical automotive circuit tester for checking power and circuit behavior during classic-car electrical diagnosis.",
+"https://www.amazon.com/dp/B0BKGXBTWH/?tag=fitzgeraldcla-20",
+"https://static.wixstatic.com/media/b5fa70_b1664891a9f04593a62622dafb03c7c4~mv2.jpg"],
+
+["NOCO GENIUS1 Smart Battery Charger & Maintainer",
+"Electrical & Diagnostic",
+"A compact 6V/12V smart charger and maintainer that fits the needs of classic cars that may spend time parked between drives.",
+"https://www.amazon.com/dp/B07W46BX31/?tag=fitzgeraldcla-20",
+"https://static.wixstatic.com/media/b5fa70_83b95d0f638a43cf9ce3f79a72edff62~mv2.jpg"],
+
+["Klein Tools 3005CR Ratcheting Crimper",
+"Electrical & Diagnostic",
+"A full-cycle ratcheting crimper for insulated automotive terminals, useful for making cleaner and more consistent wiring repairs.",
+"https://www.amazon.com/dp/B07WMB61J5/?tag=fitzgeraldcla-20",
+"https://static.wixstatic.com/media/b5fa70_bc23420285584c53b7a13966e047ee58~mv2.png"],
+
+
+["NOCO GENIUS5 5A Smart Battery Charger & Maintainer",
+"Battery & Storage",
+"A higher-output smart charger and maintainer for 6V and 12V batteries, useful for collector cars that sit between drives.",
+"https://www.amazon.com/s?k=NOCO+GENIUS5&tag=fitzgeraldcla-20",
+"https://static.wixstatic.com/media/b5fa70_41478a8f2a9f40029bd6571305ffd444~mv2.jpg"],
+
+["NOCO Boost Plus GB40 Jump Starter",
+"Battery & Storage",
+"A compact portable jump starter that is easy to keep in the garage or take along on road trips in a classic car.",
+"https://www.amazon.com/s?k=NOCO+Boost+Plus+GB40&tag=fitzgeraldcla-20",
+"https://static.wixstatic.com/media/b5fa70_561393255d8a417d9b310f6ffa279358~mv2.webp"],
+
+["Battery Tender 3A Battery Charger & Maintainer",
+"Battery & Storage",
+"A practical charger and maintainer for preserving battery health in cars that spend extended time parked.",
+"https://www.amazon.com/s?k=Battery+Tender+3A+Battery+Charger+Maintainer&tag=fitzgeraldcla-20",
+"https://static.wixstatic.com/media/b5fa70_203b4c3ae4004a28b2dfdd00657120e8~mv2.jpg"],
+
+
+["Fluke 117 True-RMS Digital Multimeter",
+"Electrical & Diagnostic",
+"A professional-grade multimeter for voltage, resistance, continuity and electrical troubleshooting when accuracy matters.",
+"https://www.amazon.com/s?k=Fluke+117+Digital+Multimeter&tag=fitzgeraldcla-20",
+"https://static.wixstatic.com/media/b5fa70_f558572fda504d6da28d0d69d625bb25~mv2.jpg"],
+
+["Power Probe III Circuit Tester",
+"Electrical & Diagnostic",
+"A versatile automotive circuit tester for quickly checking power, ground, continuity and component operation.",
+"https://www.amazon.com/s?k=Power+Probe+III+Circuit+Tester&tag=fitzgeraldcla-20",
+"https://static.wixstatic.com/media/b5fa70_d915e3bef71342989018012f40a1b26b~mv2.jpg"],
+
+["Klein Tools 11055 Wire Stripper/Cutter",
+"Electrical & Diagnostic",
+"A dependable wire stripper and cutter for clean electrical repairs and harness work on older vehicles.",
+"https://www.amazon.com/s?k=Klein+Tools+11055&tag=fitzgeraldcla-20",
+"https://data.kleintools.com/sites/all/product_assets/png/klein/11055ep.png"],
+
+["Heat-Shrink Electrical Connector Assortment",
+"Electrical & Diagnostic",
+"A useful assortment for making sealed, more durable wiring repairs in engine bays, interiors and lighting circuits.",
+"https://www.amazon.com/s?k=automotive+heat+shrink+electrical+connector+assortment&tag=fitzgeraldcla-20",
+"https://static.wixstatic.com/media/b5fa70_b217e633d4f94ee1bc8fa4f05c3381fd~mv2.jpg"],
+
+
+["GEARWRENCH 85077 1/2-Inch Electronic Torque Wrench",
+"Mechanical Tools",
+"A precise electronic torque wrench for critical fasteners where consistent torque matters during mechanical work.",
+"https://www.amazon.com/s?k=GEARWRENCH+85077&tag=fitzgeraldcla-20",
+"https://www.gearwrench.com/sites/gearwrench/files/styles/product_medium/public/pim_images/GW_85077_IMG_ANG_01.jpg?itok=Rm0rWKmC"],
+
+["Sunex 1848 3/8-Inch Drive Master Impact Socket Set",
+"Mechanical Tools",
+"A broad impact-socket set that covers many common fastener sizes encountered during restoration and maintenance.",
+"https://www.amazon.com/s?k=Sunex+1848+Impact+Socket+Set&tag=fitzgeraldcla-20",
+"https://static.wixstatic.com/media/b5fa70_5f18a4a6f2af4c5b8d41ee29de85a0ce~mv2.jpg"],
+
+["DEWALT ATOMIC DCF921B 20V MAX 1/2-Inch Impact Wrench",
+"Mechanical Tools",
+"A compact cordless impact wrench that is easy to maneuver around suspension, brake and drivetrain work.",
+"https://www.amazon.com/s?k=DEWALT+DCF921B&tag=fitzgeraldcla-20",
+"https://static.wixstatic.com/media/b5fa70_21a9b909bbe14d78b3508447d29f5d87~mv2.jpg"],
+
+["OTC 5610 Transmission/Engine Oil Pressure Kit",
+"Mechanical Tools",
+"A professional diagnostic kit with high- and low-pressure gauges for checking engine and transmission oil-pressure systems.",
+"https://www.amazon.com/s?k=OTC+5610+Transmission+Engine+Oil+Pressure+Kit&tag=fitzgeraldcla-20",
+"https://static.wixstatic.com/media/b5fa70_1e635589fe194f3bb4e298f0a98c243a~mv2.jpg"],
+
+["Mityvac MV8000 Automotive Test & Bleeding Kit",
+"Mechanical Tools",
+"A hand-vacuum kit useful for brake bleeding, vacuum diagnostics and several common garage troubleshooting jobs.",
+"https://www.amazon.com/s?k=Mityvac+MV8000&tag=fitzgeraldcla-20",
+"https://static.wixstatic.com/media/b5fa70_797782359eb041ed85400ef5e93887ea~mv2.jpg"],
+
+["Lisle 63600 Oil Filter Tool",
+"Mechanical Tools",
+"A compact oil-filter tool that can help reach filters in tighter engine-bay locations.",
+"https://www.amazon.com/s?k=Lisle+63600&tag=fitzgeraldcla-20",
+"https://static.wixstatic.com/media/b5fa70_d907f9c272a54cf5af87bf653816b04b~mv2.png"],
+
+["GEARWRENCH 24-Inch 1/2-Inch Drive Breaker Bar",
+"Mechanical Tools",
+"A long-handled breaker bar for stubborn fasteners where additional leverage is safer than abusing a ratchet.",
+"https://www.amazon.com/s?k=GEARWRENCH+24+inch+1%2F2+breaker+bar&tag=fitzgeraldcla-20",
+"https://static.wixstatic.com/media/b5fa70_da085457cf644419896af5543ed00daf~mv2.jpg"],
+
+["Mayhew Pro Brass Drift Punch Set",
+"Mechanical Tools",
+"Brass punches are useful around finished or softer components where a steel punch can leave unnecessary damage.",
+"https://www.amazon.com/s?k=Mayhew+Pro+brass+drift+punch+set&tag=fitzgeraldcla-20",
+"https://static.wixstatic.com/media/b5fa70_b8b03d25635c440e9c4610fbed05597f~mv2.jpg"],
+
+
+["Magnetic Parts Tray Set",
+"Garage Essentials",
+"Simple, inexpensive trays that keep nuts, bolts and small hardware organized during disassembly and reassembly.",
+"https://www.amazon.com/s?k=magnetic+parts+tray+automotive&tag=fitzgeraldcla-20",
+"https://static.wixstatic.com/media/b5fa70_93fa7258ccd549ce94aced7c1f2f4caf~mv2.jpg"],
+
+["Telescoping Magnetic Pickup Tool",
+"Garage Essentials",
+"One of those inexpensive tools that earns its place the first time a fastener disappears into an engine bay.",
+"https://www.amazon.com/s?k=telescoping+magnetic+pickup+tool+automotive&tag=fitzgeraldcla-20",
+"https://static.wixstatic.com/media/b5fa70_cd711d48a1704bd88770eadbdb9cda08~mv2.jpg"],
+
+["Rechargeable Magnetic LED Work Light",
+"Garage Essentials",
+"A hands-free rechargeable work light is invaluable under dashboards, beneath cars and inside dark engine compartments.",
+"https://www.amazon.com/s?k=rechargeable+magnetic+LED+automotive+work+light&tag=fitzgeraldcla-20",
+"https://static.wixstatic.com/media/b5fa70_c728b1d742764a61a7c2c692e9732790~mv2.jpg"],
+
+
+["3M Performance Yellow Masking Tape 301+",
+"Body & Paint",
+"A quality automotive masking tape for cleaner paint edges and more controlled masking during body and refinishing work.",
+"https://www.amazon.com/s?k=3M+301%2B+Performance+Yellow+Masking+Tape&tag=fitzgeraldcla-20",
+"https://static.wixstatic.com/media/b5fa70_b22b2c1ba0c94480bb8b2942873edea4~mv2.jpg"],
+
+["3M Scotch-Brite 7447 General Purpose Hand Pads",
+"Body & Paint",
+"Useful abrasive hand pads for surface preparation, cleaning and scuffing where conventional sandpaper is awkward.",
+"https://www.amazon.com/s?k=3M+Scotch-Brite+7447&tag=fitzgeraldcla-20",
+"https://static.wixstatic.com/media/b5fa70_80bc73dd1de3423fa88ecfa08f95ebe5~mv2.jpg"],
+
+["Automotive Trim Removal Tool Kit",
+"Body & Paint",
+"Plastic trim tools help remove moldings, clips and interior panels while reducing the chance of scratches and broken trim.",
+"https://www.amazon.com/s?k=automotive+trim+removal+tool+kit&tag=fitzgeraldcla-20",
+"https://static.wixstatic.com/media/b5fa70_d077ce1961ae4389b91e19bd4823fa03~mv2.jpg"],
+
+["Flexible Automotive Sanding Block Set",
+"Body & Paint",
+"A range of flexible sanding blocks helps follow body contours and produce straighter, more consistent panel preparation.",
+"https://www.amazon.com/s?k=flexible+automotive+sanding+block+set&tag=fitzgeraldcla-20",
+"https://static.wixstatic.com/media/b5fa70_41e12d3af68b4194ac99492dd98d597d~mv2.png"],
+
+
+["Meguiar's Ultimate Compound G17216",
+"Detailing & Preservation",
+"A widely used paint-correction compound for removing oxidation, defects and light scratches from many automotive finishes.",
+"https://www.amazon.com/s?k=Meguiars+G17216+Ultimate+Compound&tag=fitzgeraldcla-20",
+"https://static.wixstatic.com/media/b5fa70_fa03846b0f1a4113b61a55cd93f330b7~mv2.webp"],
+
+["Meguiar's Smooth Surface Clay Kit G191700",
+"Detailing & Preservation",
+"A clay-bar kit for removing bonded surface contamination before polishing or waxing a classic-car finish.",
+"https://www.amazon.com/s?k=Meguiars+G191700+Smooth+Surface+Clay+Kit&tag=fitzgeraldcla-20",
+"https://static.wixstatic.com/media/b5fa70_655b48d59e6c48398345eca53d185c0c~mv2.png"],
+
+["303 Aerospace Protectant",
+"Detailing & Preservation",
+"A preservation-focused protectant for vinyl, rubber and other surfaces that benefit from UV protection without a greasy finish.",
+"https://www.amazon.com/s?k=303+Aerospace+Protectant&tag=fitzgeraldcla-20",
+"https://static.wixstatic.com/media/b5fa70_5847d9be820a488c9c6885ffa0cd2a1d~mv2.jpg"],
+
+["Griot's Garage PFM Terry Weave Drying Towel",
+"Detailing & Preservation",
+"A highly absorbent microfiber drying towel that helps reduce rubbing and unnecessary contact with finished paint.",
+"https://www.amazon.com/s?k=Griots+Garage+PFM+Terry+Weave+Drying+Towel&tag=fitzgeraldcla-20",
+"https://static.wixstatic.com/media/b5fa70_42ba657a2cbc47d8ac2fe95e61968de8~mv2.jpg"],
+
+["Griot's Garage PFM Edgeless Detailing Towels",
+"Detailing & Preservation",
+"Soft edgeless microfiber towels suited to final wipe-downs, quick detailers and delicate painted surfaces.",
+"https://www.amazon.com/s?k=Griots+Garage+PFM+Edgeless+Detailing+Towels&tag=fitzgeraldcla-20",
+"https://static.wixstatic.com/media/b5fa70_eeb1342ab3d64980ada2808a0d6b6847~mv2.png"]
+
+];
+
+const PER_PAGE=3;
+
+let category="All";
+let page=0;
+
+const grid=document.getElementById("grid");
+const cat=document.getElementById("cat");
+const prev=document.getElementById("prev");
+const next=document.getElementById("next");
+const status=document.getElementById("status");
+
+function filtered(){
+  return products.filter(
+    p=>category==="All" || p[1]===category
+  );
+}
+
+function openAmazon(url){
+  window.open(
+    url,
+    "_blank",
+    "noopener,noreferrer"
+  );
+}
+
+function render(){
+
+  const list=filtered();
+
+  const pages=Math.max(
+    1,
+    Math.ceil(list.length/PER_PAGE)
+  );
+
+  if(page>=pages){
+    page=pages-1;
+  }
+
+  const shown=list.slice(
+    page*PER_PAGE,
+    page*PER_PAGE+PER_PAGE
+  );
+
+  grid.innerHTML="";
+
+  shown.forEach(p=>{
+
+    const card=document.createElement("div");
+    card.className="card";
+
+    card.innerHTML=
+      '<div class="category">'+p[1]+'</div>'+
+      '<h3>'+p[0]+'</h3>'+
+      '<div class="imagebox">'+
+      '<img class="product-img" src="'+p[4]+'" alt="'+p[0]+'">'+
+      '<div class="image-fallback">Product image temporarily unavailable</div>'+
+      '</div>'+
+      '<p class="desc">'+p[2]+'</p>'+
+      '<button class="amazon">View on Amazon</button>';
+
+    const img=card.querySelector(".product-img");
+    const fallback=card.querySelector(".image-fallback");
+
+    img.onerror=()=>{
+      img.style.display="none";
+      fallback.style.display="flex";
+    };
+
+    card
+      .querySelector(".amazon")
+      .onclick=()=>openAmazon(p[3]);
+
+    grid.appendChild(card);
+
+  });
+
+  status.textContent=
+    (page+1)+" of "+pages;
+
+  prev.disabled=
+    page===0;
+
+  next.disabled=
+    page===pages-1;
+}
+
+cat.onchange=()=>{
+  category=cat.value;
+  page=0;
+  render();
+};
+
+prev.onclick=()=>{
+  if(page>0){
+    page--;
+    render();
+  }
+};
+
+next.onclick=()=>{
+
+  const pages=
+    Math.ceil(
+      filtered().length/PER_PAGE
+    );
+
+  if(page<pages-1){
+    page++;
+    render();
+  }
+};
+
+render();
+
+</script>
+
+</body>
+</html>

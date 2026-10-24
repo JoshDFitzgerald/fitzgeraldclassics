@@ -1,0 +1,582 @@
+{
+ "url": "https://www.fitzgeraldclassics.com/blog/categories/tools-shop",
+ "status1440": 200,
+ "finalUrl1440": "https://www.fitzgeraldclassics.com/blog/categories/tools-shop",
+ "title": "Tools & Shop",
+ "meta": {
+  "description": "Tools, equipment, workshop practices, and practical restoration techniques.",
+  "robots": "index",
+  "og:title": "Tools & Shop",
+  "og:description": "Tools, equipment, workshop practices, and practical restoration techniques.",
+  "og:url": "https://www.fitzgeraldclassics.com/blog/categories/tools-shop",
+  "og:site_name": "Fitzgerald Classics",
+  "og:type": "website",
+  "google-site-verification": "vj-8FEwO3GEryTsRNbFFo6UxjWj6YL2Z2HaHuZWjeiU",
+  "twitter:card": "summary_large_image",
+  "twitter:title": "Tools & Shop",
+  "twitter:description": "Tools, equipment, workshop practices, and practical restoration techniques.",
+  "viewport": "width=device-width, initial-scale=1",
+  "generator": "Wix.com Website Builder",
+  "format-detection": "telephone=no",
+  "skype_toolbar": "skype_toolbar_parser_compatible"
+ },
+ "links": [
+  {
+   "rel": "canonical",
+   "href": "https://www.fitzgeraldclassics.com/blog/categories/tools-shop",
+   "sizes": ""
+  },
+  {
+   "rel": "icon",
+   "href": "https://static.parastorage.com/client/pfavico.ico",
+   "sizes": "192x192"
+  },
+  {
+   "rel": "shortcut icon",
+   "href": "https://static.parastorage.com/client/pfavico.ico",
+   "sizes": ""
+  },
+  {
+   "rel": "apple-touch-icon",
+   "href": "https://static.parastorage.com/client/pfavico.ico",
+   "sizes": ""
+  }
+ ],
+ "ld": [],
+ "blocks": [
+  {
+   "tag": "p",
+   "text": "MENU",
+   "region": "header",
+   "y": 16,
+   "x": 1303,
+   "font": "inter",
+   "size": "12px",
+   "weight": "400",
+   "color": "rgb(197, 160, 89)",
+   "lh": "25.2px",
+   "ls": "1.575px",
+   "tt": "uppercase",
+   "align": "right"
+  },
+  {
+   "tag": "li",
+   "text": "All Posts",
+   "region": "main",
+   "y": 58,
+   "x": 189,
+   "font": "inter",
+   "size": "14px",
+   "weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "lh": "19.6px",
+   "ls": "normal",
+   "tt": "none",
+   "align": "start"
+  },
+  {
+   "tag": "li",
+   "text": "Buying & Ownership",
+   "region": "main",
+   "y": 58,
+   "x": 286,
+   "font": "inter",
+   "size": "14px",
+   "weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "lh": "19.6px",
+   "ls": "normal",
+   "tt": "none",
+   "align": "start"
+  },
+  {
+   "tag": "li",
+   "text": "Restoration Planning",
+   "region": "main",
+   "y": 58,
+   "x": 460,
+   "font": "inter",
+   "size": "14px",
+   "weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "lh": "19.6px",
+   "ls": "normal",
+   "tt": "none",
+   "align": "start"
+  },
+  {
+   "tag": "li",
+   "text": "Electrical & Instruments",
+   "region": "main",
+   "y": 58,
+   "x": 635,
+   "font": "inter",
+   "size": "14px",
+   "weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "lh": "19.6px",
+   "ls": "normal",
+   "tt": "none",
+   "align": "start"
+  },
+  {
+   "tag": "li",
+   "text": "Engines & Mechanical",
+   "region": "main",
+   "y": 58,
+   "x": 831,
+   "font": "inter",
+   "size": "14px",
+   "weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "lh": "19.6px",
+   "ls": "normal",
+   "tt": "none",
+   "align": "start"
+  },
+  {
+   "tag": "li",
+   "text": "Interior & Finishing",
+   "region": "main",
+   "y": 58,
+   "x": 1017,
+   "font": "inter",
+   "size": "14px",
+   "weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "lh": "19.6px",
+   "ls": "normal",
+   "tt": "none",
+   "align": "start"
+  },
+  {
+   "tag": "h1",
+   "text": "Tools & Shop",
+   "region": "main",
+   "y": 138,
+   "x": 189,
+   "font": "madefor-display-bold, helveticaneuew01-65medi, helveticaneuew02-65medi, helveticaneuew10-65medi, sans-serif",
+   "size": "36px",
+   "weight": "400",
+   "color": "rgb(245, 245, 240)",
+   "lh": "43.2px",
+   "ls": "normal",
+   "tt": "none",
+   "align": "start"
+  },
+  {
+   "tag": "li",
+   "text": "Tools & Shop",
+   "region": "main",
+   "y": 138,
+   "x": 229,
+   "font": "inter",
+   "size": "14px",
+   "weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "lh": "19.6px",
+   "ls": "normal",
+   "tt": "none",
+   "align": "start"
+  },
+  {
+   "tag": "p",
+   "text": "Tools, equipment, workshop practices, and practical restoration techniques.",
+   "region": "main",
+   "y": 181,
+   "x": 189,
+   "font": "madefor-text, helveticaneuew01-45ligh, helveticaneuew02-45ligh, helveticaneuew10-45ligh, sans-serif",
+   "size": "16px",
+   "weight": "400",
+   "color": "rgb(245, 245, 240)",
+   "lh": "25.6px",
+   "ls": "normal",
+   "tt": "none",
+   "align": "left"
+  },
+  {
+   "tag": "a",
+   "text": "Bench Testing Classic-Car Electrical Components Without Destroying Them",
+   "region": "main",
+   "y": 552,
+   "x": 214,
+   "font": "inter",
+   "size": "14px",
+   "weight": "400",
+   "color": "rgb(245, 245, 240)",
+   "lh": "normal",
+   "ls": "normal",
+   "tt": "none",
+   "align": "start",
+   "href": "https://www.fitzgeraldclassics.com/post/bench-testing-classic-car-electrical-components-without-destroying-them",
+   "bg": "rgba(0, 0, 0, 0)",
+   "radius": "0px",
+   "border": "0px none rgb(245, 245, 240)",
+   "pad": "0px",
+   "w": 283,
+   "h": 92
+  },
+  {
+   "tag": "h2",
+   "text": "Bench Testing Classic-Car Electrical Components Without Destroying Them",
+   "region": "main",
+   "y": 552,
+   "x": 214,
+   "font": "libre-caslon-text",
+   "size": "22px",
+   "weight": "700",
+   "color": "rgb(245, 245, 240)",
+   "lh": "30.8px",
+   "ls": "normal",
+   "tt": "none",
+   "align": "start"
+  },
+  {
+   "tag": "a",
+   "text": "The Value of Good Tools: Why the Right Equipment Saves Time, Money, and Frustration",
+   "region": "main",
+   "y": 552,
+   "x": 579,
+   "font": "inter",
+   "size": "14px",
+   "weight": "400",
+   "color": "rgb(245, 245, 240)",
+   "lh": "normal",
+   "ls": "normal",
+   "tt": "none",
+   "align": "start",
+   "href": "https://www.fitzgeraldclassics.com/post/the-value-of-good-tools-why-the-right-equipment-saves-time-money-and-frustration",
+   "bg": "rgba(0, 0, 0, 0)",
+   "radius": "0px",
+   "border": "0px none rgb(245, 245, 240)",
+   "pad": "0px",
+   "w": 283,
+   "h": 92
+  },
+  {
+   "tag": "h2",
+   "text": "The Value of Good Tools: Why the Right Equipment Saves Time, Money, and Frustration",
+   "region": "main",
+   "y": 552,
+   "x": 579,
+   "font": "libre-caslon-text",
+   "size": "22px",
+   "weight": "700",
+   "color": "rgb(245, 245, 240)",
+   "lh": "30.8px",
+   "ls": "normal",
+   "tt": "none",
+   "align": "start"
+  },
+  {
+   "tag": "h2",
+   "text": "Fitzgerald Classics",
+   "region": "footer",
+   "y": 948,
+   "x": 228,
+   "font": "libre-caslon-text",
+   "size": "30px",
+   "weight": "700",
+   "color": "rgb(245, 245, 240)",
+   "lh": "40.5px",
+   "ls": "normal",
+   "tt": "none",
+   "align": "start"
+  },
+  {
+   "tag": "p",
+   "text": "Preserving Americana, one car at a time.",
+   "region": "footer",
+   "y": 1099,
+   "x": 46,
+   "font": "inter",
+   "size": "18px",
+   "weight": "400",
+   "color": "rgb(245, 245, 240)",
+   "lh": "28.8px",
+   "ls": "normal",
+   "tt": "none",
+   "align": "start"
+  },
+  {
+   "tag": "p",
+   "text": "Education first. Commerce supports the mission.",
+   "region": "footer",
+   "y": 1099,
+   "x": 519,
+   "font": "inter",
+   "size": "18px",
+   "weight": "400",
+   "color": "rgb(245, 245, 240)",
+   "lh": "28.8px",
+   "ls": "normal",
+   "tt": "none",
+   "align": "start"
+  },
+  {
+   "tag": "p",
+   "text": "© 2026 Fitzgerald Classics. Veteran Owned. 10% of merchandise and eBay profits support Tunnel to Towers Foundation. As an Amazon Associate, Fitzgerald Classics earns from qualifying purchases.",
+   "region": "footer",
+   "y": 1219,
+   "x": 46,
+   "font": "inter",
+   "size": "15.75px",
+   "weight": "400",
+   "color": "rgb(184, 184, 176)",
+   "lh": "25.2px",
+   "ls": "normal",
+   "tt": "none",
+   "align": "left"
+  }
+ ],
+ "imgs": [
+  {
+   "src": "https://static.wixstatic.com/media/b5fa70_550806b5589044cb860e117d3682c075~mv2.png/v1/fill/w_333,h_250,fp_0.50_0.50,q_35,blur_30,enc_avif,quality_auto/b5fa70_550806b5589044cb860e117d3682c075~mv2.png",
+   "alt": "Bench Testing Classic-Car Electrical Components Without Destroying Them",
+   "w": 333,
+   "h": 249,
+   "y": 228,
+   "region": "main"
+  },
+  {
+   "src": "https://static.wixstatic.com/media/b5fa70_550806b5589044cb860e117d3682c075~mv2.png/v1/fill/w_305,h_229,fp_0.50_0.50,q_95,enc_avif,quality_auto/b5fa70_550806b5589044cb860e117d3682c075~mv2.png",
+   "alt": "Bench Testing Classic-Car Electrical Components Without Destroying Them",
+   "w": 333,
+   "h": 249,
+   "y": 228,
+   "region": "main"
+  },
+  {
+   "src": "https://lh3.googleusercontent.com/a/ACg8ocK5a46jyaOz8hXDsdDGcBgqv5Uem_MfjbpO9W3I_qwhGil9aQ%3Ds96-c",
+   "alt": "Writer: Dan Fitzgerald",
+   "w": 32,
+   "h": 32,
+   "y": 506,
+   "region": "main"
+  },
+  {
+   "src": "https://static.wixstatic.com/media/b5fa70_080271d939eb4d8484adaa13ef1c7595~mv2.png/v1/fill/w_334,h_250,fp_0.50_0.50,q_35,blur_30,enc_avif,quality_auto/b5fa70_080271d939eb4d8484adaa13ef1c7595~mv2.png",
+   "alt": "The Value of Good Tools: Why the Right Equipment Saves Time, Money, and Frustration",
+   "w": 333,
+   "h": 249,
+   "y": 228,
+   "region": "main"
+  },
+  {
+   "src": "https://static.wixstatic.com/media/b5fa70_080271d939eb4d8484adaa13ef1c7595~mv2.png/v1/fill/w_306,h_229,fp_0.50_0.50,q_95,enc_avif,quality_auto/b5fa70_080271d939eb4d8484adaa13ef1c7595~mv2.png",
+   "alt": "The Value of Good Tools: Why the Right Equipment Saves Time, Money, and Frustration",
+   "w": 333,
+   "h": 249,
+   "y": 228,
+   "region": "main"
+  },
+  {
+   "src": "https://lh3.googleusercontent.com/a/ACg8ocK5a46jyaOz8hXDsdDGcBgqv5Uem_MfjbpO9W3I_qwhGil9aQ%3Ds96-c",
+   "alt": "Writer: Dan Fitzgerald",
+   "w": 32,
+   "h": 32,
+   "y": 506,
+   "region": "main"
+  },
+  {
+   "src": "https://static.wixstatic.com/media/2e2a49_ab2e08c188f248779ab3728026123e34~mv2.png",
+   "alt": "logo",
+   "w": 82,
+   "h": 26,
+   "y": 955,
+   "region": "footer"
+  },
+  {
+   "src": "https://static.wixstatic.com/media/b5fa70_2dbe98366738478597606747140a3d66~mv2.webp/v1/fill/w_170,h_113,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/logo.webp",
+   "alt": "Fitzgerald Classics logo featuring Route 66 and two classic American cars",
+   "w": 187,
+   "h": 113,
+   "y": 912,
+   "region": "footer"
+  },
+  {
+   "imageInfo": "{\"displayMode\":\"fill\",\"targetWidth\":64,\"targetHeight\":64,\"isLQIP\":false,\"isSEOBot\":true,\"encoding\":\"AVIF\",\"imageData\":{\"width\":64,\"height\":64,\"uri\":\"https://lh3.googleusercontent.com/a/ACg8ocK5a46jyaOz8hXDsdDGcBgqv5Uem_MfjbpO9W3I_qwhGil9aQ%3Ds96-c\",\"name\":\"\",\"displayMode\":\"fill\"}}",
+   "region": "main"
+  },
+  {
+   "imageInfo": "{\"displayMode\":\"fill\",\"targetWidth\":64,\"targetHeight\":64,\"isLQIP\":false,\"isSEOBot\":true,\"encoding\":\"AVIF\",\"imageData\":{\"width\":64,\"height\":64,\"uri\":\"https://lh3.googleusercontent.com/a/ACg8ocK5a46jyaOz8hXDsdDGcBgqv5Uem_MfjbpO9W3I_qwhGil9aQ%3Ds96-c\",\"name\":\"\",\"displayMode\":\"fill\"}}",
+   "region": "main"
+  },
+  {
+   "imageInfo": "{\"displayMode\":\"fit\",\"imageData\":{\"width\":499,\"height\":191,\"uri\":\"https://static.wixstatic.com/media/2e2a49_ab2e08c188f248779ab3728026123e34~mv2.png\",\"name\":\"logo\",\"displayMode\":\"fit\"}}",
+   "region": "footer"
+  },
+  {
+   "imageInfo": "{\"alignType\":\"center\",\"containerId\":\"comp-mtqaf8yq_r_comp-mtqc8wh1\",\"encoding\":\"AVIF\",\"imageData\":{\"name\":\"logo.jpeg\",\"uri\":\"b5fa70_2dbe98366738478597606747140a3d66~mv2.webp\",\"height\":1024,\"id\":\"dataItem-mtxf7vba\",\"alt\":\"Fitzgerald Classics logo featuring Route 66 and two classic American cars\",\"type\":\"Builder.Image\",\"metaData\":{\"isHidden\":false,\"sig\":\"i08-181\",\"schemaVersion\":\"1.0\",\"isPreset\":false},\"width\":1536,\"url\":\"https://static.wixstatic.com/media/b5fa70_2dbe98366738478597606747140a3d66~mv2.webp/v1/fill/w_1536,h_1024,al_c,q_85,enc_auto/b5fa70_2dbe98366738478597606747140a3d66~mv2.webp\",\"displayMode\":\"fit\"}}",
+   "region": "footer"
+  }
+ ],
+ "iframes": [],
+ "videos": [],
+ "forms": [],
+ "sections": [
+  {
+   "id": "comp-mtqaf8eo_r_comp-mb7ogqqn",
+   "y": 0,
+   "h": 58,
+   "bg": "rgba(10, 10, 10, 0)",
+   "bgImg": "none"
+  },
+  {
+   "id": "comp-mtqaf7gn",
+   "y": 58,
+   "h": 789,
+   "bg": "rgba(10, 10, 10, 0)",
+   "bgImg": "none"
+  },
+  {
+   "id": "comp-mtqaf8yq_r_comp-kbgakgyt",
+   "y": 847,
+   "h": 625,
+   "bg": "rgba(10, 10, 10, 0)",
+   "bgImg": "none"
+  }
+ ],
+ "fontFaces": [],
+ "cssVars": {
+  "--color_0": "10,10,10",
+  "--color_1": "10,10,10",
+  "--color_2": "26,26,26",
+  "--color_3": "56,56,56",
+  "--color_4": "184,184,176",
+  "--color_5": "245,245,240",
+  "--color_6": "26,26,26",
+  "--color_7": "56,56,56",
+  "--color_8": "197,160,89",
+  "--color_9": "184,184,176",
+  "--color_10": "245,245,240",
+  "--color_11": "10,10,10",
+  "--color_12": "26,26,26",
+  "--color_13": "56,56,56",
+  "--color_14": "184,184,176",
+  "--color_15": "245,245,240",
+  "--color_16": "26,26,26",
+  "--color_17": "56,56,56",
+  "--color_18": "197,160,89",
+  "--font_0": "normal normal normal calc(72 * clamp(0px, 100 * 1cqw * 1, min(9999px, 9999px)) / 1280)/1.2em madefor-display-bold,helveticaneuew01-65medi,helveticaneuew02-65medi,helveticaneuew10-65medi,sans-serif",
+  "--font_1": "normal normal normal 16px/1.4em din-next-w01-light,sans-serif",
+  "--font_2": "normal normal normal calc(42 * clamp(0px, 100 * 1cqw * 1, min(9999px, 9999px)) / 1280)/1.3em madefor-display-bold,helveticaneuew01-65medi,helveticaneuew02-65medi,helveticaneuew10-65medi,sans-serif",
+  "--font_3": "normal normal normal calc(38 * clamp(0px, 100 * 1cqw * 1, min(9999px, 9999px)) / 1280)/1.3em madefor-display-bold,helveticaneuew01-65medi,helveticaneuew02-65medi,helveticaneuew10-65medi,sans-serif",
+  "--font_4": "normal normal normal calc(34 * clamp(0px, 100 * 1cqw * 1, min(9999px, 9999px)) / 1280)/1.3em madefor-display-bold,helveticaneuew01-65medi,helveticaneuew02-65medi,helveticaneuew10-65medi,sans-serif",
+  "--font_5": "normal normal normal calc(28 * clamp(0px, 100 * 1cqw * 1, min(9999px, 9999px)) / 1280)/1.3em madefor-display-bold,helveticaneuew01-65medi,helveticaneuew02-65medi,helveticaneuew10-65medi,sans-serif",
+  "--font_6": "normal normal normal calc(22 * clamp(0px, 100 * 1cqw * 1, min(9999px, 9999px)) / 1280)/1.4em madefor-display-bold,helveticaneuew01-65medi,helveticaneuew02-65medi,helveticaneuew10-65medi,sans-serif",
+  "--font_7": "normal normal normal calc(18 * clamp(0px, 100 * 1cqw * 1, min(9999px, 9999px)) / 1280)/1.6em madefor-text,helveticaneuew01-45ligh,helveticaneuew02-45ligh,helveticaneuew10-45ligh,sans-serif",
+  "--font_8": "normal normal normal calc(16 * clamp(0px, 100 * 1cqw * 1, min(9999px, 9999px)) / 1280)/1.6em madefor-text,helveticaneuew01-45ligh,helveticaneuew02-45ligh,helveticaneuew10-45ligh,sans-serif",
+  "--font_9": "normal normal normal calc(14 * clamp(0px, 100 * 1cqw * 1, min(9999px, 9999px)) / 1280)/1.6em madefor-text,helveticaneuew01-45ligh,helveticaneuew02-45ligh,helveticaneuew10-45ligh,sans-serif",
+  "--font_10": "normal normal normal 12px/1.4em din-next-w01-light,sans-serif"
+ },
+ "anchors": [
+  "https://www.fitzgeraldclassics.com/",
+  "https://www.fitzgeraldclassics.com/portfolio",
+  "https://www.fitzgeraldclassics.com/blog",
+  "https://www.fitzgeraldclassics.com/about-us",
+  "https://www.fitzgeraldclassics.com/contact",
+  "https://www.fitzgeraldclassics.com/trusted-partners",
+  "https://www.fitzgeraldclassics.com/ebay-ecommerce",
+  "https://www.fitzgeraldclassics.com/fitzgerald-classics-garage",
+  "https://www.fitzgeraldclassics.com/vintage-hard-to-find-parts",
+  "https://www.fitzgeraldclassics.com/blank",
+  "https://www.fitzgeraldclassics.com/blog/categories/buying-ownership",
+  "https://www.fitzgeraldclassics.com/blog/categories/restoration-planning",
+  "https://www.fitzgeraldclassics.com/blog/categories/electrical-instruments",
+  "https://www.fitzgeraldclassics.com/blog/categories/engines-mechanical",
+  "https://www.fitzgeraldclassics.com/blog/categories/interior-finishing",
+  "https://www.fitzgeraldclassics.com/blog/categories/tools-shop",
+  "https://www.fitzgeraldclassics.com/post/bench-testing-classic-car-electrical-components-without-destroying-them",
+  "https://www.fitzgeraldclassics.com/post/the-value-of-good-tools-why-the-right-equipment-saves-time-money-and-frustration",
+  "https://www.facebook.com/profile.php?id=61594520112307",
+  "https://instagram.com/fitzgeraldclassics"
+ ],
+ "height": 1472,
+ "bodyBg": "rgba(0, 0, 0, 0)",
+ "status390": 200,
+ "finalUrl390": "https://www.fitzgeraldclassics.com/blog/categories/tools-shop",
+ "mobile": {
+  "blocks": [
+   {
+    "tag": "button",
+    "text": "Tools & Shop",
+    "size": "14px",
+    "region": "main"
+   },
+   {
+    "tag": "h1",
+    "text": "Tools & Shop",
+    "size": "36px",
+    "region": "main"
+   },
+   {
+    "tag": "p",
+    "text": "Tools, equipment, workshop practices, and practical restoration techniques.",
+    "size": "16px",
+    "region": "main"
+   },
+   {
+    "tag": "a",
+    "text": "Bench Testing Classic-Car Electrical Components Without Destroying Them",
+    "size": "14px",
+    "region": "main"
+   },
+   {
+    "tag": "h2",
+    "text": "Bench Testing Classic-Car Electrical Components Without Destroying Them",
+    "size": "22px",
+    "region": "main"
+   },
+   {
+    "tag": "p",
+    "text": "Learn how to safely bench test classic-car electrical components before installa",
+    "size": "14px",
+    "region": "main"
+   },
+   {
+    "tag": "a",
+    "text": "The Value of Good Tools: Why the Right Equipment Saves Time, Money, and Frustrat",
+    "size": "14px",
+    "region": "main"
+   },
+   {
+    "tag": "h2",
+    "text": "The Value of Good Tools: Why the Right Equipment Saves Time, Money, and Frustrat",
+    "size": "22px",
+    "region": "main"
+   },
+   {
+    "tag": "p",
+    "text": "Learn which classic car restoration tools are worth buying, where you can save, ",
+    "size": "14px",
+    "region": "main"
+   },
+   {
+    "tag": "h2",
+    "text": "Fitzgerald Classics",
+    "size": "30px",
+    "region": "footer"
+   },
+   {
+    "tag": "p",
+    "text": "Preserving Americana, one car at a time.",
+    "size": "16px",
+    "region": "footer"
+   },
+   {
+    "tag": "p",
+    "text": "Education first. Commerce supports the mission.",
+    "size": "16px",
+    "region": "footer"
+   },
+   {
+    "tag": "p",
+    "text": "© 2026 Fitzgerald Classics. Veteran Owned. 10% of merchandise and eBay profits s",
+    "size": "14px",
+    "region": "footer"
+   }
+  ],
+  "height": 2172
+ }
+}
