@@ -1,21 +1,25 @@
 import type { Metadata } from "next";
 import type { CSSProperties } from "react";
-import { Inter, Libre_Caslon_Text } from "next/font/google";
+import localFont from "next/font/local";
 import { siteConfig } from "@site-config";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
 import AskFitz from "@/components/AskFitz";
 import "./globals.css";
 
-const libreCaslon = Libre_Caslon_Text({
+// Font files are stored in the repo (src/fonts) so the site builds without internet access.
+const libreCaslon = localFont({
   variable: "--font-libre-caslon",
-  subsets: ["latin"],
-  weight: ["400", "700"],
+  src: [
+    { path: "../fonts/libre-caslon-text-latin-400-normal.woff2", weight: "400", style: "normal" },
+    { path: "../fonts/libre-caslon-text-latin-700-normal.woff2", weight: "700", style: "normal" },
+  ],
 });
 
-const inter = Inter({
+const inter = localFont({
   variable: "--font-inter",
-  subsets: ["latin"],
+  src: "../fonts/inter-latin-wght-normal.woff2",
+  weight: "100 900",
 });
 
 export const metadata: Metadata = {
