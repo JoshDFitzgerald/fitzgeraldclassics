@@ -8,7 +8,7 @@ subheading: Tools, parts, and products we use, trust, and recommend for classic 
 filterLabel: "Shop by category:"
 allCategoriesLabel: All Products
 buttonLabel: View on Amazon
-productsPerPage: 3
+productsPerPage: 12
 disclaimer: As an Amazon Associate, Fitzgerald Classics may earn from qualifying purchases at no additional cost to you.
 ---
 The product list itself is in content/garage-products.json.
