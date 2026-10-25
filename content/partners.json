@@ -73,7 +73,8 @@
       "Tucson, AZ 85705"
     ],
     "website": "https://www.royalplating.com/",
-    "logo": "/images/partners/royal-plating-logo.png"
+    "logo": "/images/partners/royal-plating-logo.png",
+    "logoScale": 3.2
   },
   {
     "name": "KENLEY’S KUSTOMS",
