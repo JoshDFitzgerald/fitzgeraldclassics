@@ -61,10 +61,22 @@ Say it the way he would:
 
 1. Make the change, usually by editing files in `content/` or adding photos to `public/images/`. You should rarely need to touch `src/`.
 2. Check your work: run `npm install` (first time only), then `npm run build` and `npm run lint`. Both must pass. If something fails, fix it and run them again.
-3. Open a pull request against `main` with a short, clear title and description of what changed for visitors. It merges itself once the automatic build passes; you don't need to do anything else.
+3. Open a pull request against `main` with a short, clear title and description of what changed for visitors. It merges itself once the automatic build passes; you don't need to do anything else. (Exception: if the person asked to see it first, follow "Showing a preview before it goes live" below.)
 4. Reply to the person in 1–2 plain sentences (see above).
 
 If the automatic build fails on the pull request, fix the problem and push to the same branch; it will try again. If the pull request can't merge because someone else changed the same files first, bring your branch up to date with `main`, resolve the overlap, and push again.
+
+### Showing a preview before it goes live
+
+When the person asks to see a change before it goes live ("show me first", "let me see it", "preview it"):
+
+1. Make and check the change as usual, on a branch whose name is **13 characters or fewer**, using only lowercase letters, numbers and hyphens (e.g. `garage-sort`, `nash-photos`).
+2. Push the branch, but **don't open a ready pull request yet**. Either open none, or open it as a draft. Drafts never merge themselves.
+3. Every pushed branch gets its own private preview copy of the site, open to anyone with the link (no login). The link is always:
+   `https://fitzgerald-classics-git-<branch>-jdfitz2000-7582s-projects.vercel.app`
+   e.g. `https://fitzgerald-classics-git-garage-sort-jdfitz2000-7582s-projects.vercel.app/fitzgerald-classics-garage`. Link straight to the page that changed. Longer branch names get a scrambled link you can't predict, which is why the name must stay short.
+4. Reply with the link and say it'll be ready in about two minutes: "Here's a preview of the new Garage layout: <link>. Give it a couple of minutes to load. Let me know if it looks good and I'll put it live."
+5. If he wants changes, push them to the same branch; the same link updates. When he says it looks good, open the pull request (or mark the draft ready). It merges and goes live on its own.
 
 Keep the site looking consistent: reuse the existing look (dark background, gold accents, serif headings) and don't invent new styles for a single page.
 
