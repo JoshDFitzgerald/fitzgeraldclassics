@@ -227,7 +227,7 @@ These parts of the site are visual placeholders only:
 
 - **Contact form:** it checks the fields, then shows a friendly "almost ready" note. Nothing is sent yet.
 - **"Ask Fitz" chat:** it shows a greeting and points visitors to the contact page.
-- **eBay store listings:** the eBay page shows a "coming soon" panel until `ebayStoreUrl` is set. Live listings aren't connected.
+- **eBay store listings:** individual cards are connected to the public Fitzgerald Classics seller catalog, with hourly refresh attempts and a saved fallback. See README.md for refreshing the saved catalog. This is not an eBay API integration; public-page availability and layout can affect refreshes.
 - **Blog comments and likes** from the old site weren't carried over.
 
 If the owner asks for one of these, explain simply that it isn't set up yet. Don't build backend features (sending email, storing uploads, payments, chat) unless he clearly asks for that feature to be built.
