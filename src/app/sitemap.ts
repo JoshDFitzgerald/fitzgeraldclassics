@@ -12,6 +12,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...getPosts().map((p) => ({ url: url(`/post/${p.slug}`), lastModified: p.date })),
     ...getBlogCategories().map((c) => ({ url: url(`/blog/categories/${c.slug}`) })),
     ...getProjects().map((p) => ({ url: url(projectPath(p.slug)) })),
+    ...getProjects().filter((p) => p.highlightImages?.length).map((p) => ({ url: url(`${projectPath(p.slug)}/gallery`) })),
     ...getVideos().map((v) => ({ url: url(`/how-to-videos/${v.slug}`) })),
   ];
 }
