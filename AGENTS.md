@@ -1,6 +1,10 @@
 # Fitzgerald Classics website: instructions for AI agents
 
-This repository is the website **www.fitzgeraldclassics.com**, a classic-car restoration site run by Dan Fitzgerald. It is a Next.js site deployed on Vercel. Every merged pull request goes live automatically within a few minutes.
+This repository is the website **www.fitzgeraldclassics.com**, a classic-car restoration site run by Dan Fitzgerald. It is a Next.js site deployed on Vercel.
+
+**Changes go live on their own.** Every pull request is built automatically; if the site builds cleanly, the pull request merges itself and Vercel publishes it a few minutes later. Nobody reviews or merges by hand: never ask anyone to approve or merge.
+
+**Where to see the site:** until launch, the new site is at **https://fitzgerald-classics.vercel.app**. The address fitzgeraldclassics.com still shows the old Wix site until the domain is switched over. When pointing the owner to his site, use the vercel.app address.
 
 Read **"Talking to the site owner"** first. It applies to every conversation, no matter who you are talking to.
 
@@ -57,8 +61,10 @@ Say it the way he would:
 
 1. Make the change, usually by editing files in `content/` or adding photos to `public/images/`. You should rarely need to touch `src/`.
 2. Check your work: run `npm install` (first time only), then `npm run build` and `npm run lint`. Both must pass. If something fails, fix it and run them again.
-3. Open a pull request with a short, clear title and description of what changed for visitors.
+3. Open a pull request against `main` with a short, clear title and description of what changed for visitors. It merges itself once the automatic build passes; you don't need to do anything else.
 4. Reply to the person in 1–2 plain sentences (see above).
+
+If the automatic build fails on the pull request, fix the problem and push to the same branch; it will try again. If the pull request can't merge because someone else changed the same files first, bring your branch up to date with `main`, resolve the overlap, and push again.
 
 Keep the site looking consistent: reuse the existing look (dark background, gold accents, serif headings) and don't invent new styles for a single page.
 

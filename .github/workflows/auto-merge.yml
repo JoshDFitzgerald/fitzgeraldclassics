@@ -1,0 +1,42 @@
+# Every pull request is built and checked. If the site builds cleanly, the
+# pull request merges itself and Vercel publishes it. Nobody has to review it.
+# A change that breaks the build stays unmerged until it is fixed.
+name: Build and auto-merge
+
+on:
+  pull_request:
+    branches: [main]
+    types: [opened, synchronize, reopened, ready_for_review]
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: auto-merge-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  build-and-merge:
+    # Only branches inside this repository (people with write access).
+    # Pull requests from forks of this public repo never auto-merge.
+    if: github.event.pull_request.draft == false && github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+      - run: npm run lint
+      - run: npm run build
+
+      - name: Merge the pull request
+        run: gh pr merge "$PR_NUMBER" --squash --delete-branch --repo "$REPO"
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+          REPO: ${{ github.repository }}
