@@ -6,9 +6,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "refresh:ebay": "node --experimental-strip-types scripts/refresh-ebay-listings.mjs",
+    "test:ebay": "node --experimental-strip-types --test tests/ebay-parser.test.mjs"
   },
   "dependencies": {
+    "cheerio": "^1.2.0",
     "gray-matter": "^4.0.3",
     "image-size": "^2.0.4",
     "marked": "^18.1.1",

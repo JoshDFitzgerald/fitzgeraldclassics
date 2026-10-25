@@ -45,9 +45,8 @@ export const siteConfig = {
     ebayCampaignId: "5339219494",
   },
 
-  // Link to the Fitzgerald Classics eBay store. Leave empty to show a
-  // "coming soon" note on the eBay eCommerce page instead of a button.
-  ebayStoreUrl: "",
+  // Link to all of Fitzgerald Classics' listings, below the individual item cards.
+  ebayStoreUrl: "https://www.ebay.com/sch/i.html?_ssn=fitzgerald-classics",
 
   // The "Ask Fitz" button in the corner of every page.
   askFitz: {
