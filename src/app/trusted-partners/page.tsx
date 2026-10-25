@@ -30,8 +30,15 @@ export default function TrustedPartnersPage() {
             </div>
             <div className="flex flex-col gap-[20px] md:pt-[20px]">
               {partner.logo && (
-                <div className="relative h-[80px] w-full max-w-[270px] md:h-[110px] md:mx-auto">
-                  <Image src={partner.logo} alt={`${partner.name} logo`} fill sizes="270px" className="object-contain object-left md:object-center" />
+                <div className={`relative w-full max-w-[270px] md:mx-auto ${partner.logoScale ? "h-[170px] overflow-hidden" : "h-[80px] md:h-[110px]"}`}>
+                  <Image
+                    src={partner.logo}
+                    alt={`${partner.name} logo`}
+                    fill
+                    sizes="270px"
+                    className={partner.logoScale ? "object-contain object-center" : "object-contain object-left md:object-center"}
+                    style={partner.logoScale ? { transform: `scale(${partner.logoScale})` } : undefined}
+                  />
                 </div>
               )}
               <div className="text-[14px] leading-[1.6] text-muted md:mt-auto md:pt-[60px] md:text-[17px]">

@@ -144,6 +144,7 @@ export type Partner = {
   address: string[];
   website: string;
   logo: string;
+  logoScale?: number;
 };
 export const getPartners = () => readJson<Partner[]>("partners.json");
 
