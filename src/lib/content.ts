@@ -92,6 +92,7 @@ export type Project = {
   seoTitle?: string;
   seoDescription?: string;
   photos: { image: string; title: string; caption: string; width: number; height: number }[];
+  highlightImages?: string[];
   body: string;
 };
 

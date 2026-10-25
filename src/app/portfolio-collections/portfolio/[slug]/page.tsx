@@ -1,5 +1,7 @@
 import Image from "next/image";
+import Link from "next/link";
 import { notFound } from "next/navigation";
+import ProjectPhotoGrid from "@/components/ProjectPhotoGrid";
 import { getProject, getProjects } from "@/lib/content";
 import { projectPath } from "@/lib/projectPath";
 import { buildMetadata } from "@/lib/seo";
@@ -24,6 +26,13 @@ export async function generateMetadata({ params }: PageProps<"/portfolio-collect
 export default async function ProjectPage({ params }: PageProps<"/portfolio-collections/portfolio/[slug]">) {
   const p = await load(params);
   if (!p) notFound();
+  const photos = p.highlightImages ? p.photos.filter((photo) => p.highlightImages?.includes(photo.image)) : p.photos;
+  const hasFullGallery = photos.length < p.photos.length;
+  const galleryLink = hasFullGallery && (
+    <Link href={`${projectPath(p.slug)}/gallery`} prefetch={false} className="inline-block bg-gold px-[27px] py-[14px] text-center text-[16px] font-bold text-ink hover:bg-cream">
+      View the full restoration gallery
+    </Link>
+  );
   return (
     <article className="px-[20px] pb-[80px] pt-[40px] md:px-[14px] md:pb-[100px] md:pt-[14px]">
       <div className="grid gap-[14px] md:grid-cols-2">
@@ -50,28 +59,17 @@ export default async function ProjectPage({ params }: PageProps<"/portfolio-coll
         </div>
       </div>
       {p.photos.length > 0 && (
-        <div className="mt-[40px] grid gap-x-[14px] gap-y-[32px] md:mt-[14px] md:gap-y-[20px] md:grid-cols-2">
-          {p.photos.map((photo) => (
-            <figure key={photo.image}>
-              <div className="relative md:aspect-[3/4]">
-                <Image
-                  src={photo.image}
-                  alt={photo.title || p.title}
-                  width={photo.width}
-                  height={photo.height}
-                  sizes="(min-width: 768px) 50vw, 100vw"
-                  className="h-auto w-full md:absolute md:inset-0 md:h-full md:object-cover"
-                />
-              </div>
-              {(photo.title || photo.caption) && (
-                <figcaption className="pt-[14px]">
-                  {photo.title && <p className="text-[16px] md:font-serif md:text-[16px] md:font-bold">{photo.title}</p>}
-                  {photo.caption && <p className="mt-[14px] text-[14px] leading-[1.45] md:mt-[18px] md:text-[13px]">{photo.caption}</p>}
-                </figcaption>
-              )}
-            </figure>
-          ))}
-        </div>
+        <section className="mt-[40px] md:mt-[14px]" aria-label={hasFullGallery ? "Restoration highlights" : "Project photos"}>
+          {hasFullGallery && (
+            <div className="mb-[30px] border-t border-line pt-[30px]">
+              <h2 className="font-serif text-[28px] font-bold">Restoration highlights</h2>
+              <p className="mb-[20px] mt-[12px] text-[16px] text-muted">{photos.length} highlights from purchase day to fresh paint. Explore all {p.photos.length} photos in the full gallery.</p>
+              {galleryLink}
+            </div>
+          )}
+          <ProjectPhotoGrid photos={photos} title={p.title} />
+          {hasFullGallery && <div className="mt-[36px] text-center">{galleryLink}</div>}
+        </section>
       )}
     </article>
   );
