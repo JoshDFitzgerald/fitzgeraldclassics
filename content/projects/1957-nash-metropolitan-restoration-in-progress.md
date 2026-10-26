@@ -2,6 +2,7 @@
 title: 1957 Nash Metropolitan — Restoration in Progress
 slug: 1957-nash-metropolitan-restoration-in-progress
 order: 2
+status: in-progress
 coverImage: /images/portfolio/1957-nash-metropolitan/06-current-status-september-2026.jpg
 coverAlt: 1957 Nash Metropolitan — Restoration in Progress
 details: []

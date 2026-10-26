@@ -86,6 +86,7 @@ export type Project = {
   title: string;
   slug: string;
   order: number;
+  status?: "in-progress" | "completed";
   coverImage: string;
   coverAlt: string;
   details: { label: string; text: string }[];

@@ -2,6 +2,7 @@
 title: 1963 Ford Galaxie 500 Convertible
 slug: 1963-ford-galaxie-500-convertible
 order: 3
+status: completed
 coverImage: /images/portfolio/1963-ford-galaxie/50-the-transformation-takes-shape.jpg
 coverAlt: 1963 Ford Galaxie 500 Convertible
 details: []
