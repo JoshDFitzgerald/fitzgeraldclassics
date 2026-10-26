@@ -2,6 +2,7 @@
 title: "1966 Corvette Convertible — A Rare Find, Renewed"
 slug: "1966-corvette-convertible-—-updates-coming-soon"
 order: 1
+status: in-progress
 coverImage: "/images/portfolio/1966-corvette/82-a-new-chapter-at-home.jpg"
 coverAlt: "Silver 1966 Corvette convertible back home after paint and bodywork"
 details:
