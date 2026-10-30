@@ -13,6 +13,15 @@ const redirects = [
 ];
 
 const nextConfig: NextConfig = {
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "static.wixstatic.com",
+        pathname: "/media/**",
+      },
+    ],
+  },
   turbopack: {
     rules: {
       "*.css": {
