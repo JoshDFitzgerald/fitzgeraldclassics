@@ -4,7 +4,7 @@ date: '2026-10-30'
 author: Dan Fitzgerald
 categories: [Tools & Shop]
 excerpt: 'Thinking about adding a lift to your home restoration garage? Here is how portable, two-post and four-post lifts compare, what they cost, and what to check before you buy.'
-coverImage: 'https://static.wixstatic.com/media/b5fa70_a3301f87fb1b44baa3e22556759c1eb3~mv2.jpg'
+coverImage: 'https://static.wixstatic.com/media/b5fa70_a3301f87fb1b44baa3e22556759c1eb3~mv2.jpg?v=20261030-2'
 coverAlt: Classic American muscle car raised on a two-post lift in a well-equipped home restoration garage.
 seoTitle: 'Best Car Lift for a Home Garage: Two-Post vs. Four-Post vs. Portable'
 seoDescription: 'Compare portable, two-post and four-post car lifts for a home restoration garage, including pros, cons, price ranges, installation considerations and recommended options.'
