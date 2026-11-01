@@ -32,11 +32,11 @@ export default function EbayCatalog({ listings }: { listings: EbayListing[] }) {
       </div>
       <p role="status" className="my-[20px] text-[14px] text-muted">Showing {shown.length} of {listings.length} items</p>
       {shown.length ? (
-        <div className="grid gap-[24px] sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-[24px] sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
           {shown.map((listing) => (
             <article key={listing.id} className="flex min-w-0 flex-col border border-gold/30 bg-surface p-[16px]">
               <a href={listing.link} target="_blank" rel="noopener noreferrer sponsored" className="relative block aspect-[4/3] bg-white">
-                <Image src={listing.image} alt={listing.name} fill unoptimized={listing.image.startsWith("https:")} sizes="(min-width: 1024px) 340px, (min-width: 640px) 50vw, 100vw" className="object-contain" />
+                <Image src={listing.image} alt={listing.name} fill unoptimized={listing.image.startsWith("https:")} sizes="(min-width: 1280px) 270px, (min-width: 1024px) 340px, (min-width: 640px) 50vw, 100vw" className="object-contain" />
               </a>
               <h3 className="mb-[12px] mt-[18px] font-serif text-[20px] font-bold leading-[1.25]">
                 <a href={listing.link} target="_blank" rel="noopener noreferrer sponsored" className="hover:text-gold">{listing.name}</a>
