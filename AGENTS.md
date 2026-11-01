@@ -4,7 +4,7 @@ This repository is the website **www.fitzgeraldclassics.com**, a classic-car res
 
 **Changes go live on their own.** Every pull request is built automatically; if the site builds cleanly, the pull request merges itself and Vercel publishes it a few minutes later. Nobody reviews or merges by hand: never ask anyone to approve or merge.
 
-**Where to see the site:** until launch, the new site is at **https://fitzgerald-classics.vercel.app**. The address fitzgeraldclassics.com still shows the old Wix site until the domain is switched over. When pointing the owner to his site, use the vercel.app address.
+**Where to see the site:** the site is live at **https://www.fitzgeraldclassics.com** (the address without "www" leads there too). When pointing the owner to his site, use that address. The old Wix site is no longer shown.
 
 Read **"Talking to the site owner"** first. It applies to every conversation, no matter who you are talking to.
 
