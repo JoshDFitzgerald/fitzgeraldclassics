@@ -4,8 +4,8 @@ date: '2026-11-06'
 author: Dan Fitzgerald
 categories: [Buying & Ownership, Tools & Shop]
 excerpt: 'Putting a classic car away for the season takes more than a car cover. Here is a practical winter-storage checklist for fuel, battery, tires, fluids, moisture, rodents and the garage itself.'
-coverImage: /images/site/home-hero-1966-corvette-garage.png
-coverAlt: Classic Corvette parked inside a clean home garage, ready for protected storage.
+coverImage: /images/blog/winter-storage-done-right.jpg
+coverAlt: Classic American car partially covered in a clean garage with a battery maintainer connected and snow visible outside.
 seoTitle: 'Winter Storage for Classic Cars: A Practical Checklist | Fitzgerald Classics'
 seoDescription: 'Learn how to store a classic car for winter, including fuel, battery, tire, fluid, moisture, rodent and garage-preparation tips.'
 ---
