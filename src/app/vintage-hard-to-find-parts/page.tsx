@@ -1,8 +1,5 @@
-import Image from "next/image";
-import { siteConfig } from "@site-config";
-import Button from "@/components/Button";
-import EbayCatalog from "@/components/EbayCatalog";
 import ImageHero from "@/components/ImageHero";
+import PartsCatalog, { type CatalogItem } from "@/components/PartsCatalog";
 import { getPage, getVintageParts } from "@/lib/content";
 import { getEbayListings } from "@/lib/ebay";
 import { buildMetadata } from "@/lib/seo";
@@ -16,14 +13,18 @@ type PartsPage = {
   headingLine2: string;
   subheading: string;
   intro: string;
-  storeHeading: string;
-  storeIntro: string;
-  storeButton: string;
   disclaimer: string;
   catalogHeading: string;
 };
 const page = () => getPage<PartsPage>("vintage-parts");
 export const revalidate = 3600;
+
+// One combined inventory: every eBay listing on this page, whatever its
+// source, presented together. The same listing (same eBay item) is shown once.
+function ebayItemKey(link: string) {
+  const match = link.match(/\/itm\/(\d+)/);
+  return match ? `itm-${match[1]}` : link;
+}
 
 export function generateMetadata() {
   const p = page();
@@ -34,6 +35,39 @@ export default async function VintagePartsPage() {
   const p = page();
   const { listings, checkedAt } = await getEbayListings();
   const checkedDate = new Intl.DateTimeFormat("en-US", { month: "long", day: "numeric", year: "numeric", timeZone: "America/Phoenix" }).format(new Date(checkedAt));
+
+  const storeItems: CatalogItem[] = listings.map((listing) => ({
+    key: ebayItemKey(listing.link),
+    name: listing.name,
+    link: listing.link,
+    image: listing.image,
+    imageContain: true,
+    condition: listing.condition,
+    price: listing.price,
+    priceLabel: listing.priceLabel,
+    acceptsOffers: listing.acceptsOffers,
+  }));
+  const curatedItems: CatalogItem[] = getVintageParts().map((part) => ({
+    key: ebayItemKey(part.link),
+    name: part.name,
+    link: part.link,
+    image: part.image,
+    description: part.description,
+    buttonLabel: part.buttonLabel,
+  }));
+  // Interleave the two collections, keeping each one's own order, and drop
+  // any listing that appears in both so it is only shown once.
+  const seen = new Set<string>();
+  const items: CatalogItem[] = [];
+  for (let i = 0; i < Math.max(storeItems.length, curatedItems.length); i++) {
+    for (const item of [storeItems[i], curatedItems[i]]) {
+      if (item && !seen.has(item.key)) {
+        seen.add(item.key);
+        items.push(item);
+      }
+    }
+  }
+
   // A trailing "&" in the first heading line is shown in gold, like the original design.
   const line1 = p.headingLine1.replace(/\s*&\s*$/, "");
   const hasAmp = line1 !== p.headingLine1;
@@ -52,29 +86,10 @@ export default async function VintagePartsPage() {
       <section className="px-[20px] pb-[80px] pt-[48px] md:pb-[120px] md:pt-[100px]">
         <p className="mx-auto max-w-[760px] text-center text-lead leading-[1.5]">{p.intro}</p>
         <div className="mx-auto mt-[48px] max-w-[1200px] md:mt-[64px]">
-          <h2 className="text-[24px] font-semibold md:text-[26px]">{p.storeHeading}</h2>
-          <p className="mt-[12px] max-w-[760px] text-[14px] leading-[1.6] text-muted">{p.storeIntro}</p>
-          <p className="mt-[12px] text-[14px] leading-[1.6] text-muted">Listings checked {checkedDate}. Prices and availability may change; confirm details on eBay.</p>
-          <EbayCatalog listings={listings} />
-          {siteConfig.ebayStoreUrl && <div className="mt-[40px] text-center"><Button href={siteConfig.ebayStoreUrl}>{p.storeButton}</Button></div>}
-          <p className="mt-[16px] text-center text-[11px] text-muted">{p.disclaimer}</p>
-        </div>
-        <div className="mx-auto mt-[64px] max-w-[1200px] md:mt-[100px]">
           <h2 className="text-center font-serif text-[22px] font-bold uppercase tracking-[0.15em] text-gold md:text-[26px]">{p.catalogHeading}</h2>
-          <div className="mt-[24px] grid gap-[36px] md:grid-cols-3">
-            {getVintageParts().map((part) => (
-              <article key={part.link} className="flex min-w-0 flex-col">
-                <div className="relative aspect-[4/3] overflow-hidden bg-[#161616]">
-                  <Image src={part.image} alt={part.name} fill sizes="(min-width: 768px) 400px, 100vw" unoptimized={part.image.startsWith("http")} className="object-cover" />
-                </div>
-                <h3 className="mb-[10px] mt-[16px] font-serif text-[20px] font-bold leading-[1.18]">{part.name}</h3>
-                <p className="mb-[18px] text-[14px] leading-[1.55] text-[#f2f2f2]">{part.description}</p>
-                <a href={part.link} target="_blank" rel="noopener noreferrer sponsored" className="mt-auto inline-flex min-h-[42px] min-w-[140px] items-center justify-center self-start bg-gold px-[22px] py-[11px] text-[14px] font-bold text-ink hover:bg-cream">
-                  {part.buttonLabel || "View on eBay"}
-                </a>
-              </article>
-            ))}
-          </div>
+          <p className="mt-[24px] text-[14px] leading-[1.6] text-muted">Listings checked {checkedDate}. Prices and availability may change; confirm details on eBay.</p>
+          <PartsCatalog items={items} />
+          <p className="mt-[16px] text-center text-[11px] text-muted">{p.disclaimer}</p>
         </div>
       </section>
     </>

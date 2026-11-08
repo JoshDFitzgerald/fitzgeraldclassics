@@ -115,7 +115,7 @@ Which page uses which content:
 | Contact Us | `/contact` | `content/pages/contact.md` | — |
 | Trusted Partners | `/trusted-partners` | `content/pages/trusted-partners.md` | `content/partners.json`, `public/images/partners/` |
 | The Garage | `/fitzgerald-classics-garage` | `content/pages/garage.md` | `content/garage-products.json`, `public/images/garage/` |
-| Vintage Parts | `/vintage-hard-to-find-parts` | `content/pages/vintage-parts.md` | Dan's own eBay store listings (`content/ebay-listings.json`, refreshed from the public seller catalog) in the "From My eBay Store" section, then `content/vintage-parts.json`, `public/images/parts/`. The old `/ebay-ecommerce` page redirects here; store link in `site.config.ts` (`ebayStoreUrl`) |
+| Vintage Parts | `/vintage-hard-to-find-parts` | `content/pages/vintage-parts.md` | One combined inventory: Dan's own eBay store listings (`content/ebay-listings.json`, refreshed from the public seller catalog) interleaved with `content/vintage-parts.json`, `public/images/parts/`. The old `/ebay-ecommerce` page redirects here; store link in `site.config.ts` (`ebayStoreUrl`) |
 | How-To Videos | `/how-to-videos`, `/how-to-videos/<slug>` | `content/pages/how-to-videos.md` | `content/how-to-videos.json` |
 
 Pages, the menu, the sitemap, the RSS feed, and the article lists all update themselves from these files. There's no list to keep in sync by hand.
