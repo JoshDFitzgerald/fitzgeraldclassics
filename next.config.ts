@@ -13,6 +13,11 @@ const redirects = [
 ];
 
 const nextConfig: NextConfig = {
+  // The Ask Fitz chat endpoint reads the site content in /content at
+  // request time; make sure those files travel with it when deployed.
+  outputFileTracingIncludes: {
+    "/api/ask-fitz": ["./content/**/*"],
+  },
   images: {
     remotePatterns: [
       {
