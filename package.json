@@ -11,6 +11,7 @@
     "test:ebay": "node --experimental-strip-types --test tests/ebay-parser.test.mjs"
   },
   "dependencies": {
+    "ai": "^7.0.165",
     "cheerio": "^1.2.0",
     "gray-matter": "^4.0.3",
     "image-size": "^2.0.4",

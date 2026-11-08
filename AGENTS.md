@@ -192,7 +192,7 @@ Everything that appears on every page lives in **`site.config.ts`**:
 | Facebook / Instagram links | `social` |
 | eBay store button on the eBay page | `ebayStoreUrl` (empty shows a "coming soon" note) |
 | Amazon / eBay affiliate IDs | `affiliates` (reference only; product links already include them) |
-| "Ask Fitz" button text | `askFitz` |
+| "Ask Fitz" button text, AI model and question/answer limits | `askFitz` (the model must stay on the Vercel AI Gateway free tier — see "Ask Fitz" below) |
 | Colors | `colors` (`gold` is the accent color used for buttons and highlights) |
 | Default description and share image | `defaultDescription`, `defaultShareImage` |
 
@@ -221,16 +221,23 @@ If a new page is added to the menu, it also needs a page in `src/app/<address>/p
 
 ---
 
+## Ask Fitz (built)
+
+- **"Ask Fitz" chat** is a working chat, not a placeholder. It answers visitors' questions about classic cars, restoration, parts and tools in Dan's voice, grounded in the site's own content first: `src/lib/askFitzSearch.ts` indexes everything in `content/` (articles, projects, page text, how-to videos, Garage products, vintage parts, trusted partners) and `src/app/api/ask-fitz/route.ts` sends the best-matching excerpts with each question to an AI model and streams the reply into `src/components/AskFitz.tsx`.
+- The model runs through **Vercel AI Gateway** on the site's Vercel account. On Vercel it signs in by itself with the deployment's OIDC token — **there is no API key, and none should ever be added** to the project, the code, or an environment variable. It only works on a Vercel deployment (production or a branch preview), not in a local dev sandbox.
+- The model name is the `model` setting inside `askFitz` in `site.config.ts`. It must stay on the AI Gateway **free tier** (the recurring $5 free credit is what pays for the chat); check the dashboard model list (AI Gateway → Models, free tier filter) before changing it.
+- To protect the free credit, `site.config.ts` also holds the question-length limit, the answer-length limit and the per-visitor question limit. If the gateway is rate limited or out of credit, visitors see the friendly `breakMessage` ("Ask Fitz is taking a break…"), never an error.
+- Fitz does not quote jobs or offer restoration work: hiring/quote questions are pointed to the Contact page, matching the site's education-and-parts positioning.
+
 ## Not built yet
 
 These parts of the site are visual placeholders only:
 
 - **Contact form:** it checks the fields, then shows a friendly "almost ready" note. Nothing is sent yet.
-- **"Ask Fitz" chat:** it shows a greeting and points visitors to the contact page.
 - **eBay store listings:** individual cards are connected to the public Fitzgerald Classics seller catalog, with hourly refresh attempts and a saved fallback. See README.md for refreshing the saved catalog. This is not an eBay API integration; public-page availability and layout can affect refreshes.
 - **Blog comments and likes** from the old site weren't carried over.
 
-If the owner asks for one of these, explain simply that it isn't set up yet. Don't build backend features (sending email, storing uploads, payments, chat) unless he clearly asks for that feature to be built.
+If the owner asks for one of these, explain simply that it isn't set up yet. Don't build backend features (sending email, storing uploads, payments) unless he clearly asks for that feature to be built.
 
 <!-- BEGIN:nextjs-agent-rules -->
 

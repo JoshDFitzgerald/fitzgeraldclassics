@@ -23,8 +23,15 @@ The eBay page displays listings from the public `fitzgerald-classics` seller cat
 
 To update the saved catalog and item photos with the provided Node.js 24 runtime, run `npm run refresh:ebay`. In a cloud session using an HTTP proxy, use `NODE_USE_ENV_PROXY=1 npm run refresh:ebay`. The command validates the seller, complete result count and downloaded JPEG photos before overwriting the saved catalog. Photos are copied without alteration into `public/images/ebay` with content hashes for cache invalidation. Matching listings use these local copies; new or changed photos from hourly refreshes use their eBay image addresses until the next saved refresh. The public catalog at `www.ebay.com` and item photos at `i.ebayimg.com` must be reachable. Keep TLS verification enabled. Item links retain the configured eBay affiliate campaign.
 
+## Ask Fitz chat
+
+The "Ask Fitz" box in the corner of every page is a working AI chat (`src/components/AskFitz.tsx` + `src/app/api/ask-fitz/route.ts`). It answers classic-car, restoration, parts and tools questions in Dan's voice, grounded in the site's own content: `src/lib/askFitzSearch.ts` builds a keyword index over everything in `content/` (posts, projects, pages, `how-to-videos.json`, `garage-products.json`, `vintage-parts.json`, `partners.json`) and the best-matching excerpts are sent with each question, so answers can link to the page they came from. Off-topic questions are politely declined, and hiring/quote questions are pointed to the Contact page.
+
+- **Model & billing:** Vercel AI Gateway on the site's Vercel account, authenticating with the deployment's OIDC token — no API key exists or should be added. The model is one setting, `askFitz.model` in `site.config.ts`, and must stay on the AI Gateway free tier (the recurring $5 free credit pays for the chat; confirm in the Vercel dashboard under AI Gateway → Models with the free-tier filter).
+- **Credit protection:** question length, answer length (`maxOutputTokens`) and a per-visitor question limit all live in `askFitz` in `site.config.ts`, plus a simple in-memory per-visitor rate guard in the route. On a gateway rate limit or out-of-credit response, visitors see the friendly `askFitz.breakMessage` instead of an error.
+- **Testing:** the chat only works on a Vercel deployment (production or a branch preview), because the gateway sign-in comes from the deployment. It cannot be exercised from a local dev server.
+
 ## Not built yet (stubs)
 
 - Contact form submission (`src/components/ContactForm.tsx`)
-- "Ask Fitz" AI chat (`src/components/AskFitz.tsx`)
 - Blog comments and likes

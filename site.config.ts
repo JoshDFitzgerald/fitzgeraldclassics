@@ -48,12 +48,25 @@ export const siteConfig = {
   // Link to all of Fitzgerald Classics' listings, below the individual item cards.
   ebayStoreUrl: "https://www.ebay.com/sch/i.html?_ssn=fitzgerald-classics",
 
-  // The "Ask Fitz" button in the corner of every page.
+  // The "Ask Fitz" chat in the corner of every page.
   askFitz: {
     label: "Ask Fitz",
     teaser: "Have a question about your classic car?",
     greeting:
       "Welcome to Fitzgerald Classics. I’m Fitz, your classic car restoration assistant. What are you working on today?",
+    // The AI model Ask Fitz answers with, through Vercel AI Gateway
+    // (creator/model-name). It must be one of the models on the AI Gateway
+    // free tier — check the model list in the Vercel dashboard
+    // (AI Gateway → Models, free tier filter) before changing this.
+    model: "google/gemini-2.5-flash",
+    // Asked-and-answered limits that protect the free AI Gateway credit:
+    // longest question a visitor can send, longest answer, and how many
+    // questions one visitor can ask in a sitting.
+    maxQuestionLength: 500,
+    maxAnswerTokens: 450,
+    maxQuestionsPerVisitor: 10,
+    // Shown when Ask Fitz is rate limited or out of free credit.
+    breakMessage: "Ask Fitz is taking a break. Please use the Contact page.",
   },
 
   googleSiteVerification: "vj-8FEwO3GEryTsRNbFFo6UxjWj6YL2Z2HaHuZWjeiU",
