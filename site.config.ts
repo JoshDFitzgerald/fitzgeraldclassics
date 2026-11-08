@@ -25,7 +25,6 @@ export const siteConfig = {
     { label: "About Us", href: "/about-us" },
     { label: "Contact Us", href: "/contact" },
     { label: "Trusted Partners", href: "/trusted-partners" },
-    { label: "eBay eCommerce", href: "/ebay-ecommerce" },
     { label: "The Garage", href: "/fitzgerald-classics-garage" },
     { label: "Vintage Parts", href: "/vintage-hard-to-find-parts" },
     { label: "How-To Videos", href: "/how-to-videos" },

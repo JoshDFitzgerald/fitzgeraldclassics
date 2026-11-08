@@ -1,6 +1,10 @@
 import Image from "next/image";
+import { siteConfig } from "@site-config";
+import Button from "@/components/Button";
+import EbayCatalog from "@/components/EbayCatalog";
 import ImageHero from "@/components/ImageHero";
 import { getPage, getVintageParts } from "@/lib/content";
+import { getEbayListings } from "@/lib/ebay";
 import { buildMetadata } from "@/lib/seo";
 
 type PartsPage = {
@@ -12,17 +16,24 @@ type PartsPage = {
   headingLine2: string;
   subheading: string;
   intro: string;
+  storeHeading: string;
+  storeIntro: string;
+  storeButton: string;
+  disclaimer: string;
   catalogHeading: string;
 };
 const page = () => getPage<PartsPage>("vintage-parts");
+export const revalidate = 3600;
 
 export function generateMetadata() {
   const p = page();
   return buildMetadata({ title: p.seoTitle, description: p.seoDescription, path: "/vintage-hard-to-find-parts", image: p.heroImage });
 }
 
-export default function VintagePartsPage() {
+export default async function VintagePartsPage() {
   const p = page();
+  const { listings, checkedAt } = await getEbayListings();
+  const checkedDate = new Intl.DateTimeFormat("en-US", { month: "long", day: "numeric", year: "numeric", timeZone: "America/Phoenix" }).format(new Date(checkedAt));
   // A trailing "&" in the first heading line is shown in gold, like the original design.
   const line1 = p.headingLine1.replace(/\s*&\s*$/, "");
   const hasAmp = line1 !== p.headingLine1;
@@ -41,6 +52,14 @@ export default function VintagePartsPage() {
       <section className="px-[20px] pb-[80px] pt-[48px] md:pb-[120px] md:pt-[100px]">
         <p className="mx-auto max-w-[760px] text-center text-lead leading-[1.5]">{p.intro}</p>
         <div className="mx-auto mt-[48px] max-w-[1200px] md:mt-[64px]">
+          <h2 className="text-[24px] font-semibold md:text-[26px]">{p.storeHeading}</h2>
+          <p className="mt-[12px] max-w-[760px] text-[14px] leading-[1.6] text-muted">{p.storeIntro}</p>
+          <p className="mt-[12px] text-[14px] leading-[1.6] text-muted">Listings checked {checkedDate}. Prices and availability may change; confirm details on eBay.</p>
+          <EbayCatalog listings={listings} />
+          {siteConfig.ebayStoreUrl && <div className="mt-[40px] text-center"><Button href={siteConfig.ebayStoreUrl}>{p.storeButton}</Button></div>}
+          <p className="mt-[16px] text-center text-[11px] text-muted">{p.disclaimer}</p>
+        </div>
+        <div className="mx-auto mt-[64px] max-w-[1200px] md:mt-[100px]">
           <h2 className="text-center font-serif text-[22px] font-bold uppercase tracking-[0.15em] text-gold md:text-[26px]">{p.catalogHeading}</h2>
           <div className="mt-[24px] grid gap-[36px] md:grid-cols-3">
             {getVintageParts().map((part) => (

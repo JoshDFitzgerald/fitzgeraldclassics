@@ -6,7 +6,7 @@ import { projectPath } from "@/lib/projectPath";
 // Lists every page so search engines can find them. Updates automatically.
 export default function sitemap(): MetadataRoute.Sitemap {
   const url = (p: string) => `${siteConfig.url}${encodeURI(p)}`;
-  const pages = ["/", "/about-us", "/portfolio", "/blog", "/contact", "/trusted-partners", "/ebay-ecommerce", "/fitzgerald-classics-garage", "/vintage-hard-to-find-parts", "/how-to-videos"];
+  const pages = ["/", "/about-us", "/portfolio", "/blog", "/contact", "/trusted-partners", "/fitzgerald-classics-garage", "/vintage-hard-to-find-parts", "/how-to-videos"];
   return [
     ...pages.map((p) => ({ url: url(p) })),
     ...getPosts().map((p) => ({ url: url(`/post/${p.slug}`), lastModified: p.date })),

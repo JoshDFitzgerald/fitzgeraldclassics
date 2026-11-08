@@ -2,6 +2,8 @@ import type { NextConfig } from "next";
 
 // Old Wix addresses that moved. Everything else keeps its original address.
 const redirects = [
+  // The old eBay store page was combined into the Vintage Parts page.
+  { source: "/ebay-ecommerce", destination: "/vintage-hard-to-find-parts" },
   { source: "/blank", destination: "/how-to-videos" },
   { source: "/blank-0cusaw", destination: "/" },
   { source: "/portfolio-collections/portfolio", destination: "/portfolio" },

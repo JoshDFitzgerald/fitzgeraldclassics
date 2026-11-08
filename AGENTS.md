@@ -114,9 +114,8 @@ Which page uses which content:
 | An article | `/post/<file-name>` | `content/posts/<file-name>.md` | `public/images/blog/` |
 | Contact Us | `/contact` | `content/pages/contact.md` | — |
 | Trusted Partners | `/trusted-partners` | `content/pages/trusted-partners.md` | `content/partners.json`, `public/images/partners/` |
-| eBay eCommerce | `/ebay-ecommerce` | `content/pages/ebay-ecommerce.md` | store link in `site.config.ts` (`ebayStoreUrl`) |
 | The Garage | `/fitzgerald-classics-garage` | `content/pages/garage.md` | `content/garage-products.json`, `public/images/garage/` |
-| Vintage Parts | `/vintage-hard-to-find-parts` | `content/pages/vintage-parts.md` | `content/vintage-parts.json`, `public/images/parts/` |
+| Vintage Parts | `/vintage-hard-to-find-parts` | `content/pages/vintage-parts.md` | Dan's own eBay store listings (`content/ebay-listings.json`, refreshed from the public seller catalog) in the "From My eBay Store" section, then `content/vintage-parts.json`, `public/images/parts/`. The old `/ebay-ecommerce` page redirects here; store link in `site.config.ts` (`ebayStoreUrl`) |
 | How-To Videos | `/how-to-videos`, `/how-to-videos/<slug>` | `content/pages/how-to-videos.md` | `content/how-to-videos.json` |
 
 Pages, the menu, the sitemap, the RSS feed, and the article lists all update themselves from these files. There's no list to keep in sync by hand.
@@ -190,13 +189,13 @@ Everything that appears on every page lives in **`site.config.ts`**:
 | The slide-out menu (order, labels, links) | `nav` |
 | Footer copyright line | `copyright` (`{year}` updates itself) |
 | Facebook / Instagram links | `social` |
-| eBay store button on the eBay page | `ebayStoreUrl` (empty shows a "coming soon" note) |
+| eBay store button on the Vintage Parts page | `ebayStoreUrl` (empty shows a "coming soon" note) |
 | Amazon / eBay affiliate IDs | `affiliates` (reference only; product links already include them) |
 | "Ask Fitz" button text | `askFitz` |
 | Colors | `colors` (`gold` is the accent color used for buttons and highlights) |
 | Default description and share image | `defaultDescription`, `defaultShareImage` |
 
-If a new page is added to the menu, it also needs a page in `src/app/<address>/page.tsx` and a text file in `content/pages/`. Follow an existing simple page such as `contact` or `ebay-ecommerce`.
+If a new page is added to the menu, it also needs a page in `src/app/<address>/page.tsx` and a text file in `content/pages/`. Follow an existing simple page such as `contact`.
 
 ---
 
