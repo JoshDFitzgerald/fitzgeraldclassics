@@ -6,7 +6,8 @@ heroAlt: Vintage gauges, a chrome radio, and classic car trim pieces on a workbe
 headingLine1: Vintage &
 headingLine2: Hard-to-Find Parts
 subheading: Curated original, NOS, discontinued, and hard-to-find classic-car parts.
-intro: Curated original, NOS, discontinued, and hard-to-find classic-car parts we find across the restoration marketplace. Inventory changes frequently, so when a good one is gone, it’s gone.
+intro: One combined inventory of vintage and hard-to-find parts, all available through eBay. New finds show up and the good ones go fast — when a part is gone, it’s gone.
+disclaimer: As an eBay Partner, I may be compensated if you make a purchase
 catalogHeading: Parts Catalog
 ---
 The parts list itself is in content/vintage-parts.json.
