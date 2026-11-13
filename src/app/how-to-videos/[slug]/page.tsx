@@ -2,6 +2,7 @@ import Link from "next/link";
 import { permanentRedirect } from "next/navigation";
 import Button from "@/components/Button";
 import { getVideo, getVideos } from "@/lib/content";
+import { markdownToHtml } from "@/lib/markdown";
 import { buildMetadata } from "@/lib/seo";
 import { youtubeEmbed, youtubeThumb } from "@/lib/youtube";
 
@@ -28,8 +29,19 @@ export default async function VideoPage({ params }: PageProps<"/how-to-videos/[s
   const v = await load(params);
   if (!v) permanentRedirect("/how-to-videos");
   const isShort = v.format.toLowerCase() === "short";
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "VideoObject",
+    name: v.title,
+    description: v.seoDescription || v.recommendation,
+    thumbnailUrl: youtubeThumb(v.youtubeId),
+    uploadDate: v.publishedDate,
+    embedUrl: youtubeEmbed(v.youtubeId),
+    contentUrl: v.youtubeUrl,
+  };
   return (
     <article className="mx-auto max-w-[1000px] px-[20px] pb-[80px] pt-[40px] md:pb-[120px] md:pt-[64px]">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Link href="/how-to-videos" className="text-[14px] text-gold hover:text-cream">
         ← All How-To Videos
       </Link>
@@ -47,6 +59,12 @@ export default async function VideoPage({ params }: PageProps<"/how-to-videos/[s
         />
       </div>
       {v.recommendation && <p className="mt-[28px] text-lead leading-[1.5]">{v.recommendation}</p>}
+      {v.guide && (
+        <div
+          className="prose-article mt-[36px] border-t border-white/10 pt-[36px]"
+          dangerouslySetInnerHTML={{ __html: markdownToHtml(v.guide) }}
+        />
+      )}
       <Button href={v.youtubeUrl} className="mt-[28px]">
         Watch on YouTube
       </Button>
