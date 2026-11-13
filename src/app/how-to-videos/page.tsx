@@ -29,6 +29,7 @@ export default function VideosPage() {
             <div className="flex flex-1 flex-col p-[20px]">
               <h2 className="font-serif text-[19px] font-bold leading-[1.3] group-hover:text-gold">{v.title}</h2>
               <p className="mt-[6px] text-[13px] text-muted">{v.creator}</p>
+              {v.guide && <p className="mt-[8px] text-[12px] uppercase tracking-[0.08em] text-gold">Includes written guide</p>}
               {v.recommendation && <p className="mt-[12px] line-clamp-3 text-[14px] leading-[1.5]">{v.recommendation}</p>}
               <span className="mt-auto self-start pt-[18px]">
                 <span className="inline-flex items-center gap-[8px] bg-gold px-[16px] py-[8px] text-[13px] uppercase tracking-[0.05em] text-ink">→ {p.watchLabel}</span>

@@ -129,6 +129,7 @@ export type Video = {
   creator: string;
   channel: string;
   recommendation: string;
+  guide?: string;
   publishedDate: string;
   featured: boolean;
   seoTitle?: string;
