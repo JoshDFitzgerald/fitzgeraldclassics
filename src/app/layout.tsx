@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import type { CSSProperties } from "react";
 import localFont from "next/font/local";
+import Script from "next/script";
 import { siteConfig } from "@site-config";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
@@ -49,6 +50,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <main className="flex-1 pt-[48px] md:pt-[58px]">{children}</main>
         <SiteFooter />
         <AskFitz />
+        <Script src="/_vercel/insights/script.js" strategy="afterInteractive" />
       </body>
     </html>
   );
