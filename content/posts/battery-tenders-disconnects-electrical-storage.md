@@ -10,7 +10,7 @@ seoTitle: 'Battery Tenders, Disconnects & Electrical Storage for Classic Cars | 
 seoDescription: 'How to keep a classic-car battery alive in storage: smart maintainers vs. trickle chargers, when a disconnect switch makes sense, and how to find parasitic draw.'
 ---
 
-Last week we walked through winter storage in general. This week I want to slow down on the one item that causes more springtime frustration than everything else on that checklist combined: the battery.
+Last week we walked through [winter storage in general](/post/winter-storage-done-right). This week I want to slow down on the one item that causes more springtime frustration than everything else on that checklist combined: the battery.
 
 A classic car can go into the garage in November running perfectly and come out in March with a battery that will not take a charge. Nothing broke. The battery simply sat there, slowly discharging, and every week it sat low did permanent damage.
 
@@ -97,6 +97,8 @@ You do not need much equipment. A basic multimeter is enough.
 5. If the draw is high, pull fuses one at a time and watch the meter. When the reading drops, you have found the circuit. Then find the component.
 
 One warning: do this patiently, and never crank the engine with a multimeter connected in series. The meter is only there to measure the small stuff.
+
+And if the draw turns out to be a symptom of a bigger electrical fault, my article on [classic-car electrical troubleshooting](/post/classic-car-electrical-troubleshooting) walks through the whole process — and the piece on [bench testing components](/post/bench-testing-classic-car-electrical-components-without-destroying-them) shows how to test parts safely once you have them out of the car.
 
 ## What Changes With a Restomod
 
